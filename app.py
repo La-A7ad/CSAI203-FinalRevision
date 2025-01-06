@@ -69,9 +69,6 @@ def check_mcq():
     return jsonify({"error": "Question not found"}), 404
 
 
-# Replace the check_tf route with:
-
-
 @app.route("/check-tf", methods=["POST"])
 def check_tf():
     data = request.json
