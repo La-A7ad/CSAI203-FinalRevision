@@ -19,8 +19,8 @@
 1. **Clone the Repository**
 
 ```
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/La-A7ad/CSAI203-FinalRevision.git
+cd CSAI203-FinalRevision
 ```
 
 2. **Create a Virtual Environment (Recommended)**
@@ -47,8 +47,8 @@ pip install flask
 1. **Clone the Repository**
 
 ```
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/La-A7ad/CSAI203-FinalRevision.git
+cd CSAI203-FinalRevision
 ```
 
 2. **Create a Virtual Environment (Recommended)**
@@ -67,28 +67,32 @@ source venv/bin/activate
 
 4. **Install Dependencies**
   
-  INstall flask
+  Install flask
 ```
 pip install flask
 
 ```
 
-Windows:
-bash
-Copy code
-venv\Scripts\activate
-Linux/macOS:
-bash
-Copy code
-source venv/bin/activate
-Run the Flask Application
+5. **Activate the virtual enviornment**
 
-bash
-Copy code
+### Windows:
+
+```
+venv\Scripts\activate
+```
+
+### Linux/macOS:
+```
+source venv/bin/activate
+```
+6. **Run the Flask Application**
+
+```
 python app.py
+```
+
 By default, Flask listens on http://127.0.0.1:5000/.
 
 Open the App in Your Browser
 Go to http://127.0.0.1:5000/ to see the index of available lectures.
 
-FIX THE MARKDOWN FOR THIS
