@@ -18,81 +18,74 @@
 
 1. **Clone the Repository**
 
-```
-git clone https://github.com/La-A7ad/CSAI203-FinalRevision.git
-cd CSAI203-FinalRevision
-```
+    ```sh
+    git clone https://github.com/La-A7ad/CSAI203-FinalRevision.git
+    cd CSAI203-FinalRevision
+    ```
 
 2. **Create a Virtual Environment (Recommended)**
-   
-```
-python -m venv venv
 
-```
-
-3. **Activate the Virtual Environment**
-   
-```
-venv\Scripts\activate
-```
-
-4. **Install Dependencies**
-  
-  INstall flask
-```
-pip install flask
-```
-### Windows
-
-1. **Clone the Repository**
-
-```
-git clone https://github.com/La-A7ad/CSAI203-FinalRevision.git
-cd CSAI203-FinalRevision
-```
-
-2. **Create a Virtual Environment (Recommended)**
-   
-```
-python -m venv venv
-
-```
+    ```sh
+    python -m venv venv
+    ```
 
 3. **Activate the Virtual Environment**
-   
-```
-source venv/bin/activate
 
-```
+    ```sh
+    source venv/bin/activate
+    ```
 
 4. **Install Dependencies**
-  
-  Install flask
-```
-pip install flask
 
-```
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-5. **Activate the virtual enviornment**
+5. **Run the Flask Application**
 
-### Windows:
-
-```
-venv\Scripts\activate
-```
-
-### Linux/macOS:
-```
-source venv/bin/activate
-```
-6. **Run the Flask Application**
-
-```
-python app.py
-```
+    ```sh
+    python app.py
+    ```
 
 By default, Flask listens on http://127.0.0.1:5000/.
 
 Open the App in Your Browser
 Go to http://127.0.0.1:5000/ to see the index of available lectures.
 
+### Windows
+
+1. **Clone the Repository**
+
+    ```sh
+    git clone https://github.com/La-A7ad/CSAI203-FinalRevision.git
+    cd CSAI203-FinalRevision
+    ```
+
+2. **Create a Virtual Environment (Recommended)**
+
+    ```sh
+    python -m venv venv
+    ```
+
+3. **Activate the Virtual Environment**
+
+    ```sh
+    venv\Scripts\activate
+    ```
+
+4. **Install Dependencies**
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+5. **Run the Flask Application**
+
+    ```sh
+    python app.py
+    ```
+
+By default, Flask listens on http://127.0.0.1:5000/.
+
+Open the App in Your Browser
+Go to http://127.0.0.1:5000/ to see the index of available lectures.
