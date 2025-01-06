@@ -1,0 +1,760 @@
+{
+    "lecture_id": "lecture5",
+    "lecture_title": "Software Architecture Overview",
+    "mcqs": [
+      {
+        "id": 1,
+        "question_text": "Which statement best describes 'software architecture' as presented in the lecture? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It defines the high-level structure of a software system, the components, their relationships, and the principles guiding its design and evolution",
+            "is_correct": true
+          },
+          {
+            "option_text": "It focuses only on coding conventions and syntax rules",
+            "is_correct": false
+          },
+          {
+            "option_text": "It is an optional diagram that front-end teams might create",
+            "is_correct": false
+          },
+          {
+            "option_text": "It concerns only the final user interface design",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_text": "What does the IEEE definition of software architecture emphasize? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Components, their relationships, and design principles",
+            "is_correct": true
+          },
+          {
+            "option_text": "Strict Waterfall design phases without iteration",
+            "is_correct": false
+          },
+          {
+            "option_text": "Guiding principles for both present and future evolution of the system",
+            "is_correct": true
+          },
+          {
+            "option_text": "Exclusively the front-end technology stack",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_text": "Which aspects of a software system does architecture directly impact? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Non-functional properties like performance and security",
+            "is_correct": true
+          },
+          {
+            "option_text": "Maintainability and reliability",
+            "is_correct": true
+          },
+          {
+            "option_text": "Marketing campaigns and social media strategy",
+            "is_correct": false
+          },
+          {
+            "option_text": "Usability and overall user experience",
+            "is_correct": true
+          },
+          {
+            "option_text": "Hardware manufacturing processes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_text": "Which principle from Agile may conflict with traditional upfront architectural design? (1 correct option)",
+        "options": [
+          {
+            "option_text": "YAGNI ('You Aren’t Gonna Need It'), encouraging developers to avoid over-engineering",
+            "is_correct": true
+          },
+          {
+            "option_text": "WIP (Work In Progress) Limit, capping concurrent tasks",
+            "is_correct": false
+          },
+          {
+            "option_text": "Waterfall-based design sprints",
+            "is_correct": false
+          },
+          {
+            "option_text": "Big Bang Integration, merging all code at once",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_text": "Why is simplicity considered a key principle in architectural design? (2 correct options)",
+        "options": [
+          {
+            "option_text": "It reduces cost and risk of errors, facilitating easier maintenance",
+            "is_correct": true
+          },
+          {
+            "option_text": "It ensures the system can handle infinite scalability without changes",
+            "is_correct": false
+          },
+          {
+            "option_text": "Complex designs often increase bugs and future refactoring overhead",
+            "is_correct": true
+          },
+          {
+            "option_text": "It guarantees a product will never fail under high load",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_text": "Which attributes are commonly listed as non-functional system quality attributes? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Responsiveness, reliability, availability",
+            "is_correct": true
+          },
+          {
+            "option_text": "Maintainability, security, resilience",
+            "is_correct": true
+          },
+          {
+            "option_text": "Shopping cart design, marketing funnel optimization",
+            "is_correct": false
+          },
+          {
+            "option_text": "Usability or ease of feature access",
+            "is_correct": true
+          },
+          {
+            "option_text": "UI color palette preferences",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_text": "Which statements accurately describe 'centralized security' vs 'distributed security'? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Centralized security is typically easier to design, but if breached, it can compromise all data in one place",
+            "is_correct": true
+          },
+          {
+            "option_text": "Distributed security is cheaper and simpler than centralized security",
+            "is_correct": false
+          },
+          {
+            "option_text": "Distributed security can isolate breaches, though it's more complex and costly to implement",
+            "is_correct": true
+          },
+          {
+            "option_text": "Centralized security never requires backups or redundancy",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question_text": "Which trade-offs might an architectural design need to balance? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Maintainability vs Performance",
+            "is_correct": true
+          },
+          {
+            "option_text": "Security vs Usability",
+            "is_correct": true
+          },
+          {
+            "option_text": "Agile vs. YAGNI compliance at all times",
+            "is_correct": false
+          },
+          {
+            "option_text": "Scalability vs Cost constraints",
+            "is_correct": true
+          },
+          {
+            "option_text": "Comprehensive documentation vs. zero documentation",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question_text": "What is a likely consequence of using a shared database for multiple components?",
+        "options": [
+          {
+            "option_text": "All components can access the same data easily, but independent updates may be harder to manage",
+            "is_correct": true
+          },
+          {
+            "option_text": "Each component can isolate data changes with no synchronization needed",
+            "is_correct": false
+          },
+          {
+            "option_text": "Data consistency is guaranteed with zero overhead",
+            "is_correct": false
+          },
+          {
+            "option_text": "It never affects system performance, regardless of traffic",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question_text": "What does layering security measures typically accomplish in an architecture? (2 correct options)",
+        "options": [
+          {
+            "option_text": "It creates multiple defenses, such as authentication, encryption, and feature-specific controls",
+            "is_correct": true
+          },
+          {
+            "option_text": "It guarantees zero usability issues and no risk of user workarounds",
+            "is_correct": false
+          },
+          {
+            "option_text": "It can slow down user interactions or add friction",
+            "is_correct": true
+          },
+          {
+            "option_text": "It eliminates the need for maintenance or updates",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question_text": "Which trade-off often arises regarding availability vs. time-to-market?",
+        "options": [
+          {
+            "option_text": "Building in redundancy can improve fault tolerance but increase complexity and slow down release",
+            "is_correct": true
+          },
+          {
+            "option_text": "Systems that launch quickly rarely have any availability issues",
+            "is_correct": false
+          },
+          {
+            "option_text": "Availability concerns are irrelevant unless you have over a million users",
+            "is_correct": false
+          },
+          {
+            "option_text": "Time-to-market is only affected by code styling guidelines",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question_text": "Which practice helps minimize architectural complexity? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Localizing relationships so components have minimal interdependencies",
+            "is_correct": true
+          },
+          {
+            "option_text": "Using as many shared global variables as possible for simpler code",
+            "is_correct": false
+          },
+          {
+            "option_text": "Reducing unnecessary shared data among modules",
+            "is_correct": true
+          },
+          {
+            "option_text": "Merging all code into a single massive function",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question_text": "Which of the following best captures the concept of layered architecture? (1 correct option)",
+        "options": [
+          {
+            "option_text": "An architecture where each layer focuses on specific concerns (e.g., user interface, business logic, data retrieval), with cross-cutting concerns (e.g., security) affecting all layers",
+            "is_correct": true
+          },
+          {
+            "option_text": "An approach that only uses hardware layers for physical servers",
+            "is_correct": false
+          },
+          {
+            "option_text": "A method to remove modularity so that everything runs in one layer",
+            "is_correct": false
+          },
+          {
+            "option_text": "A method requiring separate user credentials for each layer",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question_text": "Which statements are true about client-server models? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They distribute functionality between client devices and centralized servers",
+            "is_correct": true
+          },
+          {
+            "option_text": "They never rely on network connectivity",
+            "is_correct": false
+          },
+          {
+            "option_text": "Clients typically communicate with servers via standard protocols like HTTP, exchanging data in JSON or XML",
+            "is_correct": true
+          },
+          {
+            "option_text": "All logic resides only on the client side",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question_text": "Which factor is commonly associated with Service-Oriented Architecture (SOA)? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It emphasizes stateless services to enhance scalability and fault tolerance",
+            "is_correct": true
+          },
+          {
+            "option_text": "It merges all services into a single codebase for convenience",
+            "is_correct": false
+          },
+          {
+            "option_text": "It prohibits any use of microservices or web APIs",
+            "is_correct": false
+          },
+          {
+            "option_text": "It relies exclusively on a single proprietary vendor platform",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question_text": "When deciding on the right database technology, which considerations might be relevant? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Data structure (SQL vs. NoSQL) and how frequently the schema changes",
+            "is_correct": true
+          },
+          {
+            "option_text": "Whether the data is mostly unstructured (favoring NoSQL) vs. highly relational (favoring SQL)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Offline or mobile connectivity patterns requiring local caching or synchronization",
+            "is_correct": true
+          },
+          {
+            "option_text": "Exclusively the color theme of the user interface",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question_text": "Which of the following architectural decisions might influence time-to-market? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Opting for a simpler, more maintainable approach over a high-performance but complex design",
+            "is_correct": true
+          },
+          {
+            "option_text": "Choosing an experimental, niche technology that few developers understand",
+            "is_correct": false
+          },
+          {
+            "option_text": "Selecting well-known frameworks or open-source components to accelerate development",
+            "is_correct": true
+          },
+          {
+            "option_text": "Spending years perfecting a brand-new programming language from scratch",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question_text": "Which statement describes a 'layered architecture' approach to cross-cutting concerns such as security?",
+        "options": [
+          {
+            "option_text": "Security only applies at the top layer (UI), ignoring lower layers",
+            "is_correct": false
+          },
+          {
+            "option_text": "Security is added only after the entire system is built",
+            "is_correct": false
+          },
+          {
+            "option_text": "Security must be considered at each layer (UI, logic, data), ensuring consistent protection throughout",
+            "is_correct": true
+          },
+          {
+            "option_text": "Security replaces the need for a well-defined data model",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_text": "Which architecture style typically features a thick client interacting with a server that primarily handles data persistence and business logic?",
+        "options": [
+          {
+            "option_text": "Client-Server Architecture",
+            "is_correct": true
+          },
+          {
+            "option_text": "Peer-to-Peer Networks",
+            "is_correct": false
+          },
+          {
+            "option_text": "Monolithic Waterfall",
+            "is_correct": false
+          },
+          {
+            "option_text": "DevOps Pipeline Architecture",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question_text": "Which approach might be taken if certain components must scale independently without affecting the entire system?",
+        "options": [
+          {
+            "option_text": "Decompose the architecture into services or microservices, each with its own resources and deployment pipeline",
+            "is_correct": true
+          },
+          {
+            "option_text": "Use a single huge monolith so scaling is uniform for all features",
+            "is_correct": false
+          },
+          {
+            "option_text": "Rely exclusively on a shared file system for all data synchronization",
+            "is_correct": false
+          },
+          {
+            "option_text": "Implement a waterfall approach with no incremental releases",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_text": "Which scenario best demonstrates balancing 'security vs usability' as an architectural trade-off? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Implementing multi-factor authentication for sensitive actions, acknowledging extra user steps",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminating user logins altogether to streamline onboarding",
+            "is_correct": false
+          },
+          {
+            "option_text": "Storing unencrypted passwords in a database for quick retrieval",
+            "is_correct": false
+          },
+          {
+            "option_text": "Building an isolated dev environment with no security at all",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question_text": "Which are potential disadvantages of adopting open-source components in architectural design? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Risk of project abandonment by maintainers",
+            "is_correct": true
+          },
+          {
+            "option_text": "Higher licensing fees mandated by third-party vendors",
+            "is_correct": false
+          },
+          {
+            "option_text": "Security vulnerabilities if patches are not applied promptly",
+            "is_correct": true
+          },
+          {
+            "option_text": "Impossible to modify or fork the code for custom needs",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question_text": "Which aspect of 'Agile vs Architecture' might cause tension in practice? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Agile encourages iterative and incremental changes, while architecture often entails upfront design to ensure structural integrity",
+            "is_correct": true
+          },
+          {
+            "option_text": "YAGNI philosophy may discourage implementing certain architectural elements until absolutely necessary",
+            "is_correct": true
+          },
+          {
+            "option_text": "Agile mandates no planning or architecture at all",
+            "is_correct": false
+          },
+          {
+            "option_text": "Architectural design always prohibits incremental releases",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question_text": "When dealing with complex business logic, how might an architect reduce complexity and error risk? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Break logic into smaller, well-defined modules or services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Rely on a single global function to handle all requests uniformly",
+            "is_correct": false
+          },
+          {
+            "option_text": "Adopt a layered approach separating concerns (UI, business, data)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Store all logic in front-end code for easier user customization",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question_text": "How does resilience factor into architectural decisions? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It ensures partial failures do not bring the entire system down by employing redundancy and fault tolerance",
+            "is_correct": true
+          },
+          {
+            "option_text": "It states that any server crash automatically triggers a manual system restart",
+            "is_correct": false
+          },
+          {
+            "option_text": "It dictates that only manual failover can protect from outages",
+            "is_correct": false
+          },
+          {
+            "option_text": "It eliminates the need for monitoring and alerting tools",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "question_text": "Which question might an architect ask when deciding on architectural design? (2 correct options)",
+        "options": [
+          {
+            "option_text": "How should system components interact and communicate?",
+            "is_correct": true
+          },
+          {
+            "option_text": "How do we minimize every single line of code in the product backlog?",
+            "is_correct": false
+          },
+          {
+            "option_text": "Which technologies or frameworks should be reused or introduced?",
+            "is_correct": true
+          },
+          {
+            "option_text": "Which user interface color scheme best matches our brand?",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "question_text": "Which statement about 'availability vs time-to-market' is correct? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Increasing availability with more redundancy typically increases cost and complexity, potentially delaying release",
+            "is_correct": true
+          },
+          {
+            "option_text": "Improving availability always reduces complexity",
+            "is_correct": false
+          },
+          {
+            "option_text": "Time-to-market is never impacted by architectural decisions",
+            "is_correct": false
+          },
+          {
+            "option_text": "High availability design requires zero additional resources",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "question_text": "Which of the following is a recommended approach to handle architecture in an Agile environment? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Create a minimal initial architecture and evolve it incrementally",
+            "is_correct": true
+          },
+          {
+            "option_text": "Finalize a comprehensive design document that must never change",
+            "is_correct": false
+          },
+          {
+            "option_text": "Adhere to YAGNI, only adding components or layers when they are truly needed",
+            "is_correct": true
+          },
+          {
+            "option_text": "Design for every possible future scenario, ignoring present constraints",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "question_text": "Why might an organization choose a cloud-based server deployment over in-house hosting for its architecture? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Easier scalability when user demand spikes",
+            "is_correct": true
+          },
+          {
+            "option_text": "Cloud hosting never has any security vulnerabilities",
+            "is_correct": false
+          },
+          {
+            "option_text": "Potential cost benefits from pay-as-you-go models",
+            "is_correct": true
+          },
+          {
+            "option_text": "Simplified global availability with distributed data centers",
+            "is_correct": true
+          },
+          {
+            "option_text": "Guaranteed zero downtime in all cases",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "question_text": "Which statement summarizes the approach to modern architectural models? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Systems are often layered, with a client-server or service-oriented structure, influenced by technology choices like SQL vs. NoSQL and in-house vs. cloud hosting",
+            "is_correct": true
+          },
+          {
+            "option_text": "Most modern architectures rely solely on a single mainframe for all computations",
+            "is_correct": false
+          },
+          {
+            "option_text": "The only viable approach is a strict monolithic design with a shared database",
+            "is_correct": false
+          },
+          {
+            "option_text": "Modern architectures disregard performance or reliability concerns",
+            "is_correct": false
+          }
+        ]
+      }
+    ],
+    "true_false_questions": [
+      {
+        "id": 1,
+        "question_text": "Software architecture involves both the structure of components and the principles guiding how those components evolve over time.",
+        "is_true": true
+      },
+      {
+        "id": 2,
+        "question_text": "The YAGNI principle suggests implementing every possible feature upfront, regardless of immediate need.",
+        "is_true": false
+      },
+      {
+        "id": 3,
+        "question_text": "Simplicity in architecture can reduce maintenance costs and minimize error risks.",
+        "is_true": true
+      },
+      {
+        "id": 4,
+        "question_text": "Non-functional attributes such as security, availability, and maintainability do not influence architecture decisions.",
+        "is_true": false
+      },
+      {
+        "id": 5,
+        "question_text": "In a centralized security model, a single breach can threaten the entire system’s data, whereas distributed security can limit the damage to compromised nodes.",
+        "is_true": true
+      },
+      {
+        "id": 6,
+        "question_text": "An architectural design principle might balance maintainability vs. performance or security vs. usability, leading to different trade-offs.",
+        "is_true": true
+      },
+      {
+        "id": 7,
+        "question_text": "Layered security measures can introduce friction for users but also reduce overall risk of unauthorized access.",
+        "is_true": true
+      },
+      {
+        "id": 8,
+        "question_text": "Enhanced redundancy for higher availability generally reduces complexity and cost in software systems.",
+        "is_true": false
+      },
+      {
+        "id": 9,
+        "question_text": "Minimizing shared data and global dependencies can help simplify architectural complexity.",
+        "is_true": true
+      },
+      {
+        "id": 10,
+        "question_text": "Layered architecture typically includes a presentation layer, a logic layer, and a data layer, with cross-cutting concerns affecting all layers.",
+        "is_true": true
+      },
+      {
+        "id": 11,
+        "question_text": "Client-Server architecture relies on peer-to-peer interactions with no central server components.",
+        "is_true": false
+      },
+      {
+        "id": 12,
+        "question_text": "Service-Oriented Architecture (SOA) often uses stateless services to support better scalability and fault tolerance.",
+        "is_true": true
+      },
+      {
+        "id": 13,
+        "question_text": "When choosing technology (e.g., database, server), an architect must consider factors like data structure, scalability, and cost models.",
+        "is_true": true
+      },
+      {
+        "id": 14,
+        "question_text": "Open-source components can accelerate development but may introduce risks if they are not maintained or patched regularly.",
+        "is_true": true
+      },
+      {
+        "id": 15,
+        "question_text": "Agile and architecture are fully incompatible; no agile environment can support architectural design.",
+        "is_true": false
+      }
+    ]
+  }
+  

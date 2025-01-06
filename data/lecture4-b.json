@@ -1,0 +1,828 @@
+{
+    "lecture_id": "lecture4-b",
+    "lecture_title": "Scrum",
+    "mcqs": [
+      {
+        "id": 1,
+        "question_text": "Which of the following best describes why Agile was introduced, as recapped in the lecture? (2 correct options)",
+        "options": [
+          {
+            "option_text": "To address limitations of traditional Waterfall by promoting adaptability",
+            "is_correct": true
+          },
+          {
+            "option_text": "To eliminate the need for any project planning or documentation",
+            "is_correct": false
+          },
+          {
+            "option_text": "To enable iterative development with continuous user collaboration",
+            "is_correct": true
+          },
+          {
+            "option_text": "To enforce a strictly defined, unchanging plan from start to finish",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_text": "Which of the following statements characterize Scrum? (2 correct options)",
+        "options": [
+          {
+            "option_text": "It is the most popular Agile framework focusing on short-term planning and adaptability",
+            "is_correct": true
+          },
+          {
+            "option_text": "It is a heavy plan-driven approach with sequential phases",
+            "is_correct": false
+          },
+          {
+            "option_text": "It thrives on continuous adaptation to frequent changes",
+            "is_correct": true
+          },
+          {
+            "option_text": "It strictly forbids direct communication between customers and developers",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_text": "Which role in a Scrum Team is primarily responsible for maximizing the product’s value and managing the Product Backlog?",
+        "options": [
+          {
+            "option_text": "ScrumMaster",
+            "is_correct": false
+          },
+          {
+            "option_text": "Product Owner",
+            "is_correct": true
+          },
+          {
+            "option_text": "Developers",
+            "is_correct": false
+          },
+          {
+            "option_text": "Project Manager",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_text": "Which responsibilities are typical of a ScrumMaster? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Removing impediments and ensuring the team understands and follows Scrum practices",
+            "is_correct": true
+          },
+          {
+            "option_text": "Owning the Product Backlog and writing user stories",
+            "is_correct": false
+          },
+          {
+            "option_text": "Facilitating Scrum events and guiding continuous improvement",
+            "is_correct": true
+          },
+          {
+            "option_text": "Approving every code change before it’s committed",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_text": "What is the maximum recommended size for a Scrum Development Team, as mentioned in the lecture?",
+        "options": [
+          {
+            "option_text": "Up to 8 members",
+            "is_correct": true
+          },
+          {
+            "option_text": "Exactly 15 members",
+            "is_correct": false
+          },
+          {
+            "option_text": "No limit is recommended; more is always better",
+            "is_correct": false
+          },
+          {
+            "option_text": "Only 2 developers per product",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_text": "Which statements are true about Scrum Events? (3 correct options)",
+        "options": [
+          {
+            "option_text": "They create regular communication and alignment opportunities",
+            "is_correct": true
+          },
+          {
+            "option_text": "They are optional, held only if the team wants to socialize",
+            "is_correct": false
+          },
+          {
+            "option_text": "They include Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective",
+            "is_correct": true
+          },
+          {
+            "option_text": "They must each last a minimum of 8 hours regardless of sprint length",
+            "is_correct": false
+          },
+          {
+            "option_text": "They help inspect work and adapt plans as needed",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_text": "Which of the following is NOT one of the three pillars of Scrum theory?",
+        "options": [
+          {
+            "option_text": "Inspection",
+            "is_correct": false
+          },
+          {
+            "option_text": "Adaptation",
+            "is_correct": false
+          },
+          {
+            "option_text": "Transparency",
+            "is_correct": false
+          },
+          {
+            "option_text": "Collaboration",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question_text": "What are the official Scrum Artifacts mentioned in the lecture? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Product Backlog",
+            "is_correct": true
+          },
+          {
+            "option_text": "Sprint Backlog",
+            "is_correct": true
+          },
+          {
+            "option_text": "Increment",
+            "is_correct": true
+          },
+          {
+            "option_text": "Velocity Chart",
+            "is_correct": false
+          },
+          {
+            "option_text": "Gantt Diagram",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question_text": "Which statement best describes a Product Backlog?",
+        "options": [
+          {
+            "option_text": "A prioritized list of all desired product work, continuously refined",
+            "is_correct": true
+          },
+          {
+            "option_text": "A daily to-do list for the developers",
+            "is_correct": false
+          },
+          {
+            "option_text": "A formal contract describing final system requirements",
+            "is_correct": false
+          },
+          {
+            "option_text": "A leftover set of tasks from a previous project",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question_text": "Which events occur at the end of every Sprint, according to the lecture? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Sprint Review to showcase the Increment and get stakeholder feedback",
+            "is_correct": true
+          },
+          {
+            "option_text": "Sprint Retrospective to reflect on process improvements",
+            "is_correct": true
+          },
+          {
+            "option_text": "A full design re-specification to rewrite all requirements",
+            "is_correct": false
+          },
+          {
+            "option_text": "All developers go on mandatory vacation",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question_text": "What is a 'Sprint' in Scrum terms?",
+        "options": [
+          {
+            "option_text": "A short, timeboxed period (≤ 1 month) dedicated to creating a product Increment",
+            "is_correct": true
+          },
+          {
+            "option_text": "A 6-month phase of documentation only",
+            "is_correct": false
+          },
+          {
+            "option_text": "A spontaneous event when the ScrumMaster is absent",
+            "is_correct": false
+          },
+          {
+            "option_text": "A mandatory 3-year product roadmap",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question_text": "Which statement is true about 'Potentially Shippable Increment' in Scrum?",
+        "options": [
+          {
+            "option_text": "It refers to a fully tested, working product addition that meets the Definition of Done",
+            "is_correct": true
+          },
+          {
+            "option_text": "It means any code written during a Sprint, regardless of its quality",
+            "is_correct": false
+          },
+          {
+            "option_text": "It cannot be shown to stakeholders until after several sprints are complete",
+            "is_correct": false
+          },
+          {
+            "option_text": "It is a term used only during Waterfall planning phases",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question_text": "Which concept measures how much work a Scrum Team completes in a Sprint?",
+        "options": [
+          {
+            "option_text": "Velocity",
+            "is_correct": true
+          },
+          {
+            "option_text": "Flow Rate",
+            "is_correct": false
+          },
+          {
+            "option_text": "Throughput Time",
+            "is_correct": false
+          },
+          {
+            "option_text": "Kanban WIP Limit",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question_text": "What do the Scrum Values (Commitment, Focus, Openness, Respect, Courage) help foster within a team? (2 correct options)",
+        "options": [
+          {
+            "option_text": "A constructive, collaborative culture supporting effective Scrum adoption",
+            "is_correct": true
+          },
+          {
+            "option_text": "An environment where each individual can hide progress from teammates",
+            "is_correct": false
+          },
+          {
+            "option_text": "Better team morale and trust in delivering increments",
+            "is_correct": true
+          },
+          {
+            "option_text": "Complete elimination of stakeholder feedback loops",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question_text": "Which of these reflect key benefits of having timeboxed sprints? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Consistent cadence for planning, review, and feedback",
+            "is_correct": true
+          },
+          {
+            "option_text": "Endless extension of sprints until all features are done",
+            "is_correct": false
+          },
+          {
+            "option_text": "Regular checkpoints to track progress and adapt goals",
+            "is_correct": true
+          },
+          {
+            "option_text": "Clear deadlines encourage focused effort within each sprint",
+            "is_correct": true
+          },
+          {
+            "option_text": "Fewer opportunities to deliver working software",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question_text": "Which statements describe the Product Backlog Items (PBIs)? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They can represent features, user stories, technical work, or improvements",
+            "is_correct": true
+          },
+          {
+            "option_text": "They are fixed for the entire project once written",
+            "is_correct": false
+          },
+          {
+            "option_text": "They are sorted by priority or business value",
+            "is_correct": true
+          },
+          {
+            "option_text": "They never require refinement or re-estimation",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question_text": "Which two metrics are often used to estimate PBIs, as mentioned in the lecture? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Effort required in hours/days",
+            "is_correct": true
+          },
+          {
+            "option_text": "The number of developers on the team",
+            "is_correct": false
+          },
+          {
+            "option_text": "Story points representing relative complexity",
+            "is_correct": true
+          },
+          {
+            "option_text": "Times the code has been committed",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question_text": "Which activities typically happen during a Sprint Review? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Stakeholders inspect the Increment and provide feedback",
+            "is_correct": true
+          },
+          {
+            "option_text": "Team finalizes backlog items for the next 12 months",
+            "is_correct": false
+          },
+          {
+            "option_text": "Team demonstrates completed PBIs meeting the Definition of Done",
+            "is_correct": true
+          },
+          {
+            "option_text": "All future sprints are canceled if any item is incomplete",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_text": "What is the primary goal of the Sprint Retrospective?",
+        "options": [
+          {
+            "option_text": "To discuss code structure in detail with the Product Owner",
+            "is_correct": false
+          },
+          {
+            "option_text": "To review and adjust processes for continuous improvement",
+            "is_correct": true
+          },
+          {
+            "option_text": "To finalize the product for immediate deployment",
+            "is_correct": false
+          },
+          {
+            "option_text": "To estimate velocity for the next four sprints",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question_text": "Which statement about the Definition of Done is true?",
+        "options": [
+          {
+            "option_text": "It ensures that each increment meets agreed quality standards before calling it complete",
+            "is_correct": true
+          },
+          {
+            "option_text": "It is defined by external auditors with no input from the team",
+            "is_correct": false
+          },
+          {
+            "option_text": "It only applies to Waterfall projects",
+            "is_correct": false
+          },
+          {
+            "option_text": "It does not need to include testing requirements",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_text": "Which statements accurately describe cross-functional Scrum Teams? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They include all necessary skills to create a working increment (e.g., coding, testing, UX) within the team",
+            "is_correct": true
+          },
+          {
+            "option_text": "They rely solely on external teams for design and testing",
+            "is_correct": false
+          },
+          {
+            "option_text": "They can deliver end-to-end features each sprint",
+            "is_correct": true
+          },
+          {
+            "option_text": "They do not communicate with stakeholders until the product is shipped",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question_text": "Which principle supports letting the Developers self-organize how they accomplish Sprint Goals?",
+        "options": [
+          {
+            "option_text": "Empiricism via Inspection",
+            "is_correct": false
+          },
+          {
+            "option_text": "Self-Management or Self-Organization",
+            "is_correct": true
+          },
+          {
+            "option_text": "Command-and-Control Management",
+            "is_correct": false
+          },
+          {
+            "option_text": "Waterfall's sequential approach",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question_text": "When are PBIs typically refined or re-estimated in Scrum?",
+        "options": [
+          {
+            "option_text": "During regular backlog refinement sessions or as new information emerges",
+            "is_correct": true
+          },
+          {
+            "option_text": "Only after the final product increment is shipped",
+            "is_correct": false
+          },
+          {
+            "option_text": "Never, since initial estimates must remain fixed",
+            "is_correct": false
+          },
+          {
+            "option_text": "At the daily scrum, by the Product Owner alone",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question_text": "Which of the following is a key element of the Code Completeness Checklist mentioned in the lecture?",
+        "options": [
+          {
+            "option_text": "Ensuring code is reviewed and passes all required tests before an item can be called Done",
+            "is_correct": true
+          },
+          {
+            "option_text": "Releasing code immediately to production without tests",
+            "is_correct": false
+          },
+          {
+            "option_text": "Submitting incomplete code to the Product Owner for acceptance",
+            "is_correct": false
+          },
+          {
+            "option_text": "Focusing on integration tests only and ignoring unit tests",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question_text": "Which statements are true about team composition tips mentioned in the lecture? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Teams of ≤ 8 members are generally recommended for efficiency",
+            "is_correct": true
+          },
+          {
+            "option_text": "A single team member must handle all external interactions permanently",
+            "is_correct": false
+          },
+          {
+            "option_text": "Self-organization fosters flexibility in distributing tasks among available skills",
+            "is_correct": true
+          },
+          {
+            "option_text": "Teams should never adapt their roles or responsibilities over time",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "question_text": "What do the Empiricism Pillars (Transparency, Inspection, Adaptation) encourage in Scrum?",
+        "options": [
+          {
+            "option_text": "They ensure processes are visible, validated regularly, and adjusted based on learnings",
+            "is_correct": true
+          },
+          {
+            "option_text": "They demand fixed, unchangeable requirements once the sprint starts",
+            "is_correct": false
+          },
+          {
+            "option_text": "They require detailed Gantt charts for each sprint milestone",
+            "is_correct": false
+          },
+          {
+            "option_text": "They replace the need for a Product Owner and ScrumMaster",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "question_text": "Which of the following might you find in a Product Backlog? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Features requested by users for future sprints",
+            "is_correct": true
+          },
+          {
+            "option_text": "Large-scale refactoring tasks or technical spikes",
+            "is_correct": true
+          },
+          {
+            "option_text": "The daily tasks each developer must do tomorrow",
+            "is_correct": false
+          },
+          {
+            "option_text": "Bugs reported that need to be fixed in a future sprint",
+            "is_correct": true
+          },
+          {
+            "option_text": "Final acceptance testing only after project completion",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "question_text": "Which statement best describes the role of the 'Sprint Backlog'?",
+        "options": [
+          {
+            "option_text": "It is the set of Product Backlog items the team commits to delivering during a Sprint",
+            "is_correct": true
+          },
+          {
+            "option_text": "It is a backlog of leftover tasks from previous Sprints that nobody wants to do",
+            "is_correct": false
+          },
+          {
+            "option_text": "It is a list of blocked items that can’t be done for at least six months",
+            "is_correct": false
+          },
+          {
+            "option_text": "It is the official capacity plan for all future releases",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "question_text": "Which statement correctly distinguishes Sprint Review from Sprint Retrospective?",
+        "options": [
+          {
+            "option_text": "The Review focuses on what was delivered and gathering feedback; the Retrospective focuses on how the team worked and improving processes",
+            "is_correct": true
+          },
+          {
+            "option_text": "The Review is optional, but the Retrospective is mandatory",
+            "is_correct": false
+          },
+          {
+            "option_text": "Both events are dedicated solely to design discussions",
+            "is_correct": false
+          },
+          {
+            "option_text": "The Retrospective is the only place where stakeholders can see the Increment",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "question_text": "Which statement accurately reflects how the ScrumMaster might handle project management responsibilities?",
+        "options": [
+          {
+            "option_text": "They adapt as needed, guiding the team and bridging external interactions without top-down control",
+            "is_correct": true
+          },
+          {
+            "option_text": "They fully replace the Product Owner in writing backlog items",
+            "is_correct": false
+          },
+          {
+            "option_text": "They serve primarily as a technical lead who reviews all code changes",
+            "is_correct": false
+          },
+          {
+            "option_text": "They own the final release decisions and can override the team’s Sprint commitment",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "question_text": "Which of the following is a well-formed example of a Product Backlog Item (PBI)? (1 correct option)",
+        "options": [
+          {
+            "option_text": "\"As a user, I want to reset my password via email link, so that I can securely access my account.\" (Acceptance Criteria: Email link expires in 24 hours; user must confirm new password twice.)",
+            "is_correct": true
+          },
+          {
+            "option_text": "\"Implement the internal refactoring for all legacy modules, no acceptance criteria needed.\"",
+            "is_correct": false
+          },
+          {
+            "option_text": "\"Improve performance and security across all microservices, due next Sprint. No further details.\"",
+            "is_correct": false
+          },
+          {
+            "option_text": "\"Add the new feature when we have time, but skip testing if the Sprint is too short.\"",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "question_text": "Scenario: Mid-sprint, a high-priority feature request arises. The Product Owner wants to add it immediately, but the Developers are already focused on the Sprint Goal. How should the ScrumMaster respond? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Facilitate a discussion to see if the new feature can replace or adjust existing Sprint Backlog items without jeopardizing the Sprint Goal",
+            "is_correct": true
+          },
+          {
+            "option_text": "Automatically insert the new work without discussing with the team, since the Product Owner has final authority",
+            "is_correct": false
+          },
+          {
+            "option_text": "Deny any changes during a Sprint under all circumstances",
+            "is_correct": false
+          },
+          {
+            "option_text": "Cancel the Sprint immediately and start a new one to accommodate the request",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "question_text": "Scenario: The Product Owner suddenly informs the team of multiple urgent change requests at mid-sprint. The team has ongoing tasks that are halfway complete, and the Sprint Goal is at risk. Which actions should the ScrumMaster take? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Encourage a discussion between the Product Owner and Developers to see if any lower-priority items can be traded off to maintain the Sprint Goal",
+            "is_correct": true
+          },
+          {
+            "option_text": "Facilitate a short meeting to consider re-prioritizing the Sprint Backlog, ensuring the team’s agreement on any updates",
+            "is_correct": true
+          },
+          {
+            "option_text": "Immediately replace all ongoing tasks with the new requests, skipping refinement or planning",
+            "is_correct": false
+          },
+          {
+            "option_text": "Extend the Sprint length to accommodate the new requests without informing the stakeholders",
+            "is_correct": false
+          }
+        ]
+      }
+      
+      
+    ],
+    "true_false_questions": [
+      {
+        "id": 1,
+        "question_text": "Scrum is an Agile methodology that relies on timeboxed iterations known as Sprints, each producing a potentially shippable Increment of the product.",
+        "is_true": true
+      },
+      {
+        "id": 2,
+        "question_text": "The ScrumMaster is responsible for maximizing the product’s value and writing all PBIs.",
+        "is_true": false
+      },
+      {
+        "id": 3,
+        "question_text": "Commitment, Focus, Openness, Respect, and Courage are core Scrum values.",
+        "is_true": true
+      },
+      {
+        "id": 4,
+        "question_text": "A Product Backlog is a static list that cannot change once a project has started.",
+        "is_true": false
+      },
+      {
+        "id": 5,
+        "question_text": "Sprint Planning aims to define a Sprint Goal and select Product Backlog Items to work on in the Sprint.",
+        "is_true": true
+      },
+      {
+        "id": 6,
+        "question_text": "The Daily Scrum is a lengthy two-hour meeting where developers share detailed code walkthroughs.",
+        "is_true": false
+      },
+      {
+        "id": 7,
+        "question_text": "Velocity is a measure of the team’s productivity—how much work they can accomplish in a Sprint.",
+        "is_true": true
+      },
+      {
+        "id": 8,
+        "question_text": "The Sprint Backlog is owned by the Product Owner and can be changed at any time without consulting the developers.",
+        "is_true": false
+      },
+      {
+        "id": 9,
+        "question_text": "Scrum’s pillars include Transparency, Inspection, and Adaptation, emphasizing empirical process control.",
+        "is_true": true
+      },
+      {
+        "id": 10,
+        "question_text": "The Sprint Review includes demonstrating the increment to stakeholders and collecting feedback for the Product Backlog.",
+        "is_true": true
+      },
+      {
+        "id": 11,
+        "question_text": "The Sprint Retrospective focuses on improving the upcoming Sprint by examining what went well and what could be better.",
+        "is_true": true
+      },
+      {
+        "id": 12,
+        "question_text": "Scrum Teams must have at least 20 developers to function properly, according to the lecture.",
+        "is_true": false
+      },
+      {
+        "id": 13,
+        "question_text": "Cross-functional teams in Scrum imply each member can handle every role, including Product Owner and ScrumMaster.",
+        "is_true": false
+      },
+      {
+        "id": 14,
+        "question_text": "The code completeness checklist ensures that any item labeled 'Done' has passed code reviews, unit tests, integration tests, and acceptance tests as required.",
+        "is_true": true
+      },
+      {
+        "id": 15,
+        "question_text": "In Scrum, smaller teams (≤ 8 members) with diverse skills are often recommended for efficiency, self-organization, and resilience.",
+        "is_true": true
+      }
+    ]
+  }
+  

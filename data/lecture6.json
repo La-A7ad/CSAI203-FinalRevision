@@ -1,0 +1,756 @@
+{
+    "lecture_id": "lecture6",
+    "lecture_title": "Cloud-based Software",
+    "mcqs": [
+      {
+        "id": 1,
+        "question_text": "What is cloud-based software, as introduced in the lecture? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Software running on remote virtual servers, accessible via the internet, offering scalability and flexibility",
+            "is_correct": true
+          },
+          {
+            "option_text": "Any software that only runs on a user’s personal computer",
+            "is_correct": false
+          },
+          {
+            "option_text": "A monolithic application installed on physical servers without the option to scale",
+            "is_correct": false
+          },
+          {
+            "option_text": "Software that completely replaces hardware with no user interaction",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_text": "Which are core properties of cloud-based servers mentioned in the lecture? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They are virtual and can scale dynamically based on demand",
+            "is_correct": true
+          },
+          {
+            "option_text": "They must always remain active and cannot be shut down",
+            "is_correct": false
+          },
+          {
+            "option_text": "They are hardware-based mainframes only available locally",
+            "is_correct": false
+          },
+          {
+            "option_text": "Users can rent any number of them to deploy software for customers",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_text": "Which term describes the capacity to handle growing user traffic without losing performance?",
+        "options": [
+          {
+            "option_text": "Scalability",
+            "is_correct": true
+          },
+          {
+            "option_text": "Resilience",
+            "is_correct": false
+          },
+          {
+            "option_text": "Elasticity",
+            "is_correct": false
+          },
+          {
+            "option_text": "Virtualization",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_text": "Which of the following statements best defines 'elasticity'? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It extends scalability by automatically scaling resources up or down based on real-time demand",
+            "is_correct": true
+          },
+          {
+            "option_text": "It ensures no software changes are ever needed to handle new features",
+            "is_correct": false
+          },
+          {
+            "option_text": "It focuses solely on quick server startup times, ignoring scaling down",
+            "is_correct": false
+          },
+          {
+            "option_text": "It requires manual hardware upgrades to handle new loads",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_text": "Which statement accurately describes 'resilience' in cloud-based software? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Maintaining multiple copies of software so that failures in one server do not halt service",
+            "is_correct": true
+          },
+          {
+            "option_text": "Upgrading servers only after a system crash occurs",
+            "is_correct": false
+          },
+          {
+            "option_text": "Restricting user access to a single, always-on server",
+            "is_correct": false
+          },
+          {
+            "option_text": "Forcing downtime once a day to reset server memory",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_text": "Which are benefits of cloud-based software development, as listed in the lecture slides? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Reduced upfront costs by eliminating hardware procurement",
+            "is_correct": true
+          },
+          {
+            "option_text": "Servers become operational in minutes for quick project starts",
+            "is_correct": true
+          },
+          {
+            "option_text": "Guaranteed unlimited bandwidth at no cost",
+            "is_correct": false
+          },
+          {
+            "option_text": "Easier collaboration for distributed teams",
+            "is_correct": true
+          },
+          {
+            "option_text": "All code must be open source by default",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_text": "Why is virtualization used in cloud computing?",
+        "options": [
+          {
+            "option_text": "It allows multiple virtual servers to run on one physical server, utilizing resources more efficiently",
+            "is_correct": true
+          },
+          {
+            "option_text": "It prohibits simultaneous use of more than one operating system",
+            "is_correct": false
+          },
+          {
+            "option_text": "It ensures only one application can run on a machine at a time",
+            "is_correct": false
+          },
+          {
+            "option_text": "It eliminates the need for hypervisors",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question_text": "Which statement accurately describes 'virtual cloud servers'? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They operate on physical servers via hypervisors, simulating independent server environments",
+            "is_correct": true
+          },
+          {
+            "option_text": "They cannot run any operating systems or software packages",
+            "is_correct": false
+          },
+          {
+            "option_text": "They enable a 'run anywhere' model, bundling necessary OS and dependencies",
+            "is_correct": true
+          },
+          {
+            "option_text": "They must be tied to a single vendor’s proprietary hardware",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question_text": "What is the main difference between container-based virtualization and virtual machines? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Containers share a single OS kernel, making them more lightweight compared to full VMs",
+            "is_correct": true
+          },
+          {
+            "option_text": "Containers use hypervisors to emulate hardware for each instance",
+            "is_correct": false
+          },
+          {
+            "option_text": "VMs require no resources to run, while containers do",
+            "is_correct": false
+          },
+          {
+            "option_text": "Containers always need more storage (gigabytes) than VMs",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question_text": "Why are containers considered beneficial for cloud deployment? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They start or shut down quickly (often in seconds)",
+            "is_correct": true
+          },
+          {
+            "option_text": "They require installing a separate operating system per container",
+            "is_correct": false
+          },
+          {
+            "option_text": "They share a single OS while isolating application services",
+            "is_correct": true
+          },
+          {
+            "option_text": "They can only run on bare metal servers with no virtualization",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question_text": "Which statements describe Docker and its key elements? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Docker Daemon runs on host servers, managing container creation and lifecycle",
+            "is_correct": true
+          },
+          {
+            "option_text": "Dockerfiles define how to build Docker images, specifying required software and dependencies",
+            "is_correct": true
+          },
+          {
+            "option_text": "Docker Client is used by developers to communicate with the Daemon, controlling container operations",
+            "is_correct": true
+          },
+          {
+            "option_text": "Docker exclusively works with Windows containers and does not support Linux",
+            "is_correct": false
+          },
+          {
+            "option_text": "Docker Images are always gigabytes in size with no smaller options",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question_text": "How do Docker containers differ from Docker images?",
+        "options": [
+          {
+            "option_text": "Containers are runtime instances of images, whereas images are the static blueprints specifying software and dependencies",
+            "is_correct": true
+          },
+          {
+            "option_text": "Containers are large read-only files, while images are actively running processes",
+            "is_correct": false
+          },
+          {
+            "option_text": "Images must be rebuilt after each container shutdown",
+            "is_correct": false
+          },
+          {
+            "option_text": "Containers can only run on a single machine, whereas images can run on multiple machines simultaneously",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question_text": "Which statement best defines 'Infrastructure as a Service' (IaaS)? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Providing fundamental computing resources (servers, storage, networking) for customers to run any software they choose",
+            "is_correct": true
+          },
+          {
+            "option_text": "Offering an out-of-the-box software application accessed via a browser",
+            "is_correct": false
+          },
+          {
+            "option_text": "Limiting development to specific libraries or frameworks only",
+            "is_correct": false
+          },
+          {
+            "option_text": "Delivering a single database instance for user collaboration",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question_text": "Which statements accurately describe 'Platform as a Service' (PaaS)? (2 correct options)",
+        "options": [
+          {
+            "option_text": "It provides libraries, frameworks, and a managed environment where users can develop and deploy their own applications",
+            "is_correct": true
+          },
+          {
+            "option_text": "It is essentially the same as IaaS, offering only raw virtual machines",
+            "is_correct": false
+          },
+          {
+            "option_text": "It abstracts infrastructure details so developers can focus on code rather than server management",
+            "is_correct": true
+          },
+          {
+            "option_text": "It is only used for final production deployments, never for development or testing",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question_text": "Which statement defines 'Software as a Service' (SaaS)?",
+        "options": [
+          {
+            "option_text": "A cloud delivery model in which complete application software is provided to customers online, often via a subscription",
+            "is_correct": true
+          },
+          {
+            "option_text": "A hardware-based approach where users purchase and manage servers on-prem",
+            "is_correct": false
+          },
+          {
+            "option_text": "An offline model requiring no internet connectivity",
+            "is_correct": false
+          },
+          {
+            "option_text": "An approach used only for local testing, never for commercial software",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question_text": "Which of the following are benefits of SaaS for providers? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Predictable subscription revenue stream",
+            "is_correct": true
+          },
+          {
+            "option_text": "Complete avoidance of updates or patching",
+            "is_correct": false
+          },
+          {
+            "option_text": "Centralized codebase allows continuous deployment and rapid bug fixes",
+            "is_correct": true
+          },
+          {
+            "option_text": "Zero management of user data or monitoring",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question_text": "Which of the following are benefits of SaaS for customers? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Lower initial costs because they do not purchase hardware or software licenses upfront",
+            "is_correct": true
+          },
+          {
+            "option_text": "Forced large lump-sum payments for every feature update",
+            "is_correct": false
+          },
+          {
+            "option_text": "Access to continuous improvements and updates without reinstalling software",
+            "is_correct": true
+          },
+          {
+            "option_text": "No possibility to try software before fully buying",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question_text": "What is the difference between single-tenant and multi-tenant SaaS? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Single-tenant provides each user a separate software instance and database; multi-tenant shares one database among all users with logical isolation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Single-tenant is always cheaper and simpler to maintain than multi-tenant",
+            "is_correct": false
+          },
+          {
+            "option_text": "Multi-tenant is used only when an application has exactly two users",
+            "is_correct": false
+          },
+          {
+            "option_text": "Single-tenant never requires separate databases for each user",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_text": "Which are challenges often associated with a single-tenant SaaS model? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Complex updates if each tenant has a unique code or data version",
+            "is_correct": true
+          },
+          {
+            "option_text": "Securing multiple user data sets in a shared database",
+            "is_correct": false
+          },
+          {
+            "option_text": "Potentially higher operational costs for hosting separate instances per customer",
+            "is_correct": true
+          },
+          {
+            "option_text": "Difficulty ensuring code merges for a single shared codebase",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question_text": "Which are benefits of a multi-tenant SaaS model? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Lower resource usage since multiple users share the same database",
+            "is_correct": true
+          },
+          {
+            "option_text": "Absolute security guarantee with no risk of data leakage",
+            "is_correct": false
+          },
+          {
+            "option_text": "Easier updates for the provider as there’s only one main codebase to modify",
+            "is_correct": true
+          },
+          {
+            "option_text": "Infinite personal customization for each user with no overhead",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_text": "What are possible customization options in SaaS solutions, as described in the lecture? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Branding (logos, colors) to match the customer's style",
+            "is_correct": true
+          },
+          {
+            "option_text": "Changing entire OS kernels for each new user",
+            "is_correct": false
+          },
+          {
+            "option_text": "Adding specialized business rules or coupon modules",
+            "is_correct": true
+          },
+          {
+            "option_text": "Extending user models with extra fields or logic",
+            "is_correct": true
+          },
+          {
+            "option_text": "Locking the code to prevent any potential customizations",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question_text": "Which are common approaches to handling customization code in SaaS? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Using separate or shared code repositories depending on the extent of custom changes",
+            "is_correct": true
+          },
+          {
+            "option_text": "Refusing to allow any customization beyond default branding",
+            "is_correct": false
+          },
+          {
+            "option_text": "Always requiring a brand-new codebase per user, ignoring code reuse",
+            "is_correct": false
+          },
+          {
+            "option_text": "Granting each user root-level access to the production environment",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question_text": "Which statements describe security measures for multi-tenant SaaS databases? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Multilevel access controls separate organization-level and user-level permissions",
+            "is_correct": true
+          },
+          {
+            "option_text": "No encryption is needed because the provider is fully trusted",
+            "is_correct": false
+          },
+          {
+            "option_text": "Encryption ensures data protection even though multiple tenants share the same database",
+            "is_correct": true
+          },
+          {
+            "option_text": "Each user must share the same credentials for simplicity",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question_text": "Which are challenges in extending SaaS databases to accommodate custom fields and tables? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Balancing the added complexity vs. the need for flexibility",
+            "is_correct": true
+          },
+          {
+            "option_text": "Refusing any new fields or tables after initial deployment",
+            "is_correct": false
+          },
+          {
+            "option_text": "Ensuring that changes do not break other tenants’ data or queries",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminating all standard fields in favor of custom ones only",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question_text": "Which scaling strategies are typically used in cloud setups? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Scaling-out by adding more servers to handle increased loads",
+            "is_correct": true
+          },
+          {
+            "option_text": "Scaling-up only by adding hardware to existing servers",
+            "is_correct": false
+          },
+          {
+            "option_text": "A hybrid approach combining scale-out (new servers) and scale-up (more powerful servers) as needed",
+            "is_correct": true
+          },
+          {
+            "option_text": "Refusing to scale at all, even if user traffic spikes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "question_text": "Which statements best define 'resilience strategies' in cloud-based systems? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Maintaining redundant servers so the service remains available if one server fails",
+            "is_correct": true
+          },
+          {
+            "option_text": "Storing all data on a single, unreplicated server to simplify backups",
+            "is_correct": false
+          },
+          {
+            "option_text": "Keeping standby systems or failover mechanisms to quickly replace a downed server",
+            "is_correct": true
+          },
+          {
+            "option_text": "Forcing all users offline whenever a minor issue is detected",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "question_text": "Which is a direct advantage of container-based virtualization for resilience?",
+        "options": [
+          {
+            "option_text": "Containers can be quickly redeployed on healthy nodes when a server fails",
+            "is_correct": true
+          },
+          {
+            "option_text": "Containers require manual reinstallation for each crash event",
+            "is_correct": false
+          },
+          {
+            "option_text": "Containers always run identical OS kernels, preventing failover",
+            "is_correct": false
+          },
+          {
+            "option_text": "Containers have no mechanisms for scaling automatically",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "question_text": "Why might a company choose single-tenant over multi-tenant for its SaaS offering? (1 correct option)",
+        "options": [
+          {
+            "option_text": "They need more control and flexibility for each customer, with dedicated resources and higher security isolation",
+            "is_correct": true
+          },
+          {
+            "option_text": "They want to share the same database across thousands of users for easier updates",
+            "is_correct": false
+          },
+          {
+            "option_text": "They have no budget to run separate software instances for each user",
+            "is_correct": false
+          },
+          {
+            "option_text": "They do not plan to ever update the software after initial release",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "question_text": "Which statement accurately describes the difference between IaaS, PaaS, and SaaS? (1 correct option)",
+        "options": [
+          {
+            "option_text": "IaaS provides raw resources (e.g., servers), PaaS provides a platform to build applications, and SaaS provides fully developed software delivered to customers",
+            "is_correct": true
+          },
+          {
+            "option_text": "IaaS and PaaS are identical, while SaaS is a local desktop application",
+            "is_correct": false
+          },
+          {
+            "option_text": "SaaS is always cheaper than IaaS or PaaS, regardless of usage",
+            "is_correct": false
+          },
+          {
+            "option_text": "PaaS offers only database hosting, with no frameworks or services",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "question_text": "Which statement summarizes the key points in choosing a cloud platform? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Factors include cost, required service model (IaaS vs. PaaS vs. SaaS), scalability, resilience features, and customization needs",
+            "is_correct": true
+          },
+          {
+            "option_text": "Always choose a single cloud vendor’s basic free tier for all production scenarios",
+            "is_correct": false
+          },
+          {
+            "option_text": "Focus only on hardware specifications, ignoring security or reliability",
+            "is_correct": false
+          },
+          {
+            "option_text": "Ensure no containerization or virtualization is used to keep things simpler",
+            "is_correct": false
+          }
+        ]
+      }
+    ],
+    "true_false_questions": [
+      {
+        "id": 1,
+        "question_text": "Cloud-based software is typically deployed on remote, virtual servers that can be rented on-demand.",
+        "is_true": true
+      },
+      {
+        "id": 2,
+        "question_text": "Scalability refers to the ability of software to handle more users, while elasticity ensures the system can also reduce resources when demand drops.",
+        "is_true": true
+      },
+      {
+        "id": 3,
+        "question_text": "Resilience is the concept of having just one server available for reliability.",
+        "is_true": false
+      },
+      {
+        "id": 4,
+        "question_text": "Virtual machines (VMs) and containers are both forms of virtualization, but containers share a single OS kernel to be more lightweight.",
+        "is_true": true
+      },
+      {
+        "id": 5,
+        "question_text": "Dockerfiles are scripts that outline the configuration, packages, and environment needed to build a Docker image.",
+        "is_true": true
+      },
+      {
+        "id": 6,
+        "question_text": "IaaS (Infrastructure as a Service) provides complete out-of-the-box software to end-users, similar to Google Docs or Office 365.",
+        "is_true": false
+      },
+      {
+        "id": 7,
+        "question_text": "SaaS (Software as a Service) allows providers to maintain a single codebase with centralized updates, offering continuous deployment of new features.",
+        "is_true": true
+      },
+      {
+        "id": 8,
+        "question_text": "Single-tenant SaaS solutions generally require less hardware resources per customer, making them cheaper and simpler than multi-tenant architectures.",
+        "is_true": false
+      },
+      {
+        "id": 9,
+        "question_text": "Branding, business-specific logic, and extended user models are common customization approaches in SaaS.",
+        "is_true": true
+      },
+      {
+        "id": 10,
+        "question_text": "Database security in multi-tenant systems often uses encryption and access controls to protect each tenant’s data within a shared DB.",
+        "is_true": true
+      },
+      {
+        "id": 11,
+        "question_text": "Scalability can involve scaling-out (adding more servers) or scaling-up (increasing existing server capacity).",
+        "is_true": true
+      },
+      {
+        "id": 12,
+        "question_text": "Resilience strategies like redundant servers and standby systems reduce the impact of server crashes on application availability.",
+        "is_true": true
+      },
+      {
+        "id": 13,
+        "question_text": "Containers typically start and stop in seconds, making them ideal for responding rapidly to fluctuating cloud demands.",
+        "is_true": true
+      },
+      {
+        "id": 14,
+        "question_text": "Elasticity strictly deals with scaling up resources, ignoring the possibility of scaling down.",
+        "is_true": false
+      },
+      {
+        "id": 15,
+        "question_text": "Choosing a cloud platform often requires balancing cost, scalability, resilience, service models, and customization requirements.",
+        "is_true": true
+      }
+    ]
+  }
+  

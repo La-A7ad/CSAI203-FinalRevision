@@ -1,0 +1,1308 @@
+{
+    "lecture_id": "lecture2",
+    "lecture_title": "Web Basics",
+    "mcqs": [
+      {
+        "id": 1,
+        "question_text": "Which of the following are primary functions of DNS? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Resolving domain names to IP addresses",
+            "is_correct": true
+          },
+          {
+            "option_text": "Encrypting data packets for secure transmission",
+            "is_correct": false
+          },
+          {
+            "option_text": "Routing traffic to geographically closest servers (GeoDNS)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Performing user authentication",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_text": "What does a CDN (Content Delivery Network) do? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Replicates content globally to reduce latency",
+            "is_correct": true
+          },
+          {
+            "option_text": "Ensures secure encryption for all traffic",
+            "is_correct": false
+          },
+          {
+            "option_text": "Delivers content from the nearest server",
+            "is_correct": true
+          },
+          {
+            "option_text": "Develops custom domain names",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_text": "Which protocols and ports are typically used for web browsing? (2 correct options)",
+        "options": [
+          {
+            "option_text": "HTTP on port 80",
+            "is_correct": true
+          },
+          {
+            "option_text": "FTP on port 20",
+            "is_correct": false
+          },
+          {
+            "option_text": "HTTPS on port 443",
+            "is_correct": true
+          },
+          {
+            "option_text": "SSH on port 22",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_text": "Which statements describe the role of IP addresses in networking? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They provide a unique address for devices on a network",
+            "is_correct": true
+          },
+          {
+            "option_text": "They convert human-readable names to numerical codes",
+            "is_correct": false
+          },
+          {
+            "option_text": "They direct data packets to the correct device destination",
+            "is_correct": true
+          },
+          {
+            "option_text": "They allow for secure encryption of data during transit",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_text": "Which statements are true about HTTPS? (3 correct options)",
+        "options": [
+          {
+            "option_text": "It encrypts data between client and server",
+            "is_correct": true
+          },
+          {
+            "option_text": "It uses certificates (SSL/TLS) to establish secure connections",
+            "is_correct": true
+          },
+          {
+            "option_text": "It transmits data in plaintext over port 80",
+            "is_correct": false
+          },
+          {
+            "option_text": "It typically uses port 443 for encrypted traffic",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_text": "Which of the following are examples of browser storage mechanisms? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Cookies",
+            "is_correct": true
+          },
+          {
+            "option_text": "Local Storage",
+            "is_correct": true
+          },
+          {
+            "option_text": "SSH Keys",
+            "is_correct": false
+          },
+          {
+            "option_text": "Session Storage",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_text": "Which statements describe static websites? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They consist of HTML files that do not change unless edited by a developer",
+            "is_correct": true
+          },
+          {
+            "option_text": "They dynamically generate content on the server side",
+            "is_correct": false
+          },
+          {
+            "option_text": "They commonly use only HTML, CSS, and possibly some JavaScript",
+            "is_correct": true
+          },
+          {
+            "option_text": "They require a database for each page load",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question_text": "What is the primary purpose of GeoDNS? (1 correct option)",
+        "options": [
+          {
+            "option_text": "To encrypt all DNS requests",
+            "is_correct": false
+          },
+          {
+            "option_text": "To resolve domain names in different languages",
+            "is_correct": false
+          },
+          {
+            "option_text": "To route user requests to a server closest to their location",
+            "is_correct": true
+          },
+          {
+            "option_text": "To manage domain registrations",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question_text": "Which items are typical responsibilities of a web server like Apache or Nginx? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Logging and monitoring incoming requests",
+            "is_correct": true
+          },
+          {
+            "option_text": "Serving static or dynamic content to clients",
+            "is_correct": true
+          },
+          {
+            "option_text": "Running client-side JavaScript in the browser",
+            "is_correct": false
+          },
+          {
+            "option_text": "Ensuring data security (HTTPS) and handling certificates",
+            "is_correct": true
+          },
+          {
+            "option_text": "Compiling code from source on the client machine",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question_text": "Which of the following are best practices when deploying a web server? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Enable HTTPS/TLS certificates for secure connections",
+            "is_correct": true
+          },
+          {
+            "option_text": "Allow unrestricted access to all ports for simplicity",
+            "is_correct": false
+          },
+          {
+            "option_text": "Set up logging and monitoring for traffic analysis",
+            "is_correct": true
+          },
+          {
+            "option_text": "Use SSH for remote configuration and server access",
+            "is_correct": true
+          },
+          {
+            "option_text": "Rely exclusively on default usernames/passwords",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question_text": "Which scenarios would you use local storage rather than cookies? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Storing small, sensitive session tokens",
+            "is_correct": false
+          },
+          {
+            "option_text": "Saving larger amounts of data needed across many visits",
+            "is_correct": true
+          },
+          {
+            "option_text": "Storing short-term data that clears on tab close",
+            "is_correct": false
+          },
+          {
+            "option_text": "Preserving user preferences for a site over time",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question_text": "Which tasks are typically part of the backend in modern web development? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Database interactions (CRUD)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Creating RESTful or GraphQL APIs",
+            "is_correct": true
+          },
+          {
+            "option_text": "Handling DNS name resolution",
+            "is_correct": false
+          },
+          {
+            "option_text": "Server-side user authentication",
+            "is_correct": true
+          },
+          {
+            "option_text": "Rendering the final HTML in the browser",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question_text": "Which of the following steps are usually involved in deploying a web server? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Choose a hosting type (Shared, VPS, Dedicated, Cloud)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Write all frontend code in assembly",
+            "is_correct": false
+          },
+          {
+            "option_text": "Install prerequisites (like PHP, Nginx, etc.)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Upload or clone your application code",
+            "is_correct": true
+          },
+          {
+            "option_text": "Use DNS to map IP addresses to MAC addresses",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question_text": "Which statements describe session storage? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Data persists even after the browser is closed",
+            "is_correct": false
+          },
+          {
+            "option_text": "Data is cleared when the tab or window is closed",
+            "is_correct": true
+          },
+          {
+            "option_text": "It's typically used for permanent authentication tokens",
+            "is_correct": false
+          },
+          {
+            "option_text": "It's useful for temporarily holding form data",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question_text": "What are key components of a modern 'full stack' web application? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Database or data storage layer",
+            "is_correct": true
+          },
+          {
+            "option_text": "Front-end (HTML, CSS, JavaScript)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Remote hardware debugging circuit",
+            "is_correct": false
+          },
+          {
+            "option_text": "Backend (server-side logic and APIs)",
+            "is_correct": true
+          },
+          {
+            "option_text": "In-browser CPU virtualization",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question_text": "Which of these hosting options typically provides the most control over server configuration? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Shared Hosting",
+            "is_correct": false
+          },
+          {
+            "option_text": "VPS (Virtual Private Server)",
+            "is_correct": false
+          },
+          {
+            "option_text": "Cloud Hosting",
+            "is_correct": false
+          },
+          {
+            "option_text": "Dedicated Server",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question_text": "Which statements accurately describe HTTP? (3 correct options)",
+        "options": [
+          {
+            "option_text": "It's a request-response protocol used by web browsers and servers",
+            "is_correct": true
+          },
+          {
+            "option_text": "It inherently encrypts all traffic by default",
+            "is_correct": false
+          },
+          {
+            "option_text": "It can carry different data formats (HTML, JSON, binary, etc.)",
+            "is_correct": true
+          },
+          {
+            "option_text": "It is stateless, meaning each request is independent",
+            "is_correct": true
+          },
+          {
+            "option_text": "It only supports GET requests",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question_text": "Which of the following best describe the difference between front-end and back-end? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Front-end focuses on user-facing content rendered in the browser",
+            "is_correct": true
+          },
+          {
+            "option_text": "Back-end focuses on logic, data storage, and server-side processing",
+            "is_correct": true
+          },
+          {
+            "option_text": "Back-end strictly deals with DNS resolution",
+            "is_correct": false
+          },
+          {
+            "option_text": "Front-end can only be written in HTML",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_text": "Which steps are commonly taken to secure a web server? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Configuring HTTPS with a valid SSL/TLS certificate",
+            "is_correct": true
+          },
+          {
+            "option_text": "Making all server logs publicly accessible",
+            "is_correct": false
+          },
+          {
+            "option_text": "Limiting open ports and using firewalls",
+            "is_correct": true
+          },
+          {
+            "option_text": "Disabling SSH access entirely",
+            "is_correct": false
+          },
+          {
+            "option_text": "Keeping software packages up-to-date",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question_text": "Which statements are true about OAuth and JWT in web applications? (2 correct options)",
+        "options": [
+          {
+            "option_text": "OAuth allows users to log in via third-party providers (e.g., Google, Facebook)",
+            "is_correct": true
+          },
+          {
+            "option_text": "JWT is typically used to store large files for client download",
+            "is_correct": false
+          },
+          {
+            "option_text": "JWT provides a compact way to send authenticated user data in APIs",
+            "is_correct": true
+          },
+          {
+            "option_text": "OAuth is used only for browser local storage",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_text": "Which hosting approach is known for 'pay-as-you-go' scalability? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Shared Hosting",
+            "is_correct": false
+          },
+          {
+            "option_text": "Dedicated Hosting",
+            "is_correct": false
+          },
+          {
+            "option_text": "Cloud Hosting",
+            "is_correct": true
+          },
+          {
+            "option_text": "Local hosting on a personal computer",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question_text": "What distinguishes static websites from dynamic ones? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Static websites rarely change unless modified by developers",
+            "is_correct": true
+          },
+          {
+            "option_text": "Dynamic sites often use server-side scripts and databases",
+            "is_correct": true
+          },
+          {
+            "option_text": "Static sites always require user authentication",
+            "is_correct": false
+          },
+          {
+            "option_text": "Dynamic sites never include JavaScript",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question_text": "Which of the following steps typically occur when you type a URL in your browser and hit Enter? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Browser checks its cache or DNS resolver for the IP address",
+            "is_correct": true
+          },
+          {
+            "option_text": "Browser sends a request to the server on the relevant port (e.g., 80 or 443)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Server compiles the entire operating system kernel",
+            "is_correct": false
+          },
+          {
+            "option_text": "Server sends a response (HTML, JSON, etc.) back to the browser",
+            "is_correct": true
+          },
+          {
+            "option_text": "Browser must always prompt for a username/password first",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question_text": "Which are reasons to enable HTTPS on your website? (2 correct options)",
+        "options": [
+          {
+            "option_text": "To prevent data from being transmitted in clear text",
+            "is_correct": true
+          },
+          {
+            "option_text": "To speed up DNS name resolution",
+            "is_correct": false
+          },
+          {
+            "option_text": "To provide trust via SSL/TLS certificates",
+            "is_correct": true
+          },
+          {
+            "option_text": "To eliminate the need for a server",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question_text": "Which statements accurately describe cookies? (3 correct options)",
+        "options": [
+          {
+            "option_text": "They are often used for storing login tokens and user session info",
+            "is_correct": true
+          },
+          {
+            "option_text": "They are restricted to storing at most a few kilobytes",
+            "is_correct": true
+          },
+          {
+            "option_text": "They are cleared automatically when the browser tab closes",
+            "is_correct": false
+          },
+          {
+            "option_text": "They can persist across browser sessions until they expire or are deleted",
+            "is_correct": true
+          },
+          {
+            "option_text": "They cannot be used for authentication data",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "question_text": "Which is an example of using OAuth in a web application? (1 correct option)",
+        "options": [
+          {
+            "option_text": "User logs in to your site using Google credentials",
+            "is_correct": true
+          },
+          {
+            "option_text": "User manually sends an IP address to your DNS server",
+            "is_correct": false
+          },
+          {
+            "option_text": "Server checks localStorage for SSL certificates",
+            "is_correct": false
+          },
+          {
+            "option_text": "Client sends unencrypted password to the server",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "question_text": "Which of these are valid ways to access or upload files to a remote server? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Using SSH to securely manage files on a Linux VPS",
+            "is_correct": true
+          },
+          {
+            "option_text": "Using HTTP to manually run shell commands",
+            "is_correct": false
+          },
+          {
+            "option_text": "Using SFTP or FTP to transfer local files to the server",
+            "is_correct": true
+          },
+          {
+            "option_text": "Using domain name to generate random code files",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "question_text": "Which examples reflect best practices for server logs? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Storing logs securely (not publicly available)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Analyzing logs for security incidents and performance data",
+            "is_correct": true
+          },
+          {
+            "option_text": "Deleting logs in real-time to save disk space",
+            "is_correct": false
+          },
+          {
+            "option_text": "Archiving older logs for auditing and compliance",
+            "is_correct": true
+          },
+          {
+            "option_text": "Appending logs to the browser local storage",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "question_text": "Which statements correctly describe how DNS works? (2 correct options)",
+        "options": [
+          {
+            "option_text": "It translates domain names to IP addresses",
+            "is_correct": true
+          },
+          {
+            "option_text": "It only serves websites located in the same country",
+            "is_correct": false
+          },
+          {
+            "option_text": "It can route users to different servers based on geographic location",
+            "is_correct": true
+          },
+          {
+            "option_text": "It encrypts all web traffic end-to-end",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "question_text": "Which steps are commonly involved in setting up HTTPS for a website? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Generating or obtaining an SSL/TLS certificate",
+            "is_correct": true
+          },
+          {
+            "option_text": "Configuring the web server (Nginx, Apache) to use the certificate",
+            "is_correct": true
+          },
+          {
+            "option_text": "Disabling all DNS records",
+            "is_correct": false
+          },
+          {
+            "option_text": "Redirecting HTTP (port 80) to HTTPS (port 443)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Replacing the server's IP address with the certificate text",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "question_text": "Which of these are typical use cases for session storage? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Remembering a multi-step form across tabs for weeks",
+            "is_correct": false
+          },
+          {
+            "option_text": "Temporarily storing unsaved changes for a single browser tab",
+            "is_correct": true
+          },
+          {
+            "option_text": "Keeping user login tokens for persistent sign-in",
+            "is_correct": false
+          },
+          {
+            "option_text": "Managing ephemeral data that resets when the tab closes",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "question_text": "Which of these are main goals for deploying a web server? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Making your website or API accessible publicly or privately",
+            "is_correct": true
+          },
+          {
+            "option_text": "Replacing user operating systems with a Linux distro",
+            "is_correct": false
+          },
+          {
+            "option_text": "Configuring a server to respond to HTTP/HTTPS requests",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminating the need for domains or DNS",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "question_text": "Which statements best describe the difference between 'authentication' and 'authorization'? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Authentication verifies a user's identity",
+            "is_correct": true
+          },
+          {
+            "option_text": "Authorization determines what resources a user can access",
+            "is_correct": true
+          },
+          {
+            "option_text": "Authentication always grants access to every resource",
+            "is_correct": false
+          },
+          {
+            "option_text": "Authorization replaces DNS routing",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "question_text": "Which are potential benefits of using a CDN? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Decreased page load times due to closer edge servers",
+            "is_correct": true
+          },
+          {
+            "option_text": "Automatic encryption without certificates",
+            "is_correct": false
+          },
+          {
+            "option_text": "Reduced server load on your origin server",
+            "is_correct": true
+          },
+          {
+            "option_text": "Improved availability if one node fails",
+            "is_correct": true
+          },
+          {
+            "option_text": "Replacing the need for DNS",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "question_text": "Which statements are correct about deploying to a VPS (Virtual Private Server)? (2 correct options)",
+        "options": [
+          {
+            "option_text": "You have root (or sudo) access to configure the environment",
+            "is_correct": true
+          },
+          {
+            "option_text": "You share the exact same operating system instance with hundreds of users",
+            "is_correct": false
+          },
+          {
+            "option_text": "It provides more control than shared hosting but less than a dedicated server",
+            "is_correct": true
+          },
+          {
+            "option_text": "All software updates are automatically handled by the hosting provider",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "question_text": "Which are common technologies for building a dynamic backend? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Node.js",
+            "is_correct": true
+          },
+          {
+            "option_text": "Python (Flask, Django)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Nginx (as a standalone back-end language)",
+            "is_correct": false
+          },
+          {
+            "option_text": "Ruby on Rails",
+            "is_correct": true
+          },
+          {
+            "option_text": "DNS over HTTPS (DoH)",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "question_text": "Which of the following are typical front-end technologies? (3 correct options)",
+        "options": [
+          {
+            "option_text": "HTML",
+            "is_correct": true
+          },
+          {
+            "option_text": "CSS",
+            "is_correct": true
+          },
+          {
+            "option_text": "Browser-based JavaScript",
+            "is_correct": true
+          },
+          {
+            "option_text": "SQLite",
+            "is_correct": false
+          },
+          {
+            "option_text": "Linux kernel modules",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "question_text": "Which statements accurately characterize cookies vs. local storage? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Cookies are automatically included in server requests (if not blocked)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Local storage data is typically larger in capacity than cookies",
+            "is_correct": true
+          },
+          {
+            "option_text": "Cookies remain after the browser is closed, while local storage is always cleared",
+            "is_correct": false
+          },
+          {
+            "option_text": "Local storage data can never persist between sessions",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "question_text": "Which tasks might a developer perform when deploying a web server on cloud hosting? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Provision a virtual machine or container instance",
+            "is_correct": true
+          },
+          {
+            "option_text": "Use SSH to install software packages (e.g., Node.js, MySQL)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Rely on the cloud provider to exclusively handle domain name purchasing",
+            "is_correct": false
+          },
+          {
+            "option_text": "Configure load balancers or auto-scaling policies",
+            "is_correct": true
+          },
+          {
+            "option_text": "Change localStorage data for every user automatically",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "question_text": "Which best describes the primary role of the front-end in web applications? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Handling server configuration and security patches",
+            "is_correct": false
+          },
+          {
+            "option_text": "Providing the user interface and interactive elements in the browser",
+            "is_correct": true
+          },
+          {
+            "option_text": "Managing database schemas and queries",
+            "is_correct": false
+          },
+          {
+            "option_text": "Encrypting requests via SSL/TLS certificates",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "question_text": "Which statements best describe the 'World Wide Web'? (2 correct options)",
+        "options": [
+          {
+            "option_text": "A global system of interconnected devices and servers that primarily uses HTTP/HTTPS",
+            "is_correct": true
+          },
+          {
+            "option_text": "A fully local network that never communicates beyond a single router",
+            "is_correct": false
+          },
+          {
+            "option_text": "A concept that includes websites, web protocols, and browsers as clients",
+            "is_correct": true
+          },
+          {
+            "option_text": "A protocol solely for transferring email between mail servers",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "question_text": "Which HTTP methods are most commonly used in RESTful APIs? (3 correct options)",
+        "options": [
+          { "option_text": "GET", "is_correct": true },
+          { "option_text": "DELETE", "is_correct": true },
+          { "option_text": "POST", "is_correct": true },
+          { "option_text": "RESOLVE", "is_correct": false },
+          { "option_text": "COPY", "is_correct": false }
+        ]
+      },
+      {
+        "id": 43,
+        "question_text": "Which of the following DNS record types are commonly used for domain resolution? (3 correct options)",
+        "options": [
+          { "option_text": "A (IPv4 address mapping)", "is_correct": true },
+          { "option_text": "CNAME (Alias to another domain name)", "is_correct": true },
+          { "option_text": "AAAA (IPv6 address mapping)", "is_correct": true },
+          { "option_text": "DHCP (Dynamic Host Configuration Protocol)", "is_correct": false },
+          { "option_text": "LAN (Local Area Network)", "is_correct": false }
+        ]
+      },
+      {
+        "id": 44,
+        "question_text": "Which command would connect you via SSH to a server with username 'ubuntu' at IP 203.0.113.10 on the default SSH port? (1 correct option)",
+        "options": [
+          { "option_text": "ssh ubuntu@203.0.113.10", "is_correct": true },
+          { "option_text": "ssh -p 80 ubuntu@203.0.113.10", "is_correct": false },
+          { "option_text": "curl ubuntu@203.0.113.10", "is_correct": false },
+          { "option_text": "scp ubuntu@203.0.113.10", "is_correct": false }
+        ]
+      },
+      {
+        "id": 45,
+        "question_text": "Which are examples or benefits of using AJAX for dynamic website interactions? (2 correct options)",
+        "options": [
+          {
+            "option_text": "It allows partial page updates without reloading the entire page",
+            "is_correct": true
+          },
+          {
+            "option_text": "It absolutely never requires server-side code",
+            "is_correct": false
+          },
+          {
+            "option_text": "It can send and receive data asynchronously in the background",
+            "is_correct": true
+          },
+          {
+            "option_text": "It only works for static HTML websites without any scripting",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "question_text": "What is the difference between HTTP PUT and PATCH methods in REST APIs? (2 correct options)",
+        "options": [
+          {
+            "option_text": "PUT typically replaces the entire resource with a new state",
+            "is_correct": true
+          },
+          {
+            "option_text": "PATCH modifies only specified fields, leaving other parts unchanged",
+            "is_correct": true
+          },
+          {
+            "option_text": "PUT is primarily used for partial updates only",
+            "is_correct": false
+          },
+          {
+            "option_text": "PATCH always deletes the resource before applying new data",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "question_text": "Which statements about CDN security or usage are correct? (2 correct options)",
+        "options": [
+          {
+            "option_text": "A CDN can improve performance by caching content at edge locations",
+            "is_correct": true
+          },
+          {
+            "option_text": "A CDN completely replaces the need for an origin server",
+            "is_correct": false
+          },
+          {
+            "option_text": "A CDN can help mitigate DDoS attacks by distributing traffic",
+            "is_correct": true
+          },
+          {
+            "option_text": "A CDN automatically encrypts all traffic without HTTPS",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "question_text": "How are web server logs typically used for troubleshooting or analysis? (3 correct options)",
+        "options": [
+          {
+            "option_text": "They can be archived or rotated regularly to manage disk space",
+            "is_correct": true
+          },
+          {
+            "option_text": "They are publicly accessible by default for user transparency",
+            "is_correct": false
+          },
+          {
+            "option_text": "They can be parsed by tools to detect errors or security threats",
+            "is_correct": true
+          },
+          {
+            "option_text": "They are never useful for diagnosing complex issues",
+            "is_correct": false
+          },
+          {
+            "option_text": "They can be aggregated across servers for centralized monitoring",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "question_text": "Which statement about UML class diagram multiplicities is correct? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A multiplicity of '1..*' indicates that one instance of a class is associated with many instances of another class, at least one and potentially many.",
+            "is_correct": true
+          },
+          {
+            "option_text": "A multiplicity of '0..1' means at least one instance must always exist on both sides.",
+            "is_correct": false
+          },
+          {
+            "option_text": "'1..1' is invalid syntax in UML for specifying an exact count of one object.",
+            "is_correct": false
+          },
+          {
+            "option_text": "'*..*' means no objects can ever be linked together in the model.",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "question_text": "Which actor might be present in a TMS (Traffic Management System) use case to handle accident reporting? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Traffic Manager, who oversees and responds to real-time accident notifications",
+            "is_correct": true
+          },
+          {
+            "option_text": "AccidentDatabase, an external system providing historical accident data",
+            "is_correct": true
+          },
+          {
+            "option_text": "Traffic Light Hardware, which is part of the same subsystem and not modeled as an actor",
+            "is_correct": false
+          },
+          {
+            "option_text": "Operating System, which is inherently the environment, not an external user",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "question_text": "Which of the following might be considered an 'edge case' in TMS operation? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Multiple accidents occurring at the exact same intersection within a 1-minute window",
+            "is_correct": true
+          },
+          {
+            "option_text": "Normal flow of traffic during morning rush hour",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single accident on a lightly used rural road",
+            "is_correct": false
+          },
+          {
+            "option_text": "Changing signal lights from red to green at 60-second intervals",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "question_text": "In the University Library System UML, which detail best demonstrates multiplicity in a class diagram for book borrowing? (2 correct options)",
+        "options": [
+          {
+            "option_text": "A 'Student' class can be associated with '0..*' borrowed items",
+            "is_correct": true
+          },
+          {
+            "option_text": "A 'Journal' class must always have exactly '1..1' ISSN attribute",
+            "is_correct": false
+          },
+          {
+            "option_text": "A 'Book' class shows each instance can be borrowed by '0..1' student at a time",
+            "is_correct": true
+          },
+          {
+            "option_text": "A 'Librarian' actor with no indicated relationships in the diagram",
+            "is_correct": false
+          }
+        ]
+      }
+      
+      
+      
+    ],
+    "true_false_questions": [
+      {
+        "id": 1,
+        "question_text": "DNS can direct users to different servers based on their geographic location (GeoDNS).",
+        "is_true": true
+      },
+      {
+        "id": 2,
+        "question_text": "HTTPS transmits data unencrypted over port 443.",
+        "is_true": false
+      },
+      {
+        "id": 3,
+        "question_text": "HTTP is a stateless request-response protocol.",
+        "is_true": true
+      },
+      {
+        "id": 4,
+        "question_text": "Cookies are commonly used to store user sessions or login tokens across different visits.",
+        "is_true": true
+      },
+      {
+        "id": 5,
+        "question_text": "A web server like Apache or Nginx can serve only static HTML files and nothing else.",
+        "is_true": false
+      },
+      {
+        "id": 6,
+        "question_text": "Local Storage data remains even after the browser is closed, until it’s cleared or overwritten.",
+        "is_true": true
+      },
+      {
+        "id": 7,
+        "question_text": "A CDN always replaces the need for an origin server.",
+        "is_true": false
+      },
+      {
+        "id": 8,
+        "question_text": "Session Storage is automatically cleared when the browser tab or window is closed.",
+        "is_true": true
+      },
+      {
+        "id": 9,
+        "question_text": "OAuth allows users to sign in using existing accounts from providers like Google or Facebook.",
+        "is_true": true
+      },
+      {
+        "id": 10,
+        "question_text": "DNS translates human-readable domain names into IP addresses.",
+        "is_true": true
+      },
+      {
+        "id": 11,
+        "question_text": "A Dedicated Server offers more control and resources than shared hosting.",
+        "is_true": true
+      },
+      {
+        "id": 12,
+        "question_text": "Static websites require a database to generate content dynamically.",
+        "is_true": false
+      },
+      {
+        "id": 13,
+        "question_text": "HTTPS uses SSL/TLS certificates to encrypt communication between client and server.",
+        "is_true": true
+      },
+      {
+        "id": 14,
+        "question_text": "GeoDNS is irrelevant for improving performance and latency.",
+        "is_true": false
+      },
+      {
+        "id": 15,
+        "question_text": "JWT (JSON Web Token) is a common way to securely pass user data in web APIs.",
+        "is_true": true
+      },
+      {
+        "id": 16,
+        "question_text": "Cloud Hosting typically offers a pay-as-you-go or on-demand billing model.",
+        "is_true": true
+      },
+      {
+        "id": 17,
+        "question_text": "VPS hosting shares the same OS instance with all users, giving minimal control.",
+        "is_true": false
+      },
+      {
+        "id": 18,
+        "question_text": "Dynamic websites can change content based on database queries and user interactions.",
+        "is_true": true
+      },
+      {
+        "id": 19,
+        "question_text": "Web server logs are never useful for debugging or security auditing.",
+        "is_true": false
+      },
+      {
+        "id": 20,
+        "question_text": "Browser session storage is ideal for data that needs to be permanently preserved after the tab closes.",
+        "is_true": false
+      },
+      {
+        "id": 21,
+        "question_text": "The World Wide Web refers to a globally connected network of devices and servers communicating primarily over HTTP or HTTPS.",
+        "is_true": true
+      },
+      {
+        "id": 22,
+        "question_text": "HTTP GET is typically used to retrieve data, while HTTP POST is often used to submit or send data to the server.",
+        "is_true": true
+      },
+      {
+        "id": 16,
+        "question_text": "Handling multiple simultaneous accidents within the same area is an example of an edge case requirement for the TMS.",
+        "is_true": true
+      },
+      {
+        "id": 17,
+        "question_text": "In the library system UML example, each Book can be associated with exactly one Student at a time (i.e., one borrower), reflecting a multiplicity of 0..1 from Student to Book.",
+        "is_true": true
+      }
+      
+      
+    ]
+  }
+  

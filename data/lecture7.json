@@ -1,0 +1,3007 @@
+{
+    "lecture_id": "lecture7",
+    "lecture_title": "Microservices",
+    "mcqs": [
+      {
+        "id": 1,
+        "question_text": "Which statement best describes the microservices architectural style? (1 correct option)",
+        "options": [
+          {
+            "option_text": "An approach where software is composed of small, independent services that each handle a specific responsibility",
+            "is_correct": true
+          },
+          {
+            "option_text": "A single large codebase with tightly coupled modules",
+            "is_correct": false
+          },
+          {
+            "option_text": "A pattern that forbids using multiple programming languages in one application",
+            "is_correct": false
+          },
+          {
+            "option_text": "An outdated alternative to monolithic architecture that is rarely used in cloud setups",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_text": "Which factors typically motivate transitioning from a monolithic system to a microservices architecture? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Scalability: the ability to scale individual components independently",
+            "is_correct": true
+          },
+          {
+            "option_text": "Fault isolation: an issue in one service won’t necessarily crash the entire system",
+            "is_correct": true
+          },
+          {
+            "option_text": "Enabling different teams to use diverse technology stacks and maintain autonomy",
+            "is_correct": true
+          },
+          {
+            "option_text": "Desire to keep a uniform technology stack for all features",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_text": "How did Uber’s example highlight the value of microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "They moved away from a monolith to handle growth, enabling better reliability and scalability",
+            "is_correct": true
+          },
+          {
+            "option_text": "They switched to a single codebase that combined all features in one large binary",
+            "is_correct": false
+          },
+          {
+            "option_text": "They restricted their architecture to Python-only modules",
+            "is_correct": false
+          },
+          {
+            "option_text": "They found no improvements in performance or maintenance",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_text": "Which statements accurately describe microservices? (3 correct options)",
+        "options": [
+          {
+            "option_text": "They are small, self-contained services with a single responsibility",
+            "is_correct": true
+          },
+          {
+            "option_text": "They often share a single, large database with tightly coupled tables",
+            "is_correct": false
+          },
+          {
+            "option_text": "They can each have their own data storage and UI logic",
+            "is_correct": true
+          },
+          {
+            "option_text": "They communicate via lightweight protocols or messages",
+            "is_correct": true
+          },
+          {
+            "option_text": "They must always be deployed as part of one big monolithic image",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_text": "Which attributes distinguish monolithic architectures from microservices architectures? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Monolithic: single codebase with interdependent components; Microservices: decoupled services with independent deployments",
+            "is_correct": true
+          },
+          {
+            "option_text": "Monolithic: can scale each component independently; Microservices: must scale the entire application at once",
+            "is_correct": false
+          },
+          {
+            "option_text": "Monolithic: simpler to start with; Microservices: more complex to manage but offers better fault isolation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Monolithic: uses separate databases for each component; Microservices: share one database",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_text": "What does 'stateless by design' imply for a service? (1 correct option)",
+        "options": [
+          {
+            "option_text": "The service does not store session-specific data internally, relying on external data stores or the client to hold state information",
+            "is_correct": true
+          },
+          {
+            "option_text": "The service is incapable of remembering any configuration settings whatsoever",
+            "is_correct": false
+          },
+          {
+            "option_text": "The service caches all data in memory for quick retrieval across user sessions",
+            "is_correct": false
+          },
+          {
+            "option_text": "The service is only deployed in on-premise data centers",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_text": "Which is a core characteristic of microservices architecture regarding communication and data? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Each service can manage its own database, reducing global coupling over data structures",
+            "is_correct": true
+          },
+          {
+            "option_text": "All services must share a single database to ensure data consistency",
+            "is_correct": false
+          },
+          {
+            "option_text": "Services must always store their state in local memory for performance",
+            "is_correct": false
+          },
+          {
+            "option_text": "Services cannot operate independently without direct server-level communication",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question_text": "What is the best definition of 'high cohesion' within a service? (1 correct option)",
+        "options": [
+          {
+            "option_text": "All functionality related to that service’s responsibility is included within it, minimizing reliance on external components",
+            "is_correct": true
+          },
+          {
+            "option_text": "Having a single method that handles all operations for multiple domains",
+            "is_correct": false
+          },
+          {
+            "option_text": "Splitting closely related operations across multiple microservices",
+            "is_correct": false
+          },
+          {
+            "option_text": "Frequently adding random features unrelated to the core domain",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question_text": "Which statement best reflects the principle of 'low coupling' among microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Services should minimize interdependencies so changes in one service do not force changes in another",
+            "is_correct": true
+          },
+          {
+            "option_text": "All microservices must be updated simultaneously during each release",
+            "is_correct": false
+          },
+          {
+            "option_text": "All microservices share the same data schema to ensure uniformity",
+            "is_correct": false
+          },
+          {
+            "option_text": "Each service must tightly coordinate user authentication logic",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question_text": "Which are benefits of microservices architecture? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Fault isolation: a failure in one service might not crash the entire system",
+            "is_correct": true
+          },
+          {
+            "option_text": "Each service can scale independently, adding replicas only where needed",
+            "is_correct": true
+          },
+          {
+            "option_text": "Flexible technology choices (e.g., different languages or databases per service)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Debugging and testing are simpler than in monoliths, with no extra overhead",
+            "is_correct": false
+          },
+          {
+            "option_text": "Mandatory deployment of all services in a single container",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question_text": "What role does an API Gateway play in a microservices architecture? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It routes client requests to appropriate microservices, handles authentication, caching, and sometimes request aggregation",
+            "is_correct": true
+          },
+          {
+            "option_text": "It merges all microservices into a monolithic codebase",
+            "is_correct": false
+          },
+          {
+            "option_text": "It stores the entire state of all microservices in local memory",
+            "is_correct": false
+          },
+          {
+            "option_text": "It replaces the need for microservices to communicate directly with each other",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question_text": "Which of the following might an API Gateway handle for microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Routing requests to the correct service based on URL paths",
+            "is_correct": true
+          },
+          {
+            "option_text": "Embedding each service's logic into the gateway to simplify management",
+            "is_correct": false
+          },
+          {
+            "option_text": "Caching responses to reduce load on the underlying services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Physically hosting the database for every service",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question_text": "Which guideline reflects good microservice decomposition practices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Align services with business capabilities, grouping related functions together",
+            "is_correct": true
+          },
+          {
+            "option_text": "Make each service extremely granular, even if it only does a single database query",
+            "is_correct": false
+          },
+          {
+            "option_text": "Follow the common closure principle: group components likely to change together",
+            "is_correct": true
+          },
+          {
+            "option_text": "Combine unrelated features to reduce the total number of services",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question_text": "Which statements describe microservice communication styles? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Synchronous calls: a service requests data and waits for an immediate response (e.g., HTTP requests)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Asynchronous calls: a service sends a message and proceeds without waiting, possibly using queues or brokers",
+            "is_correct": true
+          },
+          {
+            "option_text": "All microservices must use only synchronous calls for consistency",
+            "is_correct": false
+          },
+          {
+            "option_text": "Direct calls: one service calls another directly (e.g., REST). Indirect: a service sends events to a broker (e.g., Kafka).",
+            "is_correct": true
+          },
+          {
+            "option_text": "Parallel calls: multiple services merge into a single code block at runtime",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question_text": "What is 'eventual consistency' in microservice data design? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A model where separate data replicas sync asynchronously, and over time they converge to the same data state",
+            "is_correct": true
+          },
+          {
+            "option_text": "Ensuring all services immediately share the same global ACID database",
+            "is_correct": false
+          },
+          {
+            "option_text": "Banning any form of data replication or caching",
+            "is_correct": false
+          },
+          {
+            "option_text": "Mandating that all writes are broadcast synchronously to every service in real time",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question_text": "Which advantage(s) does data isolation provide in microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Reduces coupling because each service can change its database schema without affecting others",
+            "is_correct": true
+          },
+          {
+            "option_text": "Requires an additional global transaction manager to coordinate all writes",
+            "is_correct": false
+          },
+          {
+            "option_text": "Mitigates cascading failures if one service’s data becomes corrupt",
+            "is_correct": true
+          },
+          {
+            "option_text": "Guarantees all services always share the same data model",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question_text": "What is a key difference between orchestration and choreography in microservices workflows? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Orchestration uses a central coordinator controlling the workflow, while choreography relies on each service reacting to events without a central controller",
+            "is_correct": true
+          },
+          {
+            "option_text": "Orchestration is used only in monolithic systems; choreography is for microservices",
+            "is_correct": false
+          },
+          {
+            "option_text": "Choreography requires a single service to call all others in a strict sequence",
+            "is_correct": false
+          },
+          {
+            "option_text": "They are synonyms describing the same approach to microservice communication",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question_text": "Which of the following are typical failure types a microservice must handle? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Internal service errors due to code or data validation",
+            "is_correct": true
+          },
+          {
+            "option_text": "External connectivity issues (e.g., timeouts or DNS failures)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Performance bottlenecks causing degraded response times",
+            "is_correct": true
+          },
+          {
+            "option_text": "Service shutting down gracefully after a successful operation",
+            "is_correct": false
+          },
+          {
+            "option_text": "Replacement of all microservices with a single mainframe process",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_text": "Which best describes the concept of a 'circuit breaker' in microservices?",
+        "options": [
+          {
+            "option_text": "A mechanism that stops calls to a failing or slow service to prevent cascading failures",
+            "is_correct": true
+          },
+          {
+            "option_text": "A process to combine multiple requests into a single large batch",
+            "is_correct": false
+          },
+          {
+            "option_text": "A physical device required for powering data centers",
+            "is_correct": false
+          },
+          {
+            "option_text": "A method to unify all data in a single, shared repository",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question_text": "Which is a typical usage of timeouts in microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Define how long a service waits for a response before treating the call as failed",
+            "is_correct": true
+          },
+          {
+            "option_text": "Ensure that no requests can be canceled once started",
+            "is_correct": false
+          },
+          {
+            "option_text": "Allow indefinite waiting for a slow service response",
+            "is_correct": false
+          },
+          {
+            "option_text": "Disable performance monitoring within each service",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_text": "Which of the following are RESTful principles mentioned in the lecture? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Stateless communication: each request from the client must contain all necessary information",
+            "is_correct": true
+          },
+          {
+            "option_text": "Uniform resource identifiers (URIs) to address resources",
+            "is_correct": true
+          },
+          {
+            "option_text": "HTTP methods like GET, POST, PUT, DELETE to manipulate resources",
+            "is_correct": true
+          },
+          {
+            "option_text": "Maintaining all user session state on the server side for convenience",
+            "is_correct": false
+          },
+          {
+            "option_text": "Requiring the use of SOAP-based protocols for all requests",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question_text": "Which scenario best demonstrates 'URI-addressable resources' in a RESTful microservice? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Each item in an inventory is identified by a unique path like /inventory/items/1234",
+            "is_correct": true
+          },
+          {
+            "option_text": "Only one endpoint, /api/doEverything, handles all requests",
+            "is_correct": false
+          },
+          {
+            "option_text": "The system only uses UI-based access without distinct resource paths",
+            "is_correct": false
+          },
+          {
+            "option_text": "Multiple resources share the exact same URI for convenience",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question_text": "In RESTful design, what data formats are commonly used for request/response bodies? (2 correct options)",
+        "options": [
+          {
+            "option_text": "JSON (JavaScript Object Notation)",
+            "is_correct": true
+          },
+          {
+            "option_text": "XML (Extensible Markup Language)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Binary-coded decimals only",
+            "is_correct": false
+          },
+          {
+            "option_text": "Plain unstructured text with no schema",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question_text": "Which statement describes 'continuous deployment' in microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Automatically building, testing, and deploying service updates, often multiple times a day, without manual intervention",
+            "is_correct": true
+          },
+          {
+            "option_text": "Testing each service once a year before a major release",
+            "is_correct": false
+          },
+          {
+            "option_text": "Waiting for all services to be finalized before any production push",
+            "is_correct": false
+          },
+          {
+            "option_text": "Having a single pipeline that merges all microservice codebases into one binary",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question_text": "Which challenges arise in microservice deployment? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Managing diverse technologies, configurations, and versions across multiple services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Needing only one deployment pipeline for all services, no matter how large the system",
+            "is_correct": false
+          },
+          {
+            "option_text": "Increased complexity ensuring each service is tested and validated independently",
+            "is_correct": true
+          },
+          {
+            "option_text": "Restricting developers from using any DevOps tools or automation",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "question_text": "Which best practice helps ensure robust microservice deployment? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Use separate pipelines for each service, with automated testing at each stage",
+            "is_correct": true
+          },
+          {
+            "option_text": "Merge all code into one repository and do a single global test pass",
+            "is_correct": false
+          },
+          {
+            "option_text": "Rely on ad-hoc manual deployments to detect issues quickly",
+            "is_correct": false
+          },
+          {
+            "option_text": "Disable environment-specific configurations for simplicity",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "question_text": "Which scenario might indicate an application is poorly suited for microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A small, tightly coupled application with limited scalability requirements, where the overhead of multiple services does not justify the complexity",
+            "is_correct": true
+          },
+          {
+            "option_text": "A large-scale e-commerce system requiring independent scaling of search, cart, and payment services",
+            "is_correct": false
+          },
+          {
+            "option_text": "A high-traffic social media site needing resilience and partial updates",
+            "is_correct": false
+          },
+          {
+            "option_text": "A global travel booking platform with many independent domain services (flights, hotels, payments)",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "question_text": "Why might a microservice architecture include both orchestration and choreography approaches? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Some workflows need centralized control, while others benefit from decentralized event-based coordination",
+            "is_correct": true
+          },
+          {
+            "option_text": "They are contradictory patterns that cannot coexist",
+            "is_correct": false
+          },
+          {
+            "option_text": "Choreography is only used for small, local test environments",
+            "is_correct": false
+          },
+          {
+            "option_text": "Orchestration never scales beyond a single node",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "question_text": "How do microservices typically handle user interface (UI) logic? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Each service can provide its own UI or an API consumed by front-ends, enabling independent updates",
+            "is_correct": true
+          },
+          {
+            "option_text": "All UI code is strictly embedded in a single monolithic front-end tier",
+            "is_correct": false
+          },
+          {
+            "option_text": "Microservices are forbidden from exposing any UI endpoints",
+            "is_correct": false
+          },
+          {
+            "option_text": "UI is replaced by raw database connections in production",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "question_text": "Which statement summarizes key points for microservices from the lecture? (1 correct option)",
+        "options": [
+          {
+            "option_text": "They offer modularity, scalability, and resilience, with RESTful interfaces and continuous deployment, but are not always suitable for every project",
+            "is_correct": true
+          },
+          {
+            "option_text": "They must be used for every application, regardless of size or complexity",
+            "is_correct": false
+          },
+          {
+            "option_text": "They require all services to be written in the same programming language for compatibility",
+            "is_correct": false
+          },
+          {
+            "option_text": "They replace the need for standard protocols like HTTP or message brokers",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "question_text": "Which factors commonly motivate teams to move away from monolithic architectures? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Difficulty scaling individual components in a monolith without scaling the entire application",
+            "is_correct": true
+          },
+          {
+            "option_text": "Faster deployment cycles, as large monoliths often take longer to build and release",
+            "is_correct": true
+          },
+          {
+            "option_text": "The inability to use any new technology frameworks in monolithic systems",
+            "is_correct": false
+          },
+          {
+            "option_text": "Lack of business alignment across all modules",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "question_text": "Which operational challenges can arise when monitoring a large microservices ecosystem in production? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Aggregating logs from multiple services across different servers",
+            "is_correct": true
+          },
+          {
+            "option_text": "Centralizing distributed traces to track requests spanning several services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Managing a single log file for the entire application codebase",
+            "is_correct": false
+          },
+          {
+            "option_text": "Analyzing metrics from each service without a unified dashboard",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminating the need for any logs or monitoring tools",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "question_text": "Which statements describe benefits of using container orchestration platforms (e.g., Kubernetes) with microservices? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Automated scheduling and scaling of containerized services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Single-tenant deployment enforced across all user namespaces",
+            "is_correct": false
+          },
+          {
+            "option_text": "Service discovery and load balancing for inter-service communication",
+            "is_correct": true
+          },
+          {
+            "option_text": "Built-in fault tolerance and self-healing (e.g., restarting failed containers)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Prohibiting the use of Docker or other container runtimes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "question_text": "Which additional fault-handling mechanisms complement timeouts and circuit breakers in microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Retries with backoff strategies, allowing services to recover from transient failures",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminating any error-handling code to keep services simple",
+            "is_correct": false
+          },
+          {
+            "option_text": "Fallback mechanisms to gracefully degrade functionality if a dependent service is down",
+            "is_correct": true
+          },
+          {
+            "option_text": "Sending uncaught exceptions to all connected services for debugging",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "question_text": "How can vertical vs. horizontal scaling strategies differ in microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Vertical scaling increases a single server’s resources (CPU/RAM), while horizontal scaling adds more service instances or containers",
+            "is_correct": true
+          },
+          {
+            "option_text": "Vertical scaling is only possible on on-prem hardware; horizontal scaling is for the cloud",
+            "is_correct": false
+          },
+          {
+            "option_text": "Microservices forbid vertical scaling due to tight resource constraints",
+            "is_correct": false
+          },
+          {
+            "option_text": "Both approaches require merging all services into a single instance",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "question_text": "Which statement best describes CI/CD pipelines in a microservices context? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Automated processes that build, test, and deploy each service independently, facilitating rapid releases",
+            "is_correct": true
+          },
+          {
+            "option_text": "Manual scripts used once a year to deploy all microservices simultaneously",
+            "is_correct": false
+          },
+          {
+            "option_text": "Pipelines dedicated only to database migrations, ignoring code changes",
+            "is_correct": false
+          },
+          {
+            "option_text": "Monolithic pipeline that blocks other services from deploying until the slowest service is ready",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "question_text": "Why is contract testing important for microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It verifies that service interfaces (APIs) meet mutual expectations between providers and consumers, catching integration issues early",
+            "is_correct": true
+          },
+          {
+            "option_text": "It merges all microservice code into one test harness for large-scale debugging",
+            "is_correct": false
+          },
+          {
+            "option_text": "It eliminates the need for unit or end-to-end tests",
+            "is_correct": false
+          },
+          {
+            "option_text": "It ensures that services remain tightly coupled for easier debugging",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "question_text": "Which challenges are commonly encountered when transitioning from a monolithic application to microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Increased operational overhead in monitoring and managing multiple small services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminating all network latencies because services are now fully decoupled",
+            "is_correct": false
+          },
+          {
+            "option_text": "Complexity in defining service boundaries and avoiding over-segmentation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Guaranteed faster performance for every service with no configuration",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "question_text": "Which communication protocols might be used in microservices for synchronous or asynchronous interactions? (3 correct options)",
+        "options": [
+          {
+            "option_text": "HTTP/REST for synchronous request-response",
+            "is_correct": true
+          },
+          {
+            "option_text": "gRPC for efficient binary communication",
+            "is_correct": true
+          },
+          {
+            "option_text": "AMQP (e.g., RabbitMQ) or Kafka for asynchronous messaging",
+            "is_correct": true
+          },
+          {
+            "option_text": "FTP for sending database backups daily",
+            "is_correct": false
+          },
+          {
+            "option_text": "Telnet for real-time service orchestration",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "question_text": "Which patterns or approaches help ensure data consistency across multiple microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Saga patterns, which coordinate local transactions with compensating actions on failure",
+            "is_correct": true
+          },
+          {
+            "option_text": "Two-phase commit (2PC) for distributed transactions requiring stronger consistency",
+            "is_correct": true
+          },
+          {
+            "option_text": "Forcing a single shared database schema for all services",
+            "is_correct": false
+          },
+          {
+            "option_text": "Relying exclusively on daily data exports to sync updates",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "question_text": "Which tool or strategy is commonly used to enable service discovery in microservices architectures? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Registry services like Consul, Eureka, or Kubernetes DNS to dynamically locate service instances",
+            "is_correct": true
+          },
+          {
+            "option_text": "Manual editing of host files for each developer machine",
+            "is_correct": false
+          },
+          {
+            "option_text": "Hardcoding IP addresses into configuration files",
+            "is_correct": false
+          },
+          {
+            "option_text": "Periodic scanning of the entire network for available containers",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "question_text": "Which mechanism is commonly used to secure inter-service communication in a microservices ecosystem? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Transport Layer Security (TLS) to encrypt traffic between services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Storing plain-text passwords in code for direct authentication",
+            "is_correct": false
+          },
+          {
+            "option_text": "OAuth2 or JWT-based tokens for validating service-to-service calls",
+            "is_correct": true
+          },
+          {
+            "option_text": "Exposing all ports publicly without authentication",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "question_text": "Which approach best supports performance optimization in microservices? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Caching frequently accessed data to reduce repeated service calls",
+            "is_correct": true
+          },
+          {
+            "option_text": "Rate limiting or throttling to protect services from overwhelming traffic",
+            "is_correct": true
+          },
+          {
+            "option_text": "Disabling logs to increase throughput at the cost of observability",
+            "is_correct": false
+          },
+          {
+            "option_text": "Load balancing across service replicas to distribute incoming requests",
+            "is_correct": true
+          },
+          {
+            "option_text": "Locking all requests to a single server instance for consistency",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "question_text": "Which advanced Kubernetes features can simplify microservice deployment and operations? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Helm charts for packaging and installing microservices and their dependencies",
+            "is_correct": true
+          },
+          {
+            "option_text": "Pod auto-scaling to dynamically adjust service replicas based on resource usage",
+            "is_correct": true
+          },
+          {
+            "option_text": "Blocking service updates until all pods reach a 100% CPU threshold",
+            "is_correct": false
+          },
+          {
+            "option_text": "Mandating a single namespace for all pods across all environments",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "question_text": "Why is contract testing particularly important in microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It ensures the interfaces (contracts) between services remain compatible, catching integration issues without needing full end-to-end tests",
+            "is_correct": true
+          },
+          {
+            "option_text": "It centralizes all service logic into a single test harness to replicate monolithic testing",
+            "is_correct": false
+          },
+          {
+            "option_text": "It replaces the need for load or stress tests in production",
+            "is_correct": false
+          },
+          {
+            "option_text": "It focuses on UI rendering only, ignoring API-level details",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "question_text": "Which statement best describes the historical evolution from Service-Oriented Architecture (SOA) to microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Microservices emerged as a refined version of SOA, emphasizing smaller, more independently deployable services and simpler communication protocols",
+            "is_correct": true
+          },
+          {
+            "option_text": "SOA and microservices are identical, with no differences in scale or communication styles",
+            "is_correct": false
+          },
+          {
+            "option_text": "Microservices strictly prohibit the use of HTTP/REST and rely exclusively on SOAP",
+            "is_correct": false
+          },
+          {
+            "option_text": "SOA typically uses container orchestration tools like Kubernetes, whereas microservices never do",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "question_text": "Which companies besides Uber are often cited for pioneering microservices adoption? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Netflix, known for streaming and adaptive scaling",
+            "is_correct": true
+          },
+          {
+            "option_text": "Amazon, which decoupled teams to handle separate services for e-commerce",
+            "is_correct": true
+          },
+          {
+            "option_text": "SpaceX, which uses only monolithic software for rocket control",
+            "is_correct": false
+          },
+          {
+            "option_text": "W3C, focusing on standardized monolithic browsers",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "question_text": "Which advanced architectural patterns can assist in migrating or organizing microservices? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Strangler pattern, gradually replacing parts of a monolith with microservices",
+            "is_correct": true
+          },
+          {
+            "option_text": "Sidecar pattern, separating cross-cutting concerns (e.g., logging) from core service logic",
+            "is_correct": true
+          },
+          {
+            "option_text": "CQRS (Command Query Responsibility Segregation), splitting read and write operations for scalability",
+            "is_correct": true
+          },
+          {
+            "option_text": "Singleton pattern, ensuring only one instance of a microservice is created",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "question_text": "Which statement best describes a service mesh (e.g., Istio) in a microservices architecture? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A dedicated infrastructure layer that handles service-to-service communication features like routing, security, and observability",
+            "is_correct": true
+          },
+          {
+            "option_text": "A configuration that merges all microservices into a single monolithic networking stack",
+            "is_correct": false
+          },
+          {
+            "option_text": "A tool that replaces the need for any API gateways or proxies",
+            "is_correct": false
+          },
+          {
+            "option_text": "An alternative name for a container orchestration platform like Kubernetes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "question_text": "Which performance optimization strategies are relevant for microservices? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Caching data in Redis or in-memory to reduce repeated database lookups",
+            "is_correct": true
+          },
+          {
+            "option_text": "Utilizing content delivery networks (CDNs) for static assets",
+            "is_correct": true
+          },
+          {
+            "option_text": "Increasing cold-start latency intentionally for cost savings",
+            "is_correct": false
+          },
+          {
+            "option_text": "Implementing rate limiting or throttling to protect services under heavy load",
+            "is_correct": true
+          },
+          {
+            "option_text": "Relying solely on manual reconfiguration when traffic spikes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "question_text": "Which techniques help reduce cold-start latency for serverless microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Provisioned concurrency to keep functions 'warm'",
+            "is_correct": true
+          },
+          {
+            "option_text": "Delaying any user requests until all containers spin up",
+            "is_correct": false
+          },
+          {
+            "option_text": "Using lightweight runtimes or minimal container images",
+            "is_correct": true
+          },
+          {
+            "option_text": "Forcing a global monolith fallback if cold-start occurs",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "question_text": "Which additional testing strategies ensure robust microservices integration? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Integration tests for verifying service interactions with real or mocked dependencies",
+            "is_correct": true
+          },
+          {
+            "option_text": "UI snapshot tests that only check the final HTML/CSS output",
+            "is_correct": false
+          },
+          {
+            "option_text": "End-to-end tests that simulate real user flows across multiple services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Relying solely on manual QA sessions before each release",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "question_text": "Which deployment pattern involves swapping out entire environments to minimize downtime? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Blue-green deployment, where one environment runs live while the other is staged for the new release",
+            "is_correct": true
+          },
+          {
+            "option_text": "Monolithic deployment, bundling all microservices into a single artifact",
+            "is_correct": false
+          },
+          {
+            "option_text": "Canary deployment, releasing new features to 100% of users at once",
+            "is_correct": false
+              },
+          {
+            "option_text": "Rolling deployment, deploying changes across multiple pods simultaneously",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "question_text": "In a microservices context, why might a canary deployment strategy be beneficial?",
+        "options": [
+          {
+            "option_text": "It allows incremental rollout of new features to a subset of users, reducing risk and enabling quick rollback if issues arise",
+            "is_correct": true
+          },
+          {
+            "option_text": "It merges all code changes into a single environment with no isolation",
+            "is_correct": false
+          },
+          {
+            "option_text": "It requires a complete data center shutdown for each update",
+            "is_correct": false
+          },
+          {
+            "option_text": "It only applies to monolithic deployments, not microservices",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "question_text": "How does Domain-Driven Design (DDD) align with microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "DDD encourages modeling services around bounded contexts that map well to business capabilities",
+            "is_correct": true
+          },
+          {
+            "option_text": "DDD requires a single, unified domain model across all microservices",
+            "is_correct": false
+          },
+          {
+            "option_text": "DDD prohibits the use of separate databases for each service",
+            "is_correct": false
+          },
+          {
+            "option_text": "DDD focuses solely on code-level patterns like factories and repositories, unrelated to service boundaries",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "question_text": "Which scenario exemplifies the 'over-segmentation' pitfall in microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Splitting a straightforward business domain into dozens of tiny services, causing excessive network overhead and management complexity",
+            "is_correct": true
+          },
+          {
+            "option_text": "Combining all microservices into one large codebase for simpler version control",
+            "is_correct": false
+          },
+          {
+            "option_text": "Assigning each microservice to a single developer for autonomy",
+            "is_correct": false
+          },
+          {
+            "option_text": "Deploying two services to handle very different domains",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "question_text": "Besides Netflix and Amazon, which other early adopter often cited for microservices transitions could be highlighted for diversity?",
+        "options": [
+          {
+            "option_text": "eBay, known for evolving its platform with service-based architectures",
+            "is_correct": true
+          },
+          {
+            "option_text": "Walmart, which strictly maintains a monolithic mainframe approach",
+            "is_correct": false
+          },
+          {
+            "option_text": "World Wide Web Consortium (W3C), focusing only on standardizing monolithic browsers",
+            "is_correct": false
+          },
+          {
+            "option_text": "None; only Netflix and Amazon successfully use microservices",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "question_text": "Which observability features might a service mesh (e.g., Istio) provide for advanced routing or A/B testing? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Traffic splitting based on headers or weights, enabling A/B testing or canary releases",
+            "is_correct": true
+          },
+          {
+            "option_text": "Automatic merging of all pods into a single monolithic endpoint",
+            "is_correct": false
+          },
+          {
+            "option_text": "Built-in telemetry, metrics, and distributed tracing hooks for each service",
+            "is_correct": true
+          },
+          {
+            "option_text": "Manual IP-based routing requiring code changes in every service",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "question_text": "Which Kubernetes resources facilitate management of configuration and sensitive data for microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "ConfigMaps and Secrets, used for storing non-sensitive and sensitive information respectively",
+            "is_correct": true
+          },
+          {
+            "option_text": "Pod logs, which hold environment variables in plaintext",
+            "is_correct": false
+          },
+          {
+            "option_text": "Deployment descriptors that expose passwords in YAML comments",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single global .env file shared across all containers",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "question_text": "Beyond logging and monitoring, which cross-cutting concern is often enhanced by the sidecar pattern? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Distributed tracing via OpenTelemetry or Jaeger to visualize end-to-end request flows",
+            "is_correct": true
+          },
+          {
+            "option_text": "Embedding all business logic in the sidecar for simpler refactoring",
+            "is_correct": false
+          },
+          {
+            "option_text": "Locking service configurations in static files with no overrides",
+            "is_correct": false
+          },
+          {
+            "option_text": "Running multiple sidecars for each log line to ensure real-time updates",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "question_text": "Which strategies help optimize microservice costs in cloud environments? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Autoscaling policies to match service replicas with actual load",
+            "is_correct": true
+          },
+          {
+            "option_text": "Refusing to scale down to preserve CPU usage at maximum levels",
+            "is_correct": false
+          },
+          {
+            "option_text": "Using serverless or spot instances where feasible to reduce idle costs",
+            "is_correct": true
+          },
+          {
+            "option_text": "Constantly running debug containers in production, using up CPU cycles",
+            "is_correct": false
+          },
+          {
+            "option_text": "Monitoring resource usage and rightsizing container limits",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "question_text": "Which example best illustrates an extreme microservices 'over-segmentation' pitfall? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Splitting a trivial billing function into multiple microservices (e.g., currency calculation, tax, discounts) each requiring separate network calls",
+            "is_correct": true
+          },
+          {
+            "option_text": "Bundling all user-facing features in one service and all background tasks in another",
+            "is_correct": false
+          },
+          {
+            "option_text": "Running separate container replicas for high-traffic endpoints",
+            "is_correct": false
+          },
+          {
+            "option_text": "Using a monolith for core functionalities and microservices for peripheral tasks",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "question_text": "Which tools are commonly used for monitoring and tracing in a microservices ecosystem? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Prometheus for metrics collection and alerting",
+            "is_correct": true
+          },
+          {
+            "option_text": "Jaeger for distributed tracing across service boundaries",
+            "is_correct": true
+          },
+          {
+            "option_text": "Telnet for capturing real-time HTTP logs",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single systemd journal for all cluster nodes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "question_text": "Which solution might simplify local testing of multiple microservices before deploying to production? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Docker Compose, allowing multiple containers/services to run with minimal setup on a developer’s machine",
+            "is_correct": true
+          },
+          {
+            "option_text": "Manual scripts that each developer writes, ensuring consistent environment across the team",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single local monolith that mocks all microservices at once",
+            "is_correct": false
+          },
+          {
+            "option_text": "Production cluster deployment on developer laptops",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "question_text": "Which statement best aligns with Conway’s Law in microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Systems end up reflecting the communication structures of the organizations that build them, encouraging loosely coupled services in more autonomous teams",
+            "is_correct": true
+          },
+          {
+            "option_text": "Organizational charts and software architectures should never influence one another",
+            "is_correct": false
+          },
+          {
+            "option_text": "Large companies must maintain a single codebase for all divisions",
+            "is_correct": false
+          },
+          {
+            "option_text": "Conway’s Law only applies to monolithic applications, not microservices",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "question_text": "In which scenario would synchronous communication between microservices be more suitable than asynchronous messaging? (1 correct option)",
+        "options": [
+          {
+            "option_text": "When a real-time, immediate response is needed, such as checking inventory before confirming an order",
+            "is_correct": true
+          },
+          {
+            "option_text": "When you want to decouple services fully with no need for immediate responses",
+            "is_correct": false
+          },
+          {
+            "option_text": "When end-users prefer a delayed response rather than real-time updates",
+            "is_correct": false
+          },
+          {
+            "option_text": "When data can safely arrive minutes later without impacting user experience",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "question_text": "Which statement captures Slide 34’s emphasis on balancing microservice granularity with performance? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Services should be fine-grained enough for independence but not so small that performance suffers from excessive network calls",
+            "is_correct": true
+          },
+          {
+            "option_text": "It’s always best to split every function into its own service for maximum flexibility",
+            "is_correct": false
+          },
+          {
+            "option_text": "Performance is rarely impacted by the number of microservices in a system",
+            "is_correct": false
+          },
+          {
+            "option_text": "Large, coarse-grained services are discouraged even if they reduce latency",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "question_text": "From slides 30–32: Which advantage might a reverse proxy API gateway offer over a fully customized gateway implementation? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It can be simpler to configure using off-the-shelf solutions (e.g., NGINX, HAProxy) for routing, caching, and SSL termination",
+            "is_correct": true
+          },
+          {
+            "option_text": "It allows direct database access from the gateway, bypassing microservices logic",
+            "is_correct": false
+          },
+          {
+            "option_text": "It merges all microservice functionality into a monolith for easier debugging",
+            "is_correct": false
+          },
+          {
+            "option_text": "It forbids further customization or plugin development",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "question_text": "Slide 45–46 cover inconsistency management. Which scenario best illustrates 'pending transaction logs' ensuring eventual consistency? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A service writes an operation to a log, then asynchronously applies the change to all replicas, replaying any pending entries if a node was offline",
+            "is_correct": true
+          },
+          {
+            "option_text": "All services wait for a two-phase commit before returning responses to end-users",
+            "is_correct": false
+          },
+          {
+            "option_text": "Each service attempts writes at the same time, ignoring any conflicting updates",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single global lock is held until every microservice acknowledges the update",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "question_text": "Which statement aligns with the pros and cons of orchestration vs. choreography (Slides 51–54)? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Orchestration provides a central controller that can simplify complex workflows, while choreography offers decoupled, event-driven interactions at the cost of potential complexity",
+            "is_correct": true
+          },
+          {
+            "option_text": "Orchestration is always superior because it eliminates the need for events",
+            "is_correct": false
+          },
+          {
+            "option_text": "Choreography strictly forbids any event-based communication between services",
+            "is_correct": false
+          },
+          {
+            "option_text": "These two patterns are identical in terms of coupling and workflow management",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 71,
+        "question_text": "Slide 56 outlines different failure types. Which scenario best demonstrates real-world usage of circuit breakers and timeouts?",
+        "options": [
+          {
+            "option_text": "A payment service sets a 3-second timeout for charging a card; if calls fail repeatedly, a circuit breaker triggers fallback logic to prompt the user to retry later",
+            "is_correct": true
+          },
+          {
+            "option_text": "All microservices disable timeouts to ensure requests eventually succeed",
+            "is_correct": false
+          },
+          {
+            "option_text": "A shopping cart service retries an API call infinitely until the payment service returns success",
+            "is_correct": false
+          },
+          {
+            "option_text": "If the payment service fails once, the entire site is taken down for maintenance",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "question_text": "From slide 63: Which HTTP verbs and resource structures are commonly used in RESTful microservices? (3 correct options)",
+        "options": [
+          {
+            "option_text": "GET to retrieve a resource at /resource/{id}",
+            "is_correct": true
+          },
+          {
+            "option_text": "POST to create a resource at /resource",
+            "is_correct": true
+          },
+          {
+            "option_text": "DELETE to remove a resource at /resource/{id}",
+            "is_correct": true
+          },
+          {
+            "option_text": "RUN to execute code directly on the server at /execute",
+            "is_correct": false
+          },
+          {
+            "option_text": "COPY to duplicate a resource between folders on the server",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "question_text": "Slides 73 and 75 address continuous deployment pipelines. Which step is typically included in a robust microservices pipeline? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Automated unit and integration tests run before merging changes into main branches",
+            "is_correct": true
+          },
+          {
+            "option_text": "Manual configuration file updates on each server by the DevOps team, once a quarter",
+            "is_correct": false
+          },
+          {
+            "option_text": "Building container images for each service and version-managing them in a registry (e.g., Docker Hub)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Enforcing a single pipeline for all microservices so they deploy in lockstep",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "question_text": "Which approach to deployment ensures no downtime but requires careful orchestration of routing traffic to the new environment?",
+        "options": [
+          {
+            "option_text": "Blue-green deployment, where live traffic shifts to a new environment once verified healthy",
+            "is_correct": true
+          },
+          {
+            "option_text": "Canary deployment, sending all traffic immediately to the new version",
+            "is_correct": false
+          },
+          {
+            "option_text": "Rolling deployment, bringing all old pods down before new ones start",
+            "is_correct": false
+          },
+          {
+            "option_text": "Big Bang deployment, halting the entire system for an update",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "question_text": "Which scenario best illustrates over-segmentation of microservices beyond Slide 34's general guidance? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Splitting a simple checkout function into multiple services (tax calculation, discount codes, currency conversion), each making separate network calls for a single user action",
+            "is_correct": true
+          },
+          {
+            "option_text": "Grouping all order processing into a single 'OrderService' to reduce latency",
+            "is_correct": false
+          },
+          {
+            "option_text": "Combining shipping and billing logic for domain alignment",
+            "is_correct": false
+          },
+          {
+            "option_text": "Using a single microservice for an entire e-commerce site’s backend",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "question_text": "How might eventual consistency manifest in an inventory management system, as described in Slides 45–46? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Item stock updates propagate asynchronously to different service replicas, with a short delay before all nodes show the updated inventory levels",
+            "is_correct": true
+          },
+          {
+            "option_text": "Every write blocks until all services confirm the new inventory count via two-phase commit",
+            "is_correct": false
+          },
+          {
+            "option_text": "Inventory data is never replicated, ensuring perfect consistency at a single node",
+            "is_correct": false
+          },
+          {
+            "option_text": "Stock levels remain fixed once set, ignoring user purchases until the next day",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "question_text": "Which trade-offs might teams consider when choosing gRPC over REST for service communication? (2 correct options)",
+        "options": [
+          {
+            "option_text": "gRPC offers faster binary serialization and built-in streaming at the cost of less human-readable messages than REST",
+            "is_correct": true
+          },
+          {
+            "option_text": "REST strictly forbids any form of streaming or large file uploads",
+            "is_correct": false
+          },
+          {
+            "option_text": "gRPC can be more challenging to debug manually, as it doesn’t use simple JSON or text-based payloads",
+            "is_correct": true
+          },
+          {
+            "option_text": "REST requires no standard for resource paths or status codes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "question_text": "Slide 69–70 mention observability. Which practice helps developers visualize request flows or pinpoint failures across multiple services? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Distributed tracing (e.g., Jaeger, Zipkin) collecting trace data from each service hop",
+            "is_correct": true
+          },
+          {
+            "option_text": "Relying on a single log file for all cluster nodes",
+            "is_correct": false
+          },
+          {
+            "option_text": "Turning off logs and metrics to boost performance",
+            "is_correct": false
+          },
+          {
+            "option_text": "Gathering only container start/stop events without request-level detail",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "question_text": "Slide 45 references the Saga pattern. Which example showcases how Sagas solve distributed transaction issues in a real-world setting? (1 correct option)",
+        "options": [
+          {
+            "option_text": "An e-commerce system that updates 'Orders', 'Inventory', and 'Payments' through a chain of local transactions, rolling back prior steps if any step fails",
+            "is_correct": true
+          },
+          {
+            "option_text": "A single database enforcing strict ACID properties across every microservice call",
+            "is_correct": false
+          },
+          {
+            "option_text": "Using manual updates where a DevOps engineer applies each database change in sequence at night",
+            "is_correct": false
+          },
+          {
+            "option_text": "A message broker that only logs messages without compensating incomplete transactions",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "question_text": "Slide 73 briefly touches on deployment strategies. How does rolling deployment compare to blue-green deployment? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Rolling deployments update pods or servers incrementally with minimal downtime, whereas blue-green swaps entire environments to ensure zero downtime but at higher resource cost",
+            "is_correct": true
+          },
+          {
+            "option_text": "Rolling deployments require halting the entire service before deploying updates",
+            "is_correct": false
+          },
+          {
+            "option_text": "Blue-green deployment merges old and new versions into one environment for simplicity",
+            "is_correct": false
+          },
+          {
+            "option_text": "Both patterns demand multiple hours of downtime to synchronize data",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "question_text": "Which feature might an advanced API gateway (beyond basic routing) provide, as per slides 30–32? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Rate limiting to throttle excessive calls from certain IPs or tokens",
+            "is_correct": true
+          },
+          {
+            "option_text": "A single endpoint that merges all microservices into a monolith for testing",
+            "is_correct": false
+          },
+          {
+            "option_text": "Response transformation or rewriting for consistency in JSON output across multiple services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Direct database writes bypassing the microservice layer entirely",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "question_text": "Migrating from a monolithic database to separate microservice databases presents which challenge? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Schema evolution must be carefully managed to avoid breaking queries in services that rely on different data structures",
+            "is_correct": true
+          },
+          {
+            "option_text": "All microservices automatically share a single global schema for easier development",
+            "is_correct": false
+          },
+          {
+            "option_text": "No versioning or migrations are needed once the monolith is split",
+            "is_correct": false
+          },
+          {
+            "option_text": "Every row in the database is duplicated for each service to ensure no data conflicts",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "question_text": "Which security pitfall might arise when misconfiguring OAuth2 or JWT in inter-service communication? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Accidentally accepting expired or tampered tokens if signature verification is disabled",
+            "is_correct": true
+          },
+          {
+            "option_text": "Forcing each microservice to store user sessions in memory, violating statelessness",
+            "is_correct": false
+          },
+          {
+            "option_text": "Enabling TLS encryption automatically mitigates all token-related risks",
+            "is_correct": false
+          },
+          {
+            "option_text": "Requiring every user to sign in manually for each microservice call",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "question_text": "How do design philosophies differ between SOA and microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "SOA often features an enterprise service bus (ESB) for communication, whereas microservices favor lighter protocols and smaller, domain-focused services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Both strictly depend on large, centralized ESBs for message routing",
+            "is_correct": false
+          },
+          {
+            "option_text": "Microservices rely on heavy SOAP calls and ESB orchestration by default",
+            "is_correct": false
+          },
+          {
+            "option_text": "SOA prohibits stateless services, whereas microservices require them",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "question_text": "Which description best captures an event-driven microservices architecture? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Services emit events to a broker, and consumers react asynchronously without direct coupling",
+            "is_correct": true
+          },
+          {
+            "option_text": "All communication is request-response with strict synchronous blocking",
+            "is_correct": false
+          },
+          {
+            "option_text": "Events can be recorded in a log for replay, enabling resilience and eventual consistency",
+            "is_correct": true
+          },
+          {
+            "option_text": "A single orchestrator coordinates every microservice call step by step",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "question_text": "When might a distributed locking mechanism be necessary in a microservices architecture? (1 correct option)",
+        "options": [
+          {
+            "option_text": "When multiple services must coordinate writes to a shared resource to avoid conflicts",
+            "is_correct": true
+          },
+          {
+            "option_text": "When each microservice uses an isolated database with no overlapping data",
+            "is_correct": false
+          },
+          {
+            "option_text": "When no concurrency or parallelism is allowed by design",
+            "is_correct": false
+          },
+          {
+            "option_text": "Whenever a service runs asynchronously without states",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "question_text": "Which statement best explains how sharding can improve database performance in microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Sharding partitions data horizontally so that each shard handles only a subset of data, boosting read/write capacity",
+            "is_correct": true
+          },
+          {
+            "option_text": "Sharding forces all writes into a single node for guaranteed consistency",
+            "is_correct": false
+          },
+          {
+            "option_text": "Sharding replicates the entire dataset to every microservice instance for faster lookups",
+            "is_correct": false
+          },
+          {
+            "option_text": "Sharding divides user traffic by time zones, not data partitions",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "question_text": "How can OpenTelemetry enhance observability in a microservices environment? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It provides a vendor-neutral standard for collecting traces, metrics, and logs across languages and frameworks",
+            "is_correct": true
+          },
+          {
+            "option_text": "It disables all logging to boost performance in production clusters",
+            "is_correct": false
+          },
+          {
+            "option_text": "It requires that all microservices be written in the same programming language",
+            "is_correct": false
+          },
+          {
+            "option_text": "It focuses only on logs, ignoring metrics and tracing data",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "question_text": "Which performance considerations might drive a team to adopt advanced caching or concurrency patterns in microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Reducing response times for high-traffic endpoints to meet SLAs",
+            "is_correct": true
+          },
+          {
+            "option_text": "Ensuring logs are turned off to maximize CPU usage",
+            "is_correct": false
+          },
+          {
+            "option_text": "Handling large concurrent user loads that might saturate typical request-response patterns",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminating any form of asynchronous messaging to simplify debugging",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "question_text": "How do design philosophies differ between SOA and microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "SOA often relies on an ESB and heavier protocols like SOAP, while microservices focus on smaller, domain-driven services using simpler protocols (e.g., REST/gRPC) and decentralized governance",
+            "is_correct": true
+          },
+          {
+            "option_text": "Both strictly require an Enterprise Service Bus (ESB) for orchestrating every call",
+            "is_correct": false
+          },
+          {
+            "option_text": "Microservices mandate a single, large SOAP interface for all communications",
+            "is_correct": false
+          },
+          {
+            "option_text": "SOA forbids using multiple programming languages in separate services",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "question_text": "Which statements best describe typical security strategies for microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Enforcing service-level security (e.g., mTLS) to encrypt traffic between services",
+            "is_correct": true
+          },
+          {
+            "option_text": "Relying solely on external load balancers for all security checks",
+            "is_correct": false
+          },
+          {
+            "option_text": "Implementing both authentication (OAuth2, JWT) and authorization at the service boundary",
+            "is_correct": true
+          },
+          {
+            "option_text": "Storing passwords in plaintext environment variables for easy retrieval",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "question_text": "Which tools or frameworks are commonly used to aggregate logs and monitor performance in microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "EFK Stack (Elasticsearch, Fluentd, Kibana) or Splunk for centralized log aggregation and analysis",
+            "is_correct": true
+          },
+          {
+            "option_text": "Local text files in each container, manually inspected by developers",
+            "is_correct": false
+          },
+          {
+            "option_text": "Datadog or Prometheus for metrics and performance monitoring",
+            "is_correct": true
+          },
+          {
+            "option_text": "Relying on ephemeral container logs that vanish after restarts",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "question_text": "Which scenario best illustrates a practical use case demonstrating the microservices approach? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A streaming platform that separates user profiles, recommendations, billing, and video encoding into individual services for independent scaling",
+            "is_correct": true
+          },
+          {
+            "option_text": "A small local bakery website updated once a year, deployed as a monolith with minimal traffic",
+            "is_correct": false
+          },
+          {
+            "option_text": "A legacy command-line tool with single-user execution on one server",
+            "is_correct": false
+          },
+          {
+            "option_text": "A game engine framework requiring tight, real-time memory sharing among modules",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "question_text": "Which comparison further highlights differences between orchestration and choreography in microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Orchestration centralizes workflow logic in one controller, simplifying complex sequences but increasing coupling",
+            "is_correct": true
+          },
+          {
+            "option_text": "Choreography uses distributed events, letting services react independently but risking complexity in event storming or debugging",
+            "is_correct": true
+          },
+          {
+            "option_text": "Orchestration is always cheaper to operate, requiring no additional tooling",
+            "is_correct": false
+          },
+          {
+            "option_text": "Choreography eliminates any need for event brokers or asynchronous messages",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "question_text": "Which challenges often arise when horizontally scaling microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Managing distributed state or ephemeral storage across multiple service instances",
+            "is_correct": true
+          },
+          {
+            "option_text": "Automating the addition/removal of instances based on load, often requiring orchestration platforms like Kubernetes",
+            "is_correct": true
+          },
+          {
+            "option_text": "Ensuring a single container can handle all concurrency for the entire application",
+            "is_correct": false
+          },
+          {
+            "option_text": "Locking the entire database schema to prevent race conditions",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "question_text": "Which real-world microservices case study could add insights beyond Netflix, Amazon, and Uber? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Spotify, known for splitting music streaming, playlist management, and recommendation services into independently deployable units",
+            "is_correct": true
+          },
+          {
+            "option_text": "W3C, relying entirely on a single monolithic server",
+            "is_correct": false
+          },
+          {
+            "option_text": "A local bakery website with minimal backend logic",
+            "is_correct": false
+          },
+          {
+            "option_text": "A mainframe billing system from the 1970s without network connectivity",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "question_text": "Slide 34’s emphasis on balancing microservice granularity should be verified directly. Which question might you ask to ensure your MCQs align with that slide? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Does the question explicitly address finding the 'right size' of services to avoid performance overhead from too many network calls?",
+            "is_correct": true
+          },
+          {
+            "option_text": "Does the question mention only the benefits of scaling up each microservice individually?",
+            "is_correct": false
+          },
+          {
+            "option_text": "Does the question forbid any mention of monolithic architectures?",
+            "is_correct": false
+          },
+          {
+            "option_text": "Does the question rely solely on container orchestration references without discussing service boundaries?",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "question_text": "Which challenge may arise when integrating microservices with legacy systems? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Debugging distributed calls alongside older SOAP or mainframe interfaces can increase complexity",
+            "is_correct": true
+          },
+          {
+            "option_text": "Upgrading every legacy component to the latest microservices tooling within a day is typically straightforward",
+            "is_correct": false
+          },
+          {
+            "option_text": "Managing partial data transformations or adapters to bridge older systems with modern REST or gRPC",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminating any need for version control or testing because legacy code is considered stable",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "question_text": "How do microservices refine or differ from SOA in terms of architectural evolution? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Microservices typically emphasize smaller, domain-specific services, decentralized management, and simpler protocols compared to the heavier ESB-driven SOA model",
+            "is_correct": true
+          },
+          {
+            "option_text": "SOA requires no enterprise service bus, whereas microservices rely heavily on centralized ESBs",
+            "is_correct": false
+          },
+          {
+            "option_text": "They are identical in design but differ only in the programming language used",
+            "is_correct": false
+          },
+          {
+            "option_text": "Microservices and SOA cannot coexist in a single organization",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 100,
+        "question_text": "Which scenario highlights the importance of debugging distributed microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A user operation fails intermittently in the shopping cart service, but logs suggest the inventory microservice actually timed out, requiring distributed tracing to pinpoint the root cause",
+            "is_correct": true
+          },
+          {
+            "option_text": "A monolithic desktop application logs all errors in a single local file with no network calls",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single database server handles all concurrency with no external services",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single user’s machine can replicate an entire production environment effortlessly",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "question_text": "What is HATEOAS (Hypermedia As The Engine Of Application State) in RESTful services? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A principle that includes hyperlinks in responses, guiding clients to discover actions and resources dynamically",
+            "is_correct": true
+          },
+          {
+            "option_text": "A technique for compressing JSON payloads to reduce network overhead",
+            "is_correct": false
+          },
+          {
+            "option_text": "A specialized API gateway requiring monolithic design",
+            "is_correct": false
+          },
+          {
+            "option_text": "An alternative to using URIs in REST services",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "question_text": "Which reason might a microservice team adopt API versioning? (2 correct options)",
+        "options": [
+          {
+            "option_text": "To introduce new endpoints or changes without breaking existing clients",
+            "is_correct": true
+          },
+          {
+            "option_text": "To unify all services under a single, unchanging endpoint regardless of changes",
+            "is_correct": false
+          },
+          {
+            "option_text": "To retire older API versions gracefully while giving clients time to migrate",
+            "is_correct": true
+          },
+          {
+            "option_text": "To ensure each user must handle incompatible updates daily",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "question_text": "Slide 26: Which guideline helps determine microservice boundaries in line with business capabilities? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Defining services around bounded contexts that map directly to core business domains",
+            "is_correct": true
+          },
+          {
+            "option_text": "Bundling every user-facing feature into one large service for simplicity",
+            "is_correct": false
+          },
+          {
+            "option_text": "Ensuring each microservice has a maximum of 10 lines of code",
+            "is_correct": false
+          },
+          {
+            "option_text": "Using random splits based on developer preferences",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "question_text": "Slide 41: In practice, which challenge might arise when implementing OAuth2 or JWT for service-to-service authentication? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Handling token expiration and refresh flows to avoid invalid credentials in long-running processes",
+            "is_correct": true
+          },
+          {
+            "option_text": "Guaranteeing no single service can ever issue tokens",
+            "is_correct": false
+          },
+          {
+            "option_text": "Ensuring each service validates tokens correctly, including signature checks and audience claims",
+            "is_correct": true
+          },
+          {
+            "option_text": "Storing tokens permanently in the codebase for quick reuse",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "question_text": "Slide 47: Which advanced Kubernetes feature might further automate complex microservice deployments beyond Helm charts and pod auto-scaling? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Kubernetes Operators, which encode domain knowledge for installing or managing complex applications",
+            "is_correct": true
+          },
+          {
+            "option_text": "Manually editing YAML files on each deployment node",
+            "is_correct": false
+          },
+          {
+            "option_text": "Only using Docker Compose for multi-container local testing",
+            "is_correct": false
+          },
+          {
+            "option_text": "Using a single namespace for all environments in production",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "question_text": "Slide 12: Which difference between monoliths and microservices is especially critical during the transition phase? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Monoliths often have tightly coupled modules, making partial extractions challenging without refactoring or rewriting code",
+            "is_correct": true
+          },
+          {
+            "option_text": "Monoliths and microservices share identical deployment pipelines by definition",
+            "is_correct": false
+          },
+          {
+            "option_text": "Microservices never require rewriting any legacy code",
+            "is_correct": false
+          },
+          {
+            "option_text": "Monoliths use domain-driven design while microservices cannot",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "question_text": "Slide 45: Which real-world scenario further clarifies the concept of eventual consistency? (1 correct option)",
+        "options": [
+          {
+            "option_text": "An online ticketing service allowing seat reservations: multiple replicas might temporarily show seats as available until the transaction logs sync across nodes, eventually reaching consistency",
+            "is_correct": true
+          },
+          {
+            "option_text": "A single ACID database ensuring immediate global consistency at all times",
+            "is_correct": false
+          },
+          {
+            "option_text": "A monolith that updates one local file for all transactions, requiring no replication",
+            "is_correct": false
+          },
+          {
+            "option_text": "Refusing to store any data to avoid consistency issues",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "question_text": "Slide 60: Which advanced feature in Istio might enable advanced traffic routing for service updates? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Weighted routing rules that direct a portion of traffic to a new service version, facilitating canary releases or A/B testing",
+            "is_correct": true
+          },
+          {
+            "option_text": "Merging all microservices into a single Kubernetes Deployment",
+            "is_correct": false
+          },
+          {
+            "option_text": "Automatic container building from source code with no user input",
+            "is_correct": false
+          },
+          {
+            "option_text": "Disabling TLS encryption to simplify communication overhead",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "question_text": "Which advanced approach might teams use to rotate credentials or tokens across multiple microservices seamlessly? (1 correct option)",
+        "options": [
+          {
+            "option_text": "An automated secrets management solution (e.g., HashiCorp Vault) integrated with microservices for dynamic key rotation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Hardcoding all secrets in environment variables to avoid changes during runtime",
+            "is_correct": false
+          },
+          {
+            "option_text": "Relying on a single global plaintext .env file that never updates",
+            "is_correct": false
+          },
+          {
+            "option_text": "Allowing each microservice to store credentials locally without any rotation",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "question_text": "Which scenario best illustrates advanced caching strategies in microservices? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A high-traffic product catalog microservice uses Redis for partial page caching, invalidating entries upon stock or pricing changes",
+            "is_correct": true
+          },
+          {
+            "option_text": "A microservice that always queries the database on every request with no cache layer",
+            "is_correct": false
+          },
+          {
+            "option_text": "Caching user sessions indefinitely, ignoring logout or user role updates",
+            "is_correct": false
+          },
+          {
+            "option_text": "A system storing entire database backups in memory for faster lookups",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "question_text": "Which step-by-step approach might domain-driven design (DDD) recommend for decomposing a complex monolith into microservices? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Identify core domains and bounded contexts, then gradually encapsulate each context in its own service",
+            "is_correct": true
+          },
+          {
+            "option_text": "Split services purely based on team size (one service per developer)",
+            "is_correct": false
+          },
+          {
+            "option_text": "Define ubiquitous language and domain models for each context, preventing data coupling between them",
+            "is_correct": true
+          },
+          {
+            "option_text": "Assign a single microservice to handle every domain event for the entire application",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "question_text": "Which advanced CI/CD pipeline feature can further optimize microservices deployments? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A 'build once, deploy many' approach where container images are built once per commit and reused across staging, testing, and production",
+            "is_correct": true
+          },
+          {
+            "option_text": "Rebuilding container images from scratch daily, ignoring whether code changed",
+            "is_correct": false
+          },
+          {
+            "option_text": "Locking all microservice versions to a single global release number without backward compatibility",
+            "is_correct": false
+          },
+          {
+            "option_text": "Delaying merges until every microservice is updated to the same feature set",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "question_text": "Which is a realistic example of over-segmentation leading to complex debugging? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A payment flow split into eight microservices: currency conversion, discount calculation, tax, ledger updates, receipt generation, each calling others for a single transaction",
+            "is_correct": true
+          },
+          {
+            "option_text": "Grouping user profile and user authentication logic in one service to reduce overhead",
+            "is_correct": false
+          },
+          {
+            "option_text": "Storing logs in a centralized location for easier correlation",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single microservice that only handles reformatting strings for debugging purposes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "question_text": "Which advanced tool might handle real-time distributed system traces, logs, and metrics in a single platform? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A modern observability platform (e.g., Datadog or New Relic) correlating logs, metrics, and traces for quick root-cause analysis",
+            "is_correct": true
+          },
+          {
+            "option_text": "A local text file aggregator on each node, managed via cron jobs",
+            "is_correct": false
+          },
+          {
+            "option_text": "Plain cURL requests for manual checking of each microservice’s status",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single diagram pinned to the office wall for monitoring traffic flows",
+            "is_correct": false
+          }
+        ]
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    ],
+    "true_false_questions": [
+      {
+        "id": 1,
+        "question_text": "Microservices are an alternative to monolithic systems, emphasizing small, independently deployable services.",
+        "is_true": true
+      },
+      {
+        "id": 2,
+        "question_text": "In microservices, each service must share a single global database to simplify data access.",
+        "is_true": false
+      },
+      {
+        "id": 3,
+        "question_text": "High cohesion means each microservice groups together functionality that logically belongs together, while low coupling means it depends minimally on other services.",
+        "is_true": true
+      },
+      {
+        "id": 4,
+        "question_text": "An API Gateway can provide centralized routing, caching, and security features for requests aimed at multiple microservices.",
+        "is_true": true
+      },
+      {
+        "id": 5,
+        "question_text": "Data isolation in microservices often reduces coupling because each service can change its own schema independently.",
+        "is_true": true
+      },
+      {
+        "id": 6,
+        "question_text": "Eventual consistency implies that all data writes are immediately synchronized across every service with no delay.",
+        "is_true": false
+      },
+      {
+        "id": 7,
+        "question_text": "Orchestration is a style where a central controller dictates the workflow steps, while choreography uses event-driven interactions without a single controlling service.",
+        "is_true": true
+      },
+      {
+        "id": 8,
+        "question_text": "Because microservices are stateless, they rarely need resilience mechanisms like retries or circuit breakers for failures.",
+        "is_true": false
+      },
+      {
+        "id": 9,
+        "question_text": "Circuit breakers protect a microservice ecosystem by preventing repeated calls to a failing service, aiding system stability.",
+        "is_true": true
+      },
+      {
+        "id": 10,
+        "question_text": "RESTful microservices emphasize stateless communication, so each request must include all necessary details without relying on stored server state.",
+        "is_true": true
+      },
+      {
+        "id": 11,
+        "question_text": "In REST, each resource is usually identified by a unique URI, and standard HTTP methods manipulate these resources (GET, POST, PUT, DELETE).",
+        "is_true": true
+      },
+      {
+        "id": 12,
+        "question_text": "Continuous deployment in microservices can lead to multiple releases per day, made easier by automated testing and DevOps pipelines.",
+        "is_true": true
+      },
+      {
+        "id": 13,
+        "question_text": "If a microservice is very small, it automatically guarantees high cohesion and low coupling.",
+        "is_true": false
+      },
+      {
+        "id": 14,
+        "question_text": "Not every project is suitable for microservices, especially if it’s small, tightly coupled, or doesn’t demand significant scalability.",
+        "is_true": true
+      },
+      {
+        "id": 15,
+        "question_text": "Microservices often employ both synchronous (HTTP) and asynchronous (message brokers) communication strategies, depending on use case requirements.",
+        "is_true": true
+      },
+      {
+        "id": 16,
+        "question_text": "Container orchestration platforms like Kubernetes automatically handle scheduling, scaling, and restarting microservices across clusters.",
+        "is_true": true
+      },
+      {
+        "id": 17,
+        "question_text": "Retries and backoff are unnecessary in microservices; a single attempt to call another service should suffice.",
+        "is_true": false
+      },
+      {
+        "id": 18,
+        "question_text": "Monitoring microservices in production is simplified because each service maintains a single centralized log file.",
+        "is_true": false
+      },
+      {
+        "id": 19,
+        "question_text": "A fallback mechanism allows a microservice to gracefully degrade when a downstream service fails, rather than causing a total error.",
+        "is_true": true
+      },
+      {
+        "id": 20,
+        "question_text": "Horizontal scaling involves adding more service instances, while vertical scaling involves upgrading CPU or memory resources on an existing instance.",
+        "is_true": true
+      },
+      {
+        "id": 21,
+        "question_text": "A Saga pattern coordinates multiple local transactions in a microservices environment, rolling back prior actions with compensations if a step fails.",
+        "is_true": true
+      },
+      {
+        "id": 22,
+        "question_text": "The CAP theorem states it is impossible for a distributed system to simultaneously guarantee full consistency, availability, and partition tolerance under all conditions.",
+        "is_true": true
+      },
+      {
+        "id": 23,
+        "question_text": "In microservices, one cannot use anything besides REST for synchronous communication.",
+        "is_true": false
+      },
+      {
+        "id": 24,
+        "question_text": "OAuth2 or JWT tokens can secure microservices by verifying that calls come from authorized clients or services.",
+        "is_true": true
+      },
+      {
+        "id": 25,
+        "question_text": "When containerizing microservices, Helm charts can simplify deployments on Kubernetes by packaging configurations and dependencies together.",
+        "is_true": true
+      },
+      {
+        "id": 26,
+        "question_text": "The Sidecar pattern involves running a companion process alongside a microservice to provide logging, monitoring, or other cross-cutting features.",
+        "is_true": true
+      },
+      {
+        "id": 27,
+        "question_text": "The Strangler pattern completely rewrites a monolith in a single step before releasing any microservices into production.",
+        "is_true": false
+      },
+      {
+        "id": 28,
+        "question_text": "CQRS (Command Query Responsibility Segregation) helps separate read and write operations for improved scalability and performance.",
+        "is_true": true
+      },
+      {
+        "id": 29,
+        "question_text": "A service mesh like Istio eliminates the need for logs or metrics since it handles all network traffic automatically.",
+        "is_true": false
+      },
+      {
+        "id": 30,
+        "question_text": "Domain-Driven Design (DDD) can guide microservice boundaries by aligning services with bounded contexts and core domains.",
+        "is_true": true
+      },
+      {
+        "id": 31,
+        "question_text": "A microservices architecture might not be suitable if team members are inexperienced with distributed systems or the domain is too small to justify segmentation.",
+        "is_true": true
+      },
+      {
+        "id": 32,
+        "question_text": "Istio and Linkerd can provide additional routing, security, and observability features without requiring code changes in the microservices themselves.",
+        "is_true": true
+      },
+      {
+        "id": 33,
+        "question_text": "Using advanced features like ConfigMaps and Secrets in Kubernetes can greatly simplify storing credentials and configuration details for microservices.",
+        "is_true": true
+      },
+      {
+        "id": 34,
+        "question_text": "Caching strategies and serverless cold-start optimizations are generally unnecessary since microservices always respond instantly.",
+        "is_true": false
+      },
+      {
+        "id": 35,
+        "question_text": "Prometheus collects time-series metrics, while Jaeger or Zipkin track distributed traces across service calls, aiding root-cause analysis.",
+        "is_true": true
+      },
+      {
+        "id": 36,
+        "question_text": "Docker Compose is never used for local integration testing of multiple microservices; production clusters are the only valid environment.",
+        "is_true": false
+      },
+      {
+        "id": 37,
+        "question_text": "Conway’s Law suggests that an organization’s microservice boundaries may end up mirroring the team structures and communication pathways.",
+        "is_true": true
+      },
+      {
+        "id": 38,
+        "question_text": "If a project invests in advanced tooling and well-defined service boundaries, the risk of over-segmentation is completely eliminated.",
+        "is_true": false
+      },
+      {
+        "id": 39,
+        "question_text": "Balancing fine-grained services with performance overhead is crucial: too many tiny services can lead to excessive latency and complexity.",
+        "is_true": true
+      },
+      {
+        "id": 40,
+        "question_text": "Reverse proxy gateways (e.g., NGINX) typically require rewriting core microservice logic to support caching and SSL termination.",
+        "is_true": false
+      },
+      {
+        "id": 41,
+        "question_text": "Eventual consistency may leverage pending transaction logs that replay or sync updates, ensuring data converges across microservices over time.",
+        "is_true": true
+      },
+      {
+        "id": 42,
+        "question_text": "Both orchestration and choreography approaches have identical trade-offs in terms of coupling and centralized control.",
+        "is_true": false
+      },
+      {
+        "id": 43,
+        "question_text": "One real-world example of circuit breaker usage is setting a short timeout for payment services, and if calls fail repeatedly, fallback logic is triggered.",
+        "is_true": true
+      },
+      {
+        "id": 44,
+        "question_text": "RESTful designs typically assign unique URIs and use HTTP verbs like GET, POST, PUT, and DELETE to operate on resources.",
+        "is_true": true
+      },
+      {
+        "id": 45,
+        "question_text": "Continuous deployment pipelines can include automated testing, container image building, and version management for each microservice separately.",
+        "is_true": true
+      },
+      {
+        "id": 46,
+        "question_text": "Blue-green deployment is designed to switch traffic to a new environment only after it’s confirmed to be operational, minimizing downtime.",
+        "is_true": true
+      },
+      {
+        "id": 47,
+        "question_text": "Over-segmentation can occur when trivial functions are turned into separate services, increasing network overhead and management complexity.",
+        "is_true": true
+      },
+      {
+        "id": 48,
+        "question_text": "Eventual consistency never requires real-world mechanisms like logging or asynchronous updates; all data is instantly consistent.",
+        "is_true": false
+      },
+      {
+        "id": 49,
+        "question_text": "Choosing gRPC can boost performance for high-volume internal service calls, but it may complicate debugging or external integrations compared to REST.",
+        "is_true": true
+      },
+      {
+        "id": 50,
+        "question_text": "Distributed tracing tools like Jaeger allow teams to visualize end-to-end requests, identify latency spikes, and trace failures across multiple services.",
+        "is_true": true
+      },
+      {
+        "id": 51,
+        "question_text": "Saga patterns can manage distributed transactions by combining local commits with compensating actions, preventing partial updates in multi-service processes.",
+        "is_true": true
+      },
+      {
+        "id": 52,
+        "question_text": "Rolling deployment usually provides zero downtime but requires maintaining two parallel environments and swapping traffic between them.",
+        "is_true": false
+      },
+      {
+        "id": 53,
+        "question_text": "API gateways can offer advanced features like rate limiting, response transformation, and authentication, going beyond simple reverse proxy functionality.",
+        "is_true": true
+      },
+      {
+        "id": 54,
+        "question_text": "When splitting a monolithic database into separate schemas for each service, schema evolution can become more complex to coordinate.",
+        "is_true": true
+      },
+      {
+        "id": 55,
+        "question_text": "Misconfiguring token validation in OAuth2 or JWT can lead to accepting invalid tokens, potentially compromising security.",
+        "is_true": true
+      },
+      {
+        "id": 56,
+        "question_text": "SOA typically involves a heavier Enterprise Service Bus, while microservices prefer lightweight, decentralized interactions and smaller, domain-driven services.",
+        "is_true": true
+      },
+      {
+        "id": 57,
+        "question_text": "Event-driven architectures can mix both asynchronous messaging and occasional synchronous requests if the domain demands it.",
+        "is_true": true
+      },
+      {
+        "id": 58,
+        "question_text": "Distributed locks solve all concurrency challenges without introducing any single point of failure.",
+        "is_true": false
+      },
+      {
+        "id": 59,
+        "question_text": "Sharding horizontally partitions a database so each shard holds a subset of rows, improving scalability for large datasets.",
+        "is_true": true
+      },
+      {
+        "id": 60,
+        "question_text": "OpenTelemetry unifies logs, metrics, and traces but still requires instrumentation in each microservice to collect data properly.",
+        "is_true": true
+      },
+      {
+        "id": 61,
+        "question_text": "Adopting advanced caching strategies can drastically reduce microservice response times, but might require careful invalidation logic.",
+        "is_true": true
+      },
+      {
+        "id": 62,
+        "question_text": "SOA typically involves heavier integration patterns like ESBs, whereas microservices prefer decentralized, autonomous services.",
+        "is_true": true
+      },
+      {
+        "id": 63,
+        "question_text": "In microservices, service-level security may involve mutual TLS (mTLS) for encrypted in-transit traffic and robust authentication/authorization at each endpoint.",
+        "is_true": true
+      },
+      {
+        "id": 64,
+        "question_text": "Log aggregation and centralized monitoring are unnecessary if each microservice writes logs to its own local file system.",
+        "is_true": false
+      },
+      {
+        "id": 65,
+        "question_text": "A streaming service that splits recommendation engines, billing, and video processing into separate microservices exemplifies a real-world use case of independent scaling.",
+        "is_true": true
+      },
+      {
+        "id": 66,
+        "question_text": "Choreography can lead to complex event chains if not carefully designed, while orchestration centralizes logic, simplifying debugging at the cost of more coupling.",
+        "is_true": true
+      },
+      {
+        "id": 67,
+        "question_text": "Horizontal scaling often introduces challenges in synchronizing stateful components, requiring strategies like sticky sessions or external data stores.",
+        "is_true": true
+      },
+      {
+        "id": 68,
+        "question_text": "Spotify is another real-world microservices example, splitting functionality such as playlist management and recommendation into separate services.",
+        "is_true": true
+      },
+      {
+        "id": 69,
+        "question_text": "Verifying the exact references to slides (e.g., 'Slide 34') ensures quiz questions accurately reflect the lecture’s focus on microservice granularity.",
+        "is_true": true
+      },
+      {
+        "id": 70,
+        "question_text": "Debugging distributed systems can be more complex than monolithic debugging, particularly when asynchronous calls or legacy integrations are involved.",
+        "is_true": true
+      },
+      {
+        "id": 71,
+        "question_text": "Compared to SOA, microservices often use smaller, domain-aligned services and lighter protocols rather than heavy enterprise service buses.",
+        "is_true": true
+      },
+      {
+        "id": 72,
+        "question_text": "HATEOAS means clients rely on embedded hyperlinks in responses to navigate or discover actions, enhancing RESTful discoverability.",
+        "is_true": true
+      },
+      {
+        "id": 73,
+        "question_text": "API versioning is unnecessary since all clients can adapt immediately whenever endpoints change.",
+        "is_true": false
+      },
+      {
+        "id": 74,
+        "question_text": "Slide 34 emphasizes that microservices should not be too coarse-grained or too fine-grained—both extremes can hinder performance and maintainability.",
+        "is_true": true
+      },
+      {
+        "id": 75,
+        "question_text": "Implementing OAuth2 or JWT tokens among microservices never presents token expiration or signature validation problems.",
+        "is_true": false
+      },
+      {
+        "id": 76,
+        "question_text": "Kubernetes Operators let developers automate operational knowledge for custom resource types, simplifying advanced deployments beyond basic Helm usage.",
+        "is_true": true
+      },
+      {
+        "id": 77,
+        "question_text": "Even with a monolithic codebase, partial extraction of modules to microservices is straightforward and rarely requires extensive refactoring.",
+        "is_true": false
+      },
+      {
+        "id": 78,
+        "question_text": "A real-world example of eventual consistency is an online seat reservation system, where replicas temporarily show data discrepancies until logs synchronize.",
+        "is_true": true
+      },
+      {
+        "id": 79,
+        "question_text": "Service meshes like Istio can handle advanced traffic splitting, enabling canary testing or A/B scenarios without modifying microservice code.",
+        "is_true": true
+      },
+      {
+        "id": 80,
+        "question_text": "Advanced secrets management solutions can dynamically rotate credentials or tokens, reducing risk from static environment variables in microservices.",
+        "is_true": true
+      },
+      {
+        "id": 81,
+        "question_text": "In domain-driven design, a ubiquitous language aids decomposition by ensuring consistent terminology across services’ boundaries.",
+        "is_true": true
+      },
+      {
+        "id": 82,
+        "question_text": "A 'build once, deploy many' pipeline approach means you rebuild container images for each environment stage to ensure maximum consistency.",
+        "is_true": false
+      },
+      {
+        "id": 83,
+        "question_text": "Over-segmentation can create debugging nightmares, as tracing a single transaction may jump across multiple tiny services for one business task.",
+        "is_true": true
+      },
+      {
+        "id": 84,
+        "question_text": "Modern observability platforms may unify logs, metrics, and distributed traces into a single dashboard, streamlining microservices troubleshooting.",
+        "is_true": true
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    ]
+  }
+  

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ lecture_data.lecture_title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>{{ lecture_data.lecture_title }}</h1>
+
+  <!-- MCQs Section -->
+  <h2>Multiple-Choice Questions (MCQs)</h2>
+  <div id="mcqs">
+    {% for question in lecture_data['mcqs'] %}
+      <div class="question-block">
+        <p><strong>{{ loop.index }}. {{ question.question_text }}</strong></p>
+        <form id="mcq-form-{{ question.id }}">
+          {% for option in question.options %}
+            <label>
+              <input type="checkbox" name="option" value="{{ loop.index0 }}">
+              {{ option.option_text }}
+            </label><br>
+          {% endfor %}
+          <button type="button" class="submit-mcq" data-question-id="{{ question.id }}">Submit</button>
+        </form>
+        <p class="feedback" id="feedback-mcq-{{ question.id }}" style="display: none;"></p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- True/False Section -->
+  <h2>True/False Questions</h2>
+  <div id="true-false">
+    {% for question in lecture_data['true_false_questions'] %}
+      <div class="question-block">
+        <p><strong>{{ loop.index }}. {{ question.question_text }}</strong></p>
+        <form id="tf-form-{{ question.id }}">
+          <label>
+            <input type="radio" name="answer" value="true">
+            True
+          </label><br>
+          <label>
+            <input type="radio" name="answer" value="false">
+            False
+          </label><br>
+          <button type="button" class="submit-tf" data-question-id="{{ question.id }}">Submit</button>
+        </form>
+        <p class="feedback" id="feedback-tf-{{ question.id }}" style="display: none;"></p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- JavaScript for AJAX -->
+  <script>
+    // MCQ Submissions
+    document.querySelectorAll('.submit-mcq').forEach(button => {
+      button.addEventListener('click', function () {
+        const questionId = parseInt(this.getAttribute('data-question-id'));
+        const lectureId = "{{ lecture_data['lecture_id'] }}";
+        const selectedOptions = Array.from(
+          document.querySelectorAll(`#mcq-form-${questionId} input[name="option"]:checked`)
+        ).map(input => parseInt(input.value));
+
+        fetch('/check-mcq', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ lecture_id: lectureId, question_id: questionId, selected_options: selectedOptions })
+        })
+          .then(response => response.json())
+          .then(data => {
+            const feedback = document.getElementById(`feedback-mcq-${questionId}`);
+            feedback.style.display = "block";
+            feedback.innerText = data.message;
+            feedback.style.color = data.correct ? "green" : "red";
+          });
+      });
+    });
+
+    // True/False Submissions
+    document.querySelectorAll('.submit-tf').forEach(button => {
+      button.addEventListener('click', function () {
+        const questionId = parseInt(this.getAttribute('data-question-id'));
+        const lectureId = "{{ lecture_data['lecture_id'] }}";
+        const selectedValue = document.querySelector(`#tf-form-${questionId} input[name="answer"]:checked`)?.value;
+
+        fetch('/check-tf', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ lecture_id: lectureId, question_id: questionId, selected_value: selectedValue })
+        })
+          .then(response => response.json())
+          .then(data => {
+            const feedback = document.getElementById(`feedback-tf-${questionId}`);
+            feedback.style.display = "block";
+            feedback.innerText = data.message;
+            feedback.style.color = data.correct ? "green" : "red";
+          });
+      });
+    });
+  </script>
+</body>
+</html>

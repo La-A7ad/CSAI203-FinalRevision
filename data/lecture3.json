@@ -1,0 +1,1088 @@
+{
+    "lecture_id": "lecture3",
+    "lecture_title": "Requirements and Design",
+    "mcqs": [
+      {
+        "id": 1,
+        "question_text": "According to IEEE 24765, which statements accurately define software requirements? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They are capabilities needed by a user to solve a problem",
+            "is_correct": true
+          },
+          {
+            "option_text": "They must be strictly hardware-related specifications",
+            "is_correct": false
+          },
+          {
+            "option_text": "They can be capabilities the system must meet to comply with a contract",
+            "is_correct": true
+          },
+          {
+            "option_text": "They exclude any user-based objectives",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_text": "Which of the following are examples of functional requirements for the Traffic Management System (TMS)? (2 correct options)",
+        "options": [
+          {
+            "option_text": "TMS shall allow setting traffic signal durations for Red, Green, and Amber",
+            "is_correct": true
+          },
+          {
+            "option_text": "TMS must be deployed by October 2025",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall display live notifications about accidents",
+            "is_correct": true
+          },
+          {
+            "option_text": "TMS shall have a mean time between failures of 20,000 hours",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_text": "What best describes non-functional requirements? (2 correct options)",
+        "options": [
+          {
+            "option_text": "They specify how well or under what constraints the system performs its functions",
+            "is_correct": true
+          },
+          {
+            "option_text": "They are strictly user interface designs",
+            "is_correct": false
+          },
+          {
+            "option_text": "They include reliability, security, and performance constraints",
+            "is_correct": true
+          },
+          {
+            "option_text": "They only apply to hardware devices and not software",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_text": "Which of the following are considered 'People Requirements' in the TMS context? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Traffic officers using the system to manage road closures",
+            "is_correct": true
+          },
+          {
+            "option_text": "LED signage for road directions",
+            "is_correct": false
+          },
+          {
+            "option_text": "Servers running the TMS software",
+            "is_correct": false
+          },
+          {
+            "option_text": "The algorithm for dynamic traffic scheduling",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_text": "Which requirement is an example of an 'emergent requirement' in TMS? (1 correct option)",
+        "options": [
+          {
+            "option_text": "TMS shall increase overall traffic throughput by 20% during peak hours",
+            "is_correct": true
+          },
+          {
+            "option_text": "TMS shall display a 'Welcome' message at system startup",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall use a MySQL database for storing logs",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall run on Windows 10",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_text": "Which statements are quality attributes (non-functional) typically associated with software requirements? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Maintainability",
+            "is_correct": true
+          },
+          {
+            "option_text": "User can view traffic camera feeds",
+            "is_correct": false
+          },
+          {
+            "option_text": "Availability",
+            "is_correct": true
+          },
+          {
+            "option_text": "Usability",
+            "is_correct": true
+          },
+          {
+            "option_text": "Show accidents on a map",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_text": "Which of the following is an example of a clear, unambiguous requirement statement?",
+        "options": [
+          {
+            "option_text": "The TMS shall be reliable enough to handle daily city traffic",
+            "is_correct": false
+          },
+          {
+            "option_text": "The TMS shall operate for 24,000 hours without a critical failure",
+            "is_correct": true
+          },
+          {
+            "option_text": "The TMS must use advanced algorithms for performance",
+            "is_correct": false
+          },
+          {
+            "option_text": "The TMS shall not have any bugs in production",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question_text": "What does 'traceable' mean in the context of effective software requirements? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Each requirement can be mapped back to its source and forward to design and test cases",
+            "is_correct": true
+          },
+          {
+            "option_text": "Requirements contain no technical jargon",
+            "is_correct": false
+          },
+          {
+            "option_text": "Requirements are locked and never change",
+            "is_correct": false
+          },
+          {
+            "option_text": "All requirements revolve around user interface design",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question_text": "Which statements are typical guidelines for writing requirements? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Use consistent terminology",
+            "is_correct": true
+          },
+          {
+            "option_text": "Write lengthy, compound sentences to include all details at once",
+            "is_correct": false
+          },
+          {
+            "option_text": "Ensure verifiability (testability) of each requirement",
+            "is_correct": true
+          },
+          {
+            "option_text": "Use active voice for clarity",
+            "is_correct": true
+          },
+          {
+            "option_text": "Combine multiple functional needs into a single statement",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question_text": "Which steps are part of the 'Requirements Process'? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Elicitation, Analysis, Specification",
+            "is_correct": true
+          },
+          {
+            "option_text": "Implementation, Testing, Deployment",
+            "is_correct": false
+          },
+          {
+            "option_text": "Validation and Requirements Management",
+            "is_correct": true
+          },
+          {
+            "option_text": "Unsupervised brainstorming among only the developers",
+            "is_correct": false
+          },
+          {
+            "option_text": "Post-project maintenance of final code",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question_text": "Which activity belongs to the 'Specification' phase in the requirements process?",
+        "options": [
+          {
+            "option_text": "Documenting requirements in a formal requirements document or tool",
+            "is_correct": true
+          },
+          {
+            "option_text": "Engaging with stakeholders to discover unarticulated needs",
+            "is_correct": false
+          },
+          {
+            "option_text": "Ensuring the product meets scheduled deadlines",
+            "is_correct": false
+          },
+          {
+            "option_text": "Releasing a minimum viable product (MVP)",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question_text": "During TMS development, analysts discover that initial assumptions about traffic signal durations are incorrect. Which requirements process activity might they revisit?",
+        "options": [
+          {
+            "option_text": "Elicitation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Implementation",
+            "is_correct": false
+          },
+          {
+            "option_text": "Deployment",
+            "is_correct": false
+          },
+          {
+            "option_text": "Marketing",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question_text": "Which statements accurately describe a use case? (2 correct options)",
+        "options": [
+          {
+            "option_text": "A scenario detailing how an actor interacts with the system to achieve a goal",
+            "is_correct": true
+          },
+          {
+            "option_text": "A security model for role-based access control",
+            "is_correct": false
+          },
+          {
+            "option_text": "A textual or diagrammatic representation of a single user-system interaction flow",
+            "is_correct": true
+          },
+          {
+            "option_text": "A marketing strategy for future product release",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question_text": "In a use case model, which symbol or shape commonly represents an actor?",
+        "options": [
+          {
+            "option_text": "A stick figure",
+            "is_correct": true
+          },
+          {
+            "option_text": "An oval",
+            "is_correct": false
+          },
+          {
+            "option_text": "A diamond shape",
+            "is_correct": false
+          },
+          {
+            "option_text": "A rectangle with a dashed border",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question_text": "Which of the following are typical development constraints? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Requiring compliance with certain regulations (e.g., GDPR)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Forbidding the system from having user accounts",
+            "is_correct": false
+          },
+          {
+            "option_text": "Specifying the programming language or platform",
+            "is_correct": true
+          },
+          {
+            "option_text": "Limiting hardware resources or developer availability",
+            "is_correct": true
+          },
+          {
+            "option_text": "Allowing unlimited time and budget for development",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question_text": "Which of the following might be part of the 'Operational Environment' requirements? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Minimum hardware specs (e.g., 4GB RAM, dual-core CPU)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Use of UML for system documentation",
+            "is_correct": false
+          },
+          {
+            "option_text": "Software dependencies like MySQL or Tomcat",
+            "is_correct": true
+          },
+          {
+            "option_text": "Stakeholder interviews for requirements elicitation",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question_text": "Which statements accurately describe the purpose of UML (Unified Modeling Language)? (3 correct options)",
+        "options": [
+          {
+            "option_text": "It provides standard notations to model system structure and behavior",
+            "is_correct": true
+          },
+          {
+            "option_text": "It completely replaces all textual requirements documentation",
+            "is_correct": false
+          },
+          {
+            "option_text": "It helps simplify or visualize complex design details",
+            "is_correct": true
+          },
+          {
+            "option_text": "It offers diagrams like class, sequence, and use case diagrams",
+            "is_correct": true
+          },
+          {
+            "option_text": "It only applies to database schema creation",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question_text": "Which UML diagram would best show the order of method calls between objects at runtime?",
+        "options": [
+          {
+            "option_text": "Sequence Diagram",
+            "is_correct": true
+          },
+          {
+            "option_text": "Use Case Diagram",
+            "is_correct": false
+          },
+          {
+            "option_text": "Class Diagram",
+            "is_correct": false
+          },
+          {
+            "option_text": "Entity-Relationship Diagram",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_text": "Which of the following is an example of a feasible requirement?",
+        "options": [
+          {
+            "option_text": "The TMS shall broadcast telepathic signals to drivers",
+            "is_correct": false
+          },
+          {
+            "option_text": "The TMS shall support up to 1,000 simultaneous active intersections within hardware capacity",
+            "is_correct": true
+          },
+          {
+            "option_text": "The TMS shall predict traffic accidents with 100% accuracy",
+            "is_correct": false
+          },
+          {
+            "option_text": "The TMS shall read drivers’ mind to adjust signals instantly",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question_text": "In the TMS case study, which is a valid example of a software requirement? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Traffic signals must be made of durable plastic hardware",
+            "is_correct": false
+          },
+          {
+            "option_text": "Traffic officers shall wear reflective vests while on duty",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall alert the Traffic Manager when accidents exceed 5 in one area",
+            "is_correct": true
+          },
+          {
+            "option_text": "Vehicles must always follow speed limits",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_text": "Which statements accurately describe 'Use Case Modeling'? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Focuses on illustrating how users (actors) interact with the system to achieve goals",
+            "is_correct": true
+          },
+          {
+            "option_text": "Includes structural data modeling, such as table relationships in a DB",
+            "is_correct": false
+          },
+          {
+            "option_text": "Uses ovals to represent different functionalities or user tasks (use cases)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminates the need for requirement specifications entirely",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question_text": "Which option best illustrates a non-functional reliability requirement for TMS? (1 correct option)",
+        "options": [
+          {
+            "option_text": "TMS shall handle at least 10,000 user logins per hour",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall not fail more than once every 24,000 hours",
+            "is_correct": true
+          },
+          {
+            "option_text": "TMS shall allow the manager to override traffic light timings",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall display accident alerts in real time",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question_text": "Which scenario would most likely require re-validation of requirements? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Developers finishing a sprint on schedule",
+            "is_correct": false
+          },
+          {
+            "option_text": "Government introduces new data privacy laws affecting TMS data collection",
+            "is_correct": true
+          },
+          {
+            "option_text": "The TMS code compiles successfully without errors",
+            "is_correct": false
+          },
+          {
+            "option_text": "Project sponsor is happy with the current design",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question_text": "Which statements accurately describe 'priority' in software requirements? (2 correct options)",
+        "options": [
+          {
+            "option_text": "It indicates how essential a requirement is (must-have, should-have, or could-have)",
+            "is_correct": true
+          },
+          {
+            "option_text": "All requirements have equal priority for fairness",
+            "is_correct": false
+          },
+          {
+            "option_text": "Low-priority items can be deferred or omitted if time or budget is limited",
+            "is_correct": true
+          },
+          {
+            "option_text": "Priority does not affect implementation order",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question_text": "Which example best illustrates a maintainability requirement for TMS? (1 correct option)",
+        "options": [
+          {
+            "option_text": "TMS code shall be refactored with a maximum of 3 levels of nesting per function",
+            "is_correct": true
+          },
+          {
+            "option_text": "TMS shall display a warning if multiple roads converge",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall have a user-friendly homepage interface",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall use the British English language pack",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "question_text": "Which statement about the example University Library System UML is correct? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Books and Journals could inherit from a common Publication class",
+            "is_correct": true
+          },
+          {
+            "option_text": "Students are represented as an actor in a use case model, not as a class in UML",
+            "is_correct": false
+          },
+          {
+            "option_text": "A class diagram can show attributes like ISBN for Books and ISSN for Journals",
+            "is_correct": true
+          },
+          {
+            "option_text": "Inheritance is forbidden in UML class diagrams",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "question_text": "What is a key characteristic of a Sequence Diagram?",
+        "options": [
+          {
+            "option_text": "It shows the static structure of classes and their relationships",
+            "is_correct": false
+          },
+          {
+            "option_text": "It represents the dynamic flow of messages between objects over time",
+            "is_correct": true
+          },
+          {
+            "option_text": "It is used exclusively for user-interface design",
+            "is_correct": false
+          },
+          {
+            "option_text": "It cannot depict method calls",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "question_text": "Which is a recommended approach when writing non-functional requirements? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Define quantifiable measures (e.g., '99.9% availability')",
+            "is_correct": true
+          },
+          {
+            "option_text": "Use vague terms like 'fast' or 'user-friendly'",
+            "is_correct": false
+          },
+          {
+            "option_text": "Avoid duplication or redundancy among performance, reliability, and other constraints",
+            "is_correct": true
+          },
+          {
+            "option_text": "Ensure they are testable or measurable where possible",
+            "is_correct": true
+          },
+          {
+            "option_text": "Place them only in an appendix, ignoring main requirement lists",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "question_text": "During requirements analysis for TMS, you discover a conflict: One requirement says an alert must pop up every time there's a slight slowdown, while another states the system should minimize unnecessary pop-ups. Which property of good requirements is being violated?",
+        "options": [
+          {
+            "option_text": "Consistency",
+            "is_correct": true
+          },
+          {
+            "option_text": "Feasibility",
+            "is_correct": false
+          },
+          {
+            "option_text": "Traceability",
+            "is_correct": false
+          },
+          {
+            "option_text": "Verifiability",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "question_text": "Which option best fits an 'analysis' activity in the requirements process? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Constructing UML diagrams (use case, sequence) to understand solution scope",
+            "is_correct": true
+          },
+          {
+            "option_text": "Generating code for the final system",
+            "is_correct": false
+          },
+          {
+            "option_text": "Handing out marketing flyers to potential users",
+            "is_correct": false
+          },
+          {
+            "option_text": "Archiving old versions of the system in a repository",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "question_text": "What is the primary purpose of a 'Use Case Relationship' (e.g., include/extend) in UML? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Show how one use case may reuse another's steps",
+            "is_correct": true
+          },
+          {
+            "option_text": "Force all use cases to have the same exact actors",
+            "is_correct": false
+          },
+          {
+            "option_text": "Express optional or conditional flows (extend)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Replace functional requirements specification",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "question_text": "Which requirement characteristic ensures it aligns with the system's real-world constraints and can be completed with available technology and resources?",
+        "options": [
+          {
+            "option_text": "Feasible",
+            "is_correct": true
+          },
+          {
+            "option_text": "Traceable",
+            "is_correct": false
+          },
+          {
+            "option_text": "Consistent",
+            "is_correct": false
+          },
+          {
+            "option_text": "Verifiable",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "question_text": "Which statement best demonstrates a 'concise' requirement?",
+        "options": [
+          {
+            "option_text": "TMS shall display accident alerts in under 3 seconds, with an icon, message, and beep, but only if the system detects more than 2 accidents within a 5-minute interval, and the user is logged in as admin.",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall display an accident alert within 3 seconds of detection.",
+            "is_correct": true
+          },
+          {
+            "option_text": "TMS shall run quickly, handle accidents, queue events, and also maintain logs for all these triggers in real time.",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall be extremely stable and reliable for every environment worldwide.",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "question_text": "Which of the following is a valid operational environment security consideration? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Deploy TMS on a dedicated GPU for faster 3D rendering",
+            "is_correct": false
+          },
+          {
+            "option_text": "Implement TLS/SSL encryption for all data transmitted from TMS to client terminals",
+            "is_correct": true
+          },
+          {
+            "option_text": "Require TMS to run only on 32-bit operating systems",
+            "is_correct": false
+          },
+          {
+            "option_text": "Prevent any concurrency features in the TMS code",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "question_text": "Which example shows a high-level 'Development Constraint' on the TMS? (1 correct option)",
+        "options": [
+          {
+            "option_text": "The TMS shall operate on Tomcat 9.0 or later",
+            "is_correct": true
+          },
+          {
+            "option_text": "The TMS shall detect accidents automatically via sensors",
+            "is_correct": false
+          },
+          {
+            "option_text": "The TMS must allow traffic police to manually override signals",
+            "is_correct": false
+          },
+          {
+            "option_text": "The TMS shall notify about road closures every 2 minutes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "question_text": "Which best describes 'validation' in the requirements process?",
+        "options": [
+          {
+            "option_text": "Ensuring the implemented system meets user needs and expectations",
+            "is_correct": true
+          },
+          {
+            "option_text": "Making sure the code has no syntax errors",
+            "is_correct": false
+          },
+          {
+            "option_text": "Performing routine system maintenance after deployment",
+            "is_correct": false
+          },
+          {
+            "option_text": "Defining the architecture for the software design",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "question_text": "Which scenario reflects a 'people requirement' for TMS?",
+        "options": [
+          {
+            "option_text": "Operators must be trained to manage congestion using TMS tools",
+            "is_correct": true
+          },
+          {
+            "option_text": "Installation of solar-powered traffic signals",
+            "is_correct": false
+          },
+          {
+            "option_text": "Algorithm for dynamic queue detection",
+            "is_correct": false
+          },
+          {
+            "option_text": "Red light duration shall be 30 seconds by default",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "question_text": "Which item is typically included in a 'Use Case Diagram'?",
+        "options": [
+          {
+            "option_text": "A relationship line linking an actor to a use case representing a task",
+            "is_correct": true
+          },
+          {
+            "option_text": "Detailed logic of Java code handling concurrency",
+            "is_correct": false
+          },
+          {
+            "option_text": "Network topology with servers and routers",
+            "is_correct": false
+          },
+          {
+            "option_text": "Software class attributes like 'id', 'name', 'status'",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "question_text": "Which is a 'Verifiable' requirement?",
+        "options": [
+          {
+            "option_text": "TMS shall enhance driver satisfaction across all cities",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall reduce average queue length by 25% on main roads, measurable via daily reports",
+            "is_correct": true
+          },
+          {
+            "option_text": "TMS shall be extremely advanced technologically",
+            "is_correct": false
+          },
+          {
+            "option_text": "TMS shall be code-complete by next quarter",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "question_text": "Which statement regarding 'Management' of requirements is most accurate? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It involves controlling changes to requirements throughout the system lifecycle",
+            "is_correct": true
+          },
+          {
+            "option_text": "It only matters after the system is fully implemented",
+            "is_correct": false
+          },
+          {
+            "option_text": "It is a one-time activity done right after deployment",
+            "is_correct": false
+          },
+          {
+            "option_text": "It focuses solely on writing user manuals",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "question_text": "Which statement about UML class diagram multiplicities is correct? (1 correct option)",
+        "options": [
+          {
+            "option_text": "A multiplicity of '1..*' indicates that one instance of a class is associated with many instances of another class, at least one and potentially many.",
+            "is_correct": true
+          },
+          {
+            "option_text": "A multiplicity of '0..1' means at least one instance must always exist on both sides.",
+            "is_correct": false
+          },
+          {
+            "option_text": "'1..1' is invalid syntax in UML for specifying an exact count of one object.",
+            "is_correct": false
+          },
+          {
+            "option_text": "'*..*' means no objects can ever be linked together in the model.",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "question_text": "Which actor might be present in a TMS (Traffic Management System) use case to handle accident reporting? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Traffic Manager, who oversees and responds to real-time accident notifications",
+            "is_correct": true
+          },
+          {
+            "option_text": "AccidentDatabase, an external system providing historical accident data",
+            "is_correct": true
+          },
+          {
+            "option_text": "Traffic Light Hardware, which is part of the same subsystem and not modeled as an actor",
+            "is_correct": false
+          },
+          {
+            "option_text": "Operating System, which is inherently the environment, not an external user",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "question_text": "Which of the following might be considered an 'edge case' in TMS operation? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Multiple accidents occurring at the exact same intersection within a 1-minute window",
+            "is_correct": true
+          },
+          {
+            "option_text": "Normal flow of traffic during morning rush hour",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single accident on a lightly used rural road",
+            "is_correct": false
+          },
+          {
+            "option_text": "Changing signal lights from red to green at 60-second intervals",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "question_text": "In the University Library System UML, which detail best demonstrates multiplicity in a class diagram for book borrowing? (2 correct options)",
+        "options": [
+          {
+            "option_text": "A 'Student' class can be associated with '0..*' borrowed items",
+            "is_correct": true
+          },
+          {
+            "option_text": "A 'Journal' class must always have exactly '1..1' ISSN attribute",
+            "is_correct": false
+          },
+          {
+            "option_text": "A 'Book' class shows each instance can be borrowed by '0..1' student at a time",
+            "is_correct": true
+          },
+          {
+            "option_text": "A 'Librarian' actor with no indicated relationships in the diagram",
+            "is_correct": false
+          }
+        ]
+      }
+      
+    ],
+    "true_false_questions": [
+      {
+        "id": 1,
+        "question_text": "Functional requirements describe specific actions the software must perform, while non-functional requirements impose constraints or quality attributes on those actions.",
+        "is_true": true
+      },
+      {
+        "id": 2,
+        "question_text": "An emergent requirement in TMS depends on how multiple system components interact, for example, increasing throughput by 20% during peak hours.",
+        "is_true": true
+      },
+      {
+        "id": 3,
+        "question_text": "A 'feasible' requirement is one that cannot be implemented with current resources or technology.",
+        "is_true": false
+      },
+      {
+        "id": 4,
+        "question_text": "Non-functional requirements often address attributes such as reliability, security, or performance, rather than direct user-visible functionality.",
+        "is_true": true
+      },
+      {
+        "id": 5,
+        "question_text": "Requirements process includes phases like elicitation, analysis, specification, validation, and management.",
+        "is_true": true
+      },
+      {
+        "id": 6,
+        "question_text": "Use case modeling focuses on data storage structures rather than user interactions with the system.",
+        "is_true": false
+      },
+      {
+        "id": 7,
+        "question_text": "Effective software requirements must be correct, concise, complete, and verifiable, among other characteristics.",
+        "is_true": true
+      },
+      {
+        "id": 8,
+        "question_text": "In UML, a class diagram models the dynamic flow of messages among objects over time.",
+        "is_true": false
+      },
+      {
+        "id": 9,
+        "question_text": "Development constraints can include mandated programming languages, operating systems, or compliance with specific regulations.",
+        "is_true": true
+      },
+      {
+        "id": 10,
+        "question_text": "Operational environment requirements specify hardware specs, software dependencies, and security considerations for the system.",
+        "is_true": true
+      },
+      {
+        "id": 11,
+        "question_text": "Validation ensures that the final system aligns with stakeholders’ needs and the documented requirements.",
+        "is_true": true
+      },
+      {
+        "id": 12,
+        "question_text": "A requirement that states 'The system shall be user-friendly' is highly verifiable and unambiguous.",
+        "is_true": false
+      },
+      {
+        "id": 13,
+        "question_text": "UML stands for Unified Modeling Language, which standardizes diagrams like class and sequence diagrams for system design.",
+        "is_true": true
+      },
+      {
+        "id": 14,
+        "question_text": "An example of a non-functional TMS requirement is 'TMS shall handle accident detection and alert display within 3 seconds.'",
+        "is_true": false
+      },
+      {
+        "id": 15,
+        "question_text": "The TMS case study demonstrates how functional, non-functional, and emergent requirements interact for a complex real-world system.",
+        "is_true": true
+      },
+      {
+        "id": 16,
+        "question_text": "Handling multiple simultaneous accidents within the same area is an example of an edge case requirement for the TMS.",
+        "is_true": true
+      },
+      {
+        "id": 17,
+        "question_text": "In the library system UML example, each Book can be associated with exactly one Student at a time (i.e., one borrower), reflecting a multiplicity of 0..1 from Student to Book.",
+        "is_true": true
+      }
+      
+    ]
+  }
+  

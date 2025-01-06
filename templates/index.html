@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Lectures</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Available Lectures</h1>
+  <ul>
+    {% for lecture in lectures %}
+      <li>
+        <a href="{{ url_for('show_lecture', lecture_id=lecture.lecture_id) }}">
+          {{ lecture.lecture_title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

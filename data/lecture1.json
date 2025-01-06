@@ -1,0 +1,1036 @@
+{
+  "lecture_id": "lecture1",
+  "lecture_title": "Introduction to Software Products",
+  "mcqs": [
+    {
+      "id": 1,
+      "question_text": "What are software products? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Hardware-focused products for enterprise use",
+          "is_correct": false
+        },
+        {
+          "option_text": "Generic software systems useful to a range of customers",
+          "is_correct": true
+        },
+        {
+          "option_text": "Custom-built software for specific clients",
+          "is_correct": false
+        },
+        {
+          "option_text": "Systems designed to solve specific business problems",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question_text": "Which of the following are examples of software products? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Sudoku apps",
+          "is_correct": true
+        },
+        {
+          "option_text": "Microsoft Excel",
+          "is_correct": true
+        },
+        {
+          "option_text": "Custom enterprise solutions",
+          "is_correct": false
+        },
+        {
+          "option_text": "Evernote",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question_text": "What differentiates product-based from project-based software engineering? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Project-based starts with customer requirements",
+          "is_correct": true
+        },
+        {
+          "option_text": "Product-based relies on external customer requirements",
+          "is_correct": false
+        },
+        {
+          "option_text": "Product-based starts with a business opportunity",
+          "is_correct": true
+        },
+        {
+          "option_text": "Project-based involves no external customer interaction",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question_text": "What are the responsibilities of product managers? (4 correct options)",
+      "options": [
+        {
+          "option_text": "Writing the software code",
+          "is_correct": false
+        },
+        {
+          "option_text": "Product vision management",
+          "is_correct": true
+        },
+        {
+          "option_text": "Creating user stories and scenarios",
+          "is_correct": true
+        },
+        {
+          "option_text": "Developing the product roadmap",
+          "is_correct": true
+        },
+        {
+          "option_text": "Managing the product backlog",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question_text": "What is the purpose of prototyping? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Identifying fundamental components",
+          "is_correct": true
+        },
+        {
+          "option_text": "Testing new ideas and gathering feedback",
+          "is_correct": true
+        },
+        {
+          "option_text": "Replacing the final product",
+          "is_correct": false
+        },
+        {
+          "option_text": "Creating a working version for user feedback",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question_text": "What are the two stages of prototyping? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Customer demonstration",
+          "is_correct": true
+        },
+        {
+          "option_text": "Requirement analysis",
+          "is_correct": false
+        },
+        {
+          "option_text": "Feasibility demonstration",
+          "is_correct": true
+        },
+        {
+          "option_text": "Product marketing",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question_text": "What defines a software product line? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Entirely standalone systems",
+          "is_correct": false
+        },
+        {
+          "option_text": "Generic products with no custom features",
+          "is_correct": false
+        },
+        {
+          "option_text": "Customer-specific adaptations and additions",
+          "is_correct": true
+        },
+        {
+          "option_text": "A set of products sharing a common core",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question_text": "What are the starting points for project-based and product-based software engineering? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Project-based starts with a prototype",
+          "is_correct": false
+        },
+        {
+          "option_text": "Product-based starts with a business opportunity",
+          "is_correct": true
+        },
+        {
+          "option_text": "Product-based starts with customer feedback",
+          "is_correct": false
+        },
+        {
+          "option_text": "Project-based starts with software requirements",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question_text": "What are examples of software platforms? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Custom-built software",
+          "is_correct": false
+        },
+        {
+          "option_text": "Operating systems supporting apps",
+          "is_correct": true
+        },
+        {
+          "option_text": "Facebook",
+          "is_correct": true
+        },
+        {
+          "option_text": "Spreadsheet applications",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question_text": "What are the key concerns of product managers? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Code optimization",
+          "is_correct": false
+        },
+        {
+          "option_text": "Technology constraints",
+          "is_correct": true
+        },
+        {
+          "option_text": "Customer experience",
+          "is_correct": true
+        },
+        {
+          "option_text": "Business needs",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question_text": "Which activities are involved in technical interactions of product managers? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Acceptance testing",
+          "is_correct": true
+        },
+        {
+          "option_text": "Writing system documentation",
+          "is_correct": false
+        },
+        {
+          "option_text": "Creating the product backlog",
+          "is_correct": true
+        },
+        {
+          "option_text": "Customer testing",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question_text": "What is the role of a product manager in product vision management? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Ensuring there is no vision drift",
+          "is_correct": true
+        },
+        {
+          "option_text": "Writing code to implement vision",
+          "is_correct": false
+        },
+        {
+          "option_text": "Setting up technical architecture",
+          "is_correct": false
+        },
+        {
+          "option_text": "Developing user stories and scenarios",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question_text": "What are the objectives of acceptance testing? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Adding final customer features",
+          "is_correct": false
+        },
+        {
+          "option_text": "Verifying software meets roadmap goals",
+          "is_correct": true
+        },
+        {
+          "option_text": "Fixing all software bugs",
+          "is_correct": false
+        },
+        {
+          "option_text": "Ensuring product reliability and efficiency",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question_text": "Which are key elements of a product roadmap? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Planned development milestones",
+          "is_correct": true
+        },
+        {
+          "option_text": "Marketing strategies",
+          "is_correct": true
+        },
+        {
+          "option_text": "Detailed system documentation",
+          "is_correct": false
+        },
+        {
+          "option_text": "Release schedules",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question_text": "Which types of comparable software development exist? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Internal tool development",
+          "is_correct": true
+        },
+        {
+          "option_text": "Mass-market product software",
+          "is_correct": false
+        },
+        {
+          "option_text": "Research software",
+          "is_correct": true
+        },
+        {
+          "option_text": "Student projects",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question_text": "Which examples demonstrate software execution models? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Hardware-only systems",
+          "is_correct": false
+        },
+        {
+          "option_text": "Standalone systems",
+          "is_correct": true
+        },
+        {
+          "option_text": "Hybrid systems",
+          "is_correct": true
+        },
+        {
+          "option_text": "Service-based systems",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question_text": "What are the benefits of having a software product line? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Exclusive focus on hardware solutions",
+          "is_correct": false
+        },
+        {
+          "option_text": "Reduced development costs",
+          "is_correct": true
+        },
+        {
+          "option_text": "Increased customization options",
+          "is_correct": true
+        },
+        {
+          "option_text": "Eliminates the need for user feedback",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question_text": "Which are the main types of software prototyping? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Evolutionary prototyping",
+          "is_correct": true
+        },
+        {
+          "option_text": "Throwaway prototyping",
+          "is_correct": true
+        },
+        {
+          "option_text": "Static prototyping",
+          "is_correct": false
+        },
+        {
+          "option_text": "Predefined prototyping",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question_text": "What is the purpose of feasibility demonstrations in prototyping? (1 correct option)",
+      "options": [
+        {
+          "option_text": "To finalize the marketing strategy",
+          "is_correct": false
+        },
+        {
+          "option_text": "To replace the final product",
+          "is_correct": false
+        },
+        {
+          "option_text": "To evaluate if the product idea is achievable",
+          "is_correct": true
+        },
+        {
+          "option_text": "To test deployment processes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question_text": "What are key differences between acceptance testing and customer testing? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Acceptance testing ensures goals align with the roadmap",
+          "is_correct": true
+        },
+        {
+          "option_text": "Acceptance testing is done only by customers",
+          "is_correct": false
+        },
+        {
+          "option_text": "Customer testing focuses on gathering user feedback",
+          "is_correct": true
+        },
+        {
+          "option_text": "Customer testing eliminates the need for debugging",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question_text": "Which of the following describe software product maintenance? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Performance optimization",
+          "is_correct": true
+        },
+        {
+          "option_text": "Bug fixes and updates",
+          "is_correct": true
+        },
+        {
+          "option_text": "Addition of new features",
+          "is_correct": true
+        },
+        {
+          "option_text": "Eliminating all prototyping stages",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question_text": "What are the objectives of customer demonstration prototyping? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Extend features for specific customer needs",
+          "is_correct": true
+        },
+        {
+          "option_text": "Refine user scenarios and use cases",
+          "is_correct": true
+        },
+        {
+          "option_text": "Replace feasibility demonstration entirely",
+          "is_correct": false
+        },
+        {
+          "option_text": "Test general functionality of the product",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question_text": "Which are common execution models for software products? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Hardware-only models",
+          "is_correct": false
+        },
+        {
+          "option_text": "Service-based systems",
+          "is_correct": true
+        },
+        {
+          "option_text": "Standalone systems",
+          "is_correct": true
+        },
+        {
+          "option_text": "Hybrid systems",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question_text": "What are the three primary concerns of product management? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Handling technology constraints",
+          "is_correct": true
+        },
+        {
+          "option_text": "Identifying code inefficiencies",
+          "is_correct": false
+        },
+        {
+          "option_text": "Addressing business needs",
+          "is_correct": true
+        },
+        {
+          "option_text": "Managing customer experience",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question_text": "Which practices are discouraged in prototyping? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Testing ideas with a working prototype",
+          "is_correct": false
+        },
+        {
+          "option_text": "Reusing the prototype for the final product",
+          "is_correct": true
+        },
+        {
+          "option_text": "Incorporating user feedback into features",
+          "is_correct": false
+        },
+        {
+          "option_text": "Ignoring stakeholder feedback during testing",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question_text": "What are the two stages of prototyping? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Feasibility demonstration",
+          "is_correct": true
+        },
+        {
+          "option_text": "Customer demonstration",
+          "is_correct": true
+        },
+        {
+          "option_text": "Marketing strategy development",
+          "is_correct": false
+        },
+        {
+          "option_text": "Product vision refinement",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question_text": "What are key responsibilities of a product manager? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Managing vision drift",
+          "is_correct": true
+        },
+        {
+          "option_text": "Leading roadmap development",
+          "is_correct": true
+        },
+        {
+          "option_text": "Writing system code",
+          "is_correct": false
+        },
+        {
+          "option_text": "Handling customer testing",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question_text": "Which are examples of software execution models? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Hardware-only systems",
+          "is_correct": false
+        },
+        {
+          "option_text": "Standalone systems",
+          "is_correct": true
+        },
+        {
+          "option_text": "Service-based systems",
+          "is_correct": true
+        },
+        {
+          "option_text": "Hybrid systems",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question_text": "What is the first task in software product development? (1 correct option)",
+      "options": [
+        {
+          "option_text": "Writing the product roadmap",
+          "is_correct": false
+        },
+        {
+          "option_text": "Building a prototype to demonstrate key features",
+          "is_correct": true
+        },
+        {
+          "option_text": "Developing the product backlog",
+          "is_correct": false
+        },
+        {
+          "option_text": "Conducting feasibility studies",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question_text": "What are the key features of the feasibility demonstration? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Outlines marketing strategies",
+          "is_correct": false
+        },
+        {
+          "option_text": "Demonstrates viability of new ideas",
+          "is_correct": true
+        },
+        {
+          "option_text": "Shows features superior to competing products",
+          "is_correct": true
+        },
+        {
+          "option_text": "Finalizes product release schedules",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question_text": "Which responsibilities fall under product vision management? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Ensuring there is no vision drift",
+          "is_correct": true
+        },
+        {
+          "option_text": "Managing technical architecture design",
+          "is_correct": false
+        },
+        {
+          "option_text": "Evaluating proposed changes against the vision",
+          "is_correct": true
+        },
+        {
+          "option_text": "Developing user feedback forms",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question_text": "Which categories describe comparable software development? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Internal tool development",
+          "is_correct": true
+        },
+        {
+          "option_text": "Research software",
+          "is_correct": true
+        },
+        {
+          "option_text": "Hardware-only product design",
+          "is_correct": false
+        },
+        {
+          "option_text": "Student projects",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question_text": "Which are examples of hybrid software execution models? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Spreadsheet applications",
+          "is_correct": false
+        },
+        {
+          "option_text": "Operating systems supporting apps",
+          "is_correct": true
+        },
+        {
+          "option_text": "Facebook",
+          "is_correct": true
+        },
+        {
+          "option_text": "Custom-built internal tools",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question_text": "What is a key role of customer testing in product development? (1 correct option)",
+      "options": [
+        {
+          "option_text": "Developing the software architecture",
+          "is_correct": false
+        },
+        {
+          "option_text": "Gathering feedback on product usability",
+          "is_correct": true
+        },
+        {
+          "option_text": "Finalizing product marketing strategies",
+          "is_correct": false
+        },
+        {
+          "option_text": "Testing the prototype for internal use",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question_text": "What are the primary goals of a feasibility demonstration? (2 correct options)",
+      "options": [
+        {
+          "option_text": "To evaluate the practicality of new ideas",
+          "is_correct": true
+        },
+        {
+          "option_text": "To conduct initial customer testing",
+          "is_correct": false
+        },
+        {
+          "option_text": "To showcase better features than competing products",
+          "is_correct": true
+        },
+        {
+          "option_text": "To finalize the product roadmap",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question_text": "What is the main focus of customer testing? (1 correct option)",
+      "options": [
+        {
+          "option_text": "Gathering usability and feature feedback",
+          "is_correct": true
+        },
+        {
+          "option_text": "Testing internal development tools",
+          "is_correct": false
+        },
+        {
+          "option_text": "Finalizing user stories",
+          "is_correct": false
+        },
+        {
+          "option_text": "Ensuring no vision drift",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question_text": "Which of the following are examples of service-based software systems? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Custom enterprise tools",
+          "is_correct": false
+        },
+        {
+          "option_text": "Google Docs",
+          "is_correct": true
+        },
+        {
+          "option_text": "Microsoft Word (standalone)",
+          "is_correct": false
+        },
+        {
+          "option_text": "Dropbox",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question_text": "Which tasks are essential for product managers during product development? (3 correct options)",
+      "options": [
+        {
+          "option_text": "Developing marketing campaigns",
+          "is_correct": false
+        },
+        {
+          "option_text": "Coordinating with cross-functional teams",
+          "is_correct": true
+        },
+        {
+          "option_text": "Refining product roadmaps",
+          "is_correct": true
+        },
+        {
+          "option_text": "Prioritizing user needs",
+          "is_correct": true
+        },
+        {
+          "option_text": "Designing technical architecture",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question_text": "How do product managers engage with stakeholders? (2 correct options)",
+      "options": [
+        {
+          "option_text": "Handling all code-related issues",
+          "is_correct": false
+        },
+        {
+          "option_text": "Collecting feedback on feature priorities",
+          "is_correct": true
+        },
+        {
+          "option_text": "Conducting regular status updates",
+          "is_correct": true
+        },
+        {
+          "option_text": "Finalizing system architecture",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question_text": "What characterizes iterative product development? (1 correct option)",
+      "options": [
+        {
+          "option_text": "Using prototypes only in the initial phase",
+          "is_correct": false
+        },
+        {
+          "option_text": "Skipping early testing phases",
+          "is_correct": false
+        },
+        {
+          "option_text": "Continuous refinement based on feedback",
+          "is_correct": true
+        },
+        {
+          "option_text": "Finalizing all requirements upfront",
+          "is_correct": false
+        }
+      ]
+    }
+  ],
+  "true_false_questions": [
+    {
+      "id": 1,
+      "question_text": "Software product lines help reduce costs by reusing core components.",
+      "is_true": true
+    },
+    {
+      "id": 2,
+      "question_text": "Prototyping is used to finalize a product's marketing strategy.",
+      "is_true": false
+    },
+    {
+      "id": 3,
+      "question_text": "Acceptance testing is typically performed by internal teams.",
+      "is_true": true
+    },
+    {
+      "id": 4,
+      "question_text": "Customer testing focuses exclusively on backend functionality.",
+      "is_true": false
+    },
+    {
+      "id": 5,
+      "question_text": "Evolutionary prototyping is discarded after initial feedback.",
+      "is_true": false
+    },
+    {
+      "id": 6,
+      "question_text": "Bug fixes are a common activity in software product maintenance.",
+      "is_true": true
+    },
+    {
+      "id": 7,
+      "question_text": "Feasibility demonstrations evaluate whether an idea can be practically implemented.",
+      "is_true": true
+    },
+    {
+      "id": 8,
+      "question_text": "Throwaway prototyping focuses on creating reusable software components.",
+      "is_true": false
+    },
+    {
+      "id": 9,
+      "question_text": "A prototype is always reused for the final product.",
+      "is_true": false
+    },
+    {
+      "id": 10,
+      "question_text": "Customer demonstrations are essential for tailoring features to specific users.",
+      "is_true": true
+    },
+    {
+      "id": 11,
+      "question_text": "Acceptance testing ensures the product meets business goals and roadmap requirements.",
+      "is_true": true
+    },
+    {
+      "id": 12,
+      "question_text": "Hybrid systems combine standalone features with service-based functionality.",
+      "is_true": true
+    },
+    {
+      "id": 13,
+      "question_text": "A prototype should always be discarded after development to account for security and reliability issues.",
+      "is_true": true
+    },
+    {
+      "id": 14,
+      "question_text": "Feasibility demonstration in prototyping aims to demonstrate product features for specific customers.",
+      "is_true": false
+    },
+    {
+      "id": 15,
+      "question_text": "Customer testing involves gathering feedback to refine usability and feature sets.",
+      "is_true": true
+    },
+    {
+      "id": 16,
+      "question_text": "A prototype is the first step in software development.",
+      "is_true": true
+    },
+    {
+      "id": 17,
+      "question_text": "Customer demonstration prototypes are designed without user studies.",
+      "is_true": false
+    },
+    {
+      "id": 18,
+      "question_text": "Standalone systems are a type of software execution model.",
+      "is_true": true
+    },
+    {
+      "id": 19,
+      "question_text": "Product managers are responsible for ensuring no vision drift in the product vision.",
+      "is_true": true
+    },
+    {
+      "id": 20,
+      "question_text": "Hybrid systems combine features of standalone and service-based systems.",
+      "is_true": true
+    },
+    {
+      "id": 21,
+      "question_text": "Customer testing excludes direct interaction with end-users.",
+      "is_true": false
+    },
+    {
+      "id": 22,
+      "question_text": "A product manager ensures there is no 'vision drift' during the product development lifecycle.",
+      "is_true": true
+    },
+    {
+      "id": 23,
+      "question_text": "A prototype should always be reused for the final product to save costs.",
+      "is_true": false
+    },
+    {
+      "id": 24,
+      "question_text": "Software platforms like Facebook enable the development of additional applications.",
+      "is_true": true
+    },
+    {
+      "id": 25,
+      "question_text": "Performance optimization is a critical part of software product maintenance.",
+      "is_true": true
+    },
+    {
+      "id": 26,
+      "question_text": "A product manager is responsible for communicating with stakeholders to minimize vision drift.",
+      "is_true": true
+    },
+    {
+      "id": 27,
+      "question_text": "Software product scope should always align with customer needs and business goals.",
+      "is_true": true
+    },
+    {
+      "id": 28,
+      "question_text": "Product managers coordinate between design, engineering, and marketing teams.",
+      "is_true": true
+    }
+  ]
+}

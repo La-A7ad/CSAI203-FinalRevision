@@ -1,0 +1,834 @@
+{
+    "lecture_id": "lecture4-a",
+    "lecture_title": "Waterfall and Agile",
+    "mcqs": [
+      {
+        "id": 1,
+        "question_text": "Which activities are commonly included in a generic software process? (4 correct options)",
+        "options": [
+          {
+            "option_text": "Specification",
+            "is_correct": true
+          },
+          {
+            "option_text": "Design and Implementation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Validation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Evolution",
+            "is_correct": true
+          },
+          {
+            "option_text": "Hardware Manufacturing",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_text": "Which statements describe key differences between plan-driven and agile processes? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Plan-driven processes rely on extensive upfront planning with progress measured against a master plan",
+            "is_correct": true
+          },
+          {
+            "option_text": "Agile processes have rigid sequential phases that never overlap",
+            "is_correct": false
+          },
+          {
+            "option_text": "Agile processes adapt to changing customer needs through incremental planning",
+            "is_correct": true
+          },
+          {
+            "option_text": "Plan-driven processes always discard documentation to speed up delivery",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_text": "Which are primary characteristics of the Waterfall model? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Strict sequential phases where each stage finishes before the next begins",
+            "is_correct": true
+          },
+          {
+            "option_text": "Interleaved specification, development, and validation phases",
+            "is_correct": false
+          },
+          {
+            "option_text": "Heavily plan-driven, best for stable requirements",
+            "is_correct": true
+          },
+          {
+            "option_text": "Continuous integration and frequent user feedback",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_text": "Why is the Waterfall model described as 'inflexible' in changing environments? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Each phase is fully completed and validated before moving on, making late changes costly",
+            "is_correct": true
+          },
+          {
+            "option_text": "It relies on short time-boxed iterations that force new features continuously",
+            "is_correct": false
+          },
+          {
+            "option_text": "It requires no documentation, so changes are never tracked",
+            "is_correct": false
+          },
+          {
+            "option_text": "It focuses entirely on incremental planning without an overarching design",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_text": "In which situations is the Waterfall model often used effectively? (2 correct options)",
+        "options": [
+          {
+            "option_text": "When requirements are well-understood and unlikely to change",
+            "is_correct": true
+          },
+          {
+            "option_text": "When the project demands frequent releases and user feedback",
+            "is_correct": false
+          },
+          {
+            "option_text": "In large-scale engineering projects requiring multi-site coordination",
+            "is_correct": true
+          },
+          {
+            "option_text": "When there's zero need for formal documentation",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_text": "Which statements describe incremental development? (3 correct options)",
+        "options": [
+          {
+            "option_text": "Specification, development, and validation steps are interleaved",
+            "is_correct": true
+          },
+          {
+            "option_text": "It delivers usable parts of the system in increments",
+            "is_correct": true
+          },
+          {
+            "option_text": "All requirements are fixed before any coding begins",
+            "is_correct": false
+          },
+          {
+            "option_text": "Each increment can be plan-driven or more agile, depending on context",
+            "is_correct": true
+          },
+          {
+            "option_text": "Customers see the final product only after all increments are finished",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_text": "Which are benefits of incremental development over Waterfall? (2 correct options)",
+        "options": [
+          {
+            "option_text": "It accommodates requirements changes with less rework",
+            "is_correct": true
+          },
+          {
+            "option_text": "It locks down requirements from the start, so they're never changed",
+            "is_correct": false
+          },
+          {
+            "option_text": "It allows for early customer feedback on partial functionality",
+            "is_correct": true
+          },
+          {
+            "option_text": "It never requires documentation or testing until the final release",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question_text": "Which major drawbacks does incremental development sometimes face? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Minimal documentation can obscure overall progress or architecture",
+            "is_correct": true
+          },
+          {
+            "option_text": "Users cannot see or test the software until the very end",
+            "is_correct": false
+          },
+          {
+            "option_text": "Frequent changes can lead to structural degradation if not refactored",
+            "is_correct": true
+          },
+          {
+            "option_text": "It has extremely long phases where no code is delivered",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question_text": "Which statement best summarizes the conclusion on process models mentioned in the lecture?",
+        "options": [
+          {
+            "option_text": "No single software process model is universally correct for all projects",
+            "is_correct": true
+          },
+          {
+            "option_text": "All modern projects should exclusively adopt Waterfall",
+            "is_correct": false
+          },
+          {
+            "option_text": "Agile processes have completely replaced plan-driven methods everywhere",
+            "is_correct": false
+          },
+          {
+            "option_text": "Hybrid processes are never used in large systems",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question_text": "Which are the four values stated in the Agile Manifesto? (4 correct options)",
+        "options": [
+          {
+            "option_text": "Individuals and interactions over processes and tools",
+            "is_correct": true
+          },
+          {
+            "option_text": "Detailed architecture over working code",
+            "is_correct": false
+          },
+          {
+            "option_text": "Working software over comprehensive documentation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Customer collaboration over contract negotiation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Responding to change over following a plan",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question_text": "Which key principle in Agile emphasizes delivering and refining features incrementally with strong user involvement?",
+        "options": [
+          {
+            "option_text": "Incremental Delivery",
+            "is_correct": true
+          },
+          {
+            "option_text": "Sequential Planning",
+            "is_correct": false
+          },
+          {
+            "option_text": "Low-level Documentation",
+            "is_correct": false
+          },
+          {
+            "option_text": "Inflexibility to changes",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question_text": "Which of these are typical Agile process attributes? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Short iterations delivering working software frequently",
+            "is_correct": true
+          },
+          {
+            "option_text": "Comprehensive up-front design for the entire system",
+            "is_correct": false
+          },
+          {
+            "option_text": "Frequent, lightweight planning that adapts to changes",
+            "is_correct": true
+          },
+          {
+            "option_text": "Long development phases before any user feedback",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question_text": "Why do many projects adopt a 'hybrid' process model? (1 correct option)",
+        "options": [
+          {
+            "option_text": "To combine the predictability of plan-driven methods with the flexibility of agile practices",
+            "is_correct": true
+          },
+          {
+            "option_text": "Because agile is strictly forbidden on large projects",
+            "is_correct": false
+          },
+          {
+            "option_text": "To implement an entire system with no documentation at all",
+            "is_correct": false
+          },
+          {
+            "option_text": "Because the Waterfall model can’t handle stable requirements",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question_text": "Which statements describe why agile development is increasingly popular? (2 correct options)",
+        "options": [
+          {
+            "option_text": "It can deliver market-ready features more quickly",
+            "is_correct": true
+          },
+          {
+            "option_text": "It eliminates all forms of project planning",
+            "is_correct": false
+          },
+          {
+            "option_text": "It allows teams to respond to changing product needs efficiently",
+            "is_correct": true
+          },
+          {
+            "option_text": "It uses 100% code generation tools with no human oversight",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question_text": "What is Extreme Programming (XP)? (2 correct options)",
+        "options": [
+          {
+            "option_text": "An agile development methodology pioneered by Kent Beck",
+            "is_correct": true
+          },
+          {
+            "option_text": "A specialized plan-driven approach for large defense projects",
+            "is_correct": false
+          },
+          {
+            "option_text": "It heavily emphasizes practices like TDD, continuous integration, and refactoring",
+            "is_correct": true
+          },
+          {
+            "option_text": "It defers customer feedback until the final product is complete",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question_text": "Which of the following is a core XP practice that emphasizes writing tests before implementing code?",
+        "options": [
+          {
+            "option_text": "Test-Driven Development (TDD)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Continuous Deployment",
+            "is_correct": false
+          },
+          {
+            "option_text": "Upfront Big Design",
+            "is_correct": false
+          },
+          {
+            "option_text": "Sequential Requirements",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question_text": "Which benefits are commonly associated with Test-Driven Development (TDD) in XP? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Helps ensure code correctness by having tests ready before implementation",
+            "is_correct": true
+          },
+          {
+            "option_text": "Eliminates the need for design or code refactoring",
+            "is_correct": false
+          },
+          {
+            "option_text": "Facilitates continuous feedback on whether new code breaks existing functionality",
+            "is_correct": true
+          },
+          {
+            "option_text": "Prohibits integrating code until the project is fully complete",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question_text": "Why is continuous integration an important practice in XP? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It merges code changes frequently to detect conflicts and bugs early",
+            "is_correct": true
+          },
+          {
+            "option_text": "It disallows merging code until final acceptance testing",
+            "is_correct": false
+          },
+          {
+            "option_text": "It fully replaces refactoring, so code structure is always optimal",
+            "is_correct": false
+          },
+          {
+            "option_text": "It means you can ignore version control altogether",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_text": "Which of the following is a guiding principle of Agile methods like XP? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Focus on minimal bureaucracy and working software",
+            "is_correct": true
+          },
+          {
+            "option_text": "Delay integration as long as possible to finalize each module in isolation",
+            "is_correct": false
+          },
+          {
+            "option_text": "Frequent, short releases with customer-driven priorities",
+            "is_correct": true
+          },
+          {
+            "option_text": "Require a fully complete design document before coding",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question_text": "Which statement aligns with the Agile Manifesto value of 'Individuals and Interactions over Processes and Tools'?",
+        "options": [
+          {
+            "option_text": "Team members rely on open collaboration to solve issues rather than rigid adherence to a specialized process",
+            "is_correct": true
+          },
+          {
+            "option_text": "Every software feature must be documented in formal UML models before coding",
+            "is_correct": false
+          },
+          {
+            "option_text": "Tools are more important than face-to-face communication",
+            "is_correct": false
+          },
+          {
+            "option_text": "Contracts should define all interactions without direct stakeholder involvement",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_text": "In Agile development, which statement best describes 'Responding to change over following a plan'?",
+        "options": [
+          {
+            "option_text": "Adapting to new customer needs is prioritized even if it deviates from the original roadmap",
+            "is_correct": true
+          },
+          {
+            "option_text": "Strictly follow the project plan until the final phase, then see if changes are needed",
+            "is_correct": false
+          },
+          {
+            "option_text": "Never create any plan; ad-hoc development is preferred",
+            "is_correct": false
+          },
+          {
+            "option_text": "Only adapt changes after the software is fully deployed",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question_text": "Which Agile practice is focused on maintaining code quality amid frequent changes?",
+        "options": [
+          {
+            "option_text": "Refactoring",
+            "is_correct": true
+          },
+          {
+            "option_text": "System Freeze",
+            "is_correct": false
+          },
+          {
+            "option_text": "Big Bang Integration",
+            "is_correct": false
+          },
+          {
+            "option_text": "Requirements Lockdown",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question_text": "When does it make sense to use a Waterfall approach over Agile? (1 correct option)",
+        "options": [
+          {
+            "option_text": "When requirements are well-defined and unlikely to change, and heavy documentation is required",
+            "is_correct": true
+          },
+          {
+            "option_text": "When customers demand continuous partial deliveries every week",
+            "is_correct": false
+          },
+          {
+            "option_text": "When the project is extremely small with ambiguous requirements",
+            "is_correct": false
+          },
+          {
+            "option_text": "Never; Waterfall has been entirely replaced by Agile in all domains",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question_text": "What was a primary driver behind the emergence of Agile methods in the 1990s?",
+        "options": [
+          {
+            "option_text": "Large plan-driven projects often moved too slowly for rapidly changing markets",
+            "is_correct": true
+          },
+          {
+            "option_text": "Waterfall projects completely disappeared after 1980",
+            "is_correct": false
+          },
+          {
+            "option_text": "Complex hardware manufacturing required shorter sprints",
+            "is_correct": false
+          },
+          {
+            "option_text": "Projects had no need for user feedback or iterative improvements",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question_text": "Which statement reflects a core XP practice of 'Incremental Planning'?",
+        "options": [
+          {
+            "option_text": "All features are specified in detail at project start and never change",
+            "is_correct": false
+          },
+          {
+            "option_text": "Customers and developers collaboratively plan the next set of features in short cycles",
+            "is_correct": true
+          },
+          {
+            "option_text": "Planning is unnecessary because TDD handles all aspects of design",
+            "is_correct": false
+          },
+          {
+            "option_text": "Developers finalize a 100-page architectural blueprint before coding begins",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "question_text": "Why do agile projects often deliver 'Minimum Viable Products' (MVPs) or prototypes early? (1 correct option)",
+        "options": [
+          {
+            "option_text": "To gather rapid user feedback and adjust priorities accordingly",
+            "is_correct": true
+          },
+          {
+            "option_text": "To finish all documentation in advance",
+            "is_correct": false
+          },
+          {
+            "option_text": "To avoid any further testing",
+            "is_correct": false
+          },
+          {
+            "option_text": "To bypass incremental design in favor of final code",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "question_text": "Which approach does Extreme Programming (XP) adopt regarding documentation? (1 correct option)",
+        "options": [
+          {
+            "option_text": "It prioritizes working code and tests, often keeping documentation minimal but sufficient",
+            "is_correct": true
+          },
+          {
+            "option_text": "It mandates a 200-page design specification for each release",
+            "is_correct": false
+          },
+          {
+            "option_text": "It prohibits any code-level comments to keep code pure",
+            "is_correct": false
+          },
+          {
+            "option_text": "It strictly follows the Waterfall approach for doc generation",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "question_text": "When might a project combine incremental development with a plan-driven approach? (2 correct options)",
+        "options": [
+          {
+            "option_text": "When some parts of the system require high-level design stability, while other parts can evolve iteratively",
+            "is_correct": true
+          },
+          {
+            "option_text": "When the entire team is unfamiliar with agile practices",
+            "is_correct": false
+          },
+          {
+            "option_text": "To handle mission-critical features in a controlled manner but still allow incremental user-facing updates",
+            "is_correct": true
+          },
+          {
+            "option_text": "Because there's a strict rule that agile methods cannot be used at all",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "question_text": "Which best describes a typical 'small release' in XP? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Delivering a new functionality to users in a short iteration (e.g., 1-2 weeks)",
+            "is_correct": true
+          },
+          {
+            "option_text": "Waiting until all features are complete to deploy once at the end",
+            "is_correct": false
+          },
+          {
+            "option_text": "Only releasing test data with no functional code",
+            "is_correct": false
+          },
+          {
+            "option_text": "Locking changes after the first release to ensure stability",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "question_text": "Which statement contrasts Waterfall and Agile in terms of documentation and progress measurement? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Waterfall typically produces extensive documentation to measure progress, while Agile may favor working software increments over large documents",
+            "is_correct": true
+          },
+          {
+            "option_text": "Both strictly avoid all documentation until final release",
+            "is_correct": false
+          },
+          {
+            "option_text": "Agile projects produce formal documentation for every line of code, but Waterfall doesn't",
+            "is_correct": false
+          },
+          {
+            "option_text": "In Agile, progress is measured only by Gantt charts",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "question_text": "In the lecture’s diagrams comparing Waterfall vs. Incremental development, which statement best describes the unique visual aspect of Incremental development?",
+        "options": [
+          {
+            "option_text": "Specification, development, and validation steps are shown as overlapping or repeating cycles",
+            "is_correct": true
+          },
+          {
+            "option_text": "A strict left-to-right flow with no feedback loops between phases",
+            "is_correct": false
+          },
+          {
+            "option_text": "A Gantt chart that outlines all tasks with no iteration",
+            "is_correct": false
+          },
+          {
+            "option_text": "A single block representing the entire product delivered at once",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "question_text": "Which of the following Agile testing approaches complements TDD by involving customers or end-users? (1 correct option)",
+        "options": [
+          {
+            "option_text": "Acceptance Testing",
+            "is_correct": true
+          },
+          {
+            "option_text": "Waterfall-Driven Testing",
+            "is_correct": false
+          },
+          {
+            "option_text": "Single-System Testing only at the end",
+            "is_correct": false
+          },
+          {
+            "option_text": "No testing is needed if TDD is used",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "question_text": "Which statement describes a nuanced Agile testing practice often overlooked in simpler discussions of TDD? (2 correct options)",
+        "options": [
+          {
+            "option_text": "Pair testing, where two team members collaboratively write and execute tests",
+            "is_correct": true
+          },
+          {
+            "option_text": "Testing only occurs after the final sprint to ensure comprehensive coverage",
+            "is_correct": false
+          },
+          {
+            "option_text": "Continuous exploration and improvement of test cases throughout each iteration",
+            "is_correct": true
+          },
+          {
+            "option_text": "Releasing code without any tests until user acceptance tests are conducted at the end",
+            "is_correct": false
+          }
+        ]
+      }
+      
+    ],
+    "true_false_questions": [
+      {
+        "id": 1,
+        "question_text": "The software process is a structured set of activities including specification, design and implementation, validation, and evolution.",
+        "is_true": true
+      },
+      {
+        "id": 2,
+        "question_text": "In a plan-driven process, changes can be easily incorporated at any time with minimal cost.",
+        "is_true": false
+      },
+      {
+        "id": 3,
+        "question_text": "No single software process is universally correct for all types of software projects.",
+        "is_true": true
+      },
+      {
+        "id": 4,
+        "question_text": "The Waterfall model is strictly iterative, with specification, development, and validation all overlapping heavily.",
+        "is_true": false
+      },
+      {
+        "id": 5,
+        "question_text": "Incremental development delivers parts of the system in increments, allowing user feedback before the final system is complete.",
+        "is_true": true
+      },
+      {
+        "id": 6,
+        "question_text": "Incremental development never encounters issues related to architecture decay or hidden complexity.",
+        "is_true": false
+      },
+      {
+        "id": 7,
+        "question_text": "Agile processes emphasize frequent delivery of working software and close collaboration with stakeholders.",
+        "is_true": true
+      },
+      {
+        "id": 8,
+        "question_text": "Hybrid development models combine elements from plan-driven and agile approaches to suit complex project needs.",
+        "is_true": true
+      },
+      {
+        "id": 9,
+        "question_text": "The Agile Manifesto states that processes and tools should always be prioritized over individuals and interactions.",
+        "is_true": false
+      },
+      {
+        "id": 10,
+        "question_text": "Extreme Programming (XP) was pioneered by Kent Beck in the late 1990s to address issues in plan-driven software projects.",
+        "is_true": true
+      },
+      {
+        "id": 11,
+        "question_text": "Continuous Integration is discouraged in XP, as integrating code frequently can destabilize the system.",
+        "is_true": false
+      },
+      {
+        "id": 12,
+        "question_text": "Test-Driven Development (TDD) is a practice where developers first write a failing test, then implement code to pass that test.",
+        "is_true": true
+      },
+      {
+        "id": 13,
+        "question_text": "In Agile development, working software is considered a more critical measure of progress than comprehensive documentation.",
+        "is_true": true
+      },
+      {
+        "id": 14,
+        "question_text": "Refactoring is a practice aimed at continuously improving the internal structure of the code, common in XP.",
+        "is_true": true
+      },
+      {
+        "id": 15,
+        "question_text": "A 'small release' in XP can stretch up to 2 years before delivering new functionality to users.",
+        "is_true": false
+      },
+      {
+        "id": 16,
+        "question_text": "Even with TDD and CI in place, Agile teams may use acceptance testing to verify entire user workflows with real stakeholders or end-users.",
+        "is_true": true
+      },
+      {
+        "id": 17,
+        "question_text": "Visual diagrams in the lecture showed the Waterfall model overlapping activities to emphasize frequent feedback loops.",
+        "is_true": false
+      }
+      
+    ]
+  }
+  
