@@ -8,14 +8,13 @@
 </head>
 <body>
   <h1>Available Lectures</h1>
-  <ul>
+  <div class="lecture-grid">
     {% for lecture in lectures %}
-      <li>
-        <a href="{{ url_for('show_lecture', lecture_id=lecture.lecture_id) }}">
-          {{ lecture.lecture_title }}
-        </a>
-      </li>
+      <a href="{{ url_for('show_lecture', lecture_id=lecture.lecture_id) }}" class="lecture-button">
+        <span class="lecture-number">{{ loop.index }}.</span>
+        {{ lecture.lecture_title }}
+      </a>
     {% endfor %}
-  </ul>
+  </div>
 </body>
 </html>
