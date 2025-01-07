@@ -324,7 +324,7 @@
         },
         {
           "option_text": "Mass-market product software",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "option_text": "Research software",
@@ -332,10 +332,15 @@
         },
         {
           "option_text": "Student projects",
-          "is_correct": true
+          "is_correct": false
+        },
+        {
+          "option_text": "Embedded hardware design",
+          "is_correct": false
         }
       ]
-    },
+    }
+    ,
     {
       "id": 16,
       "question_text": "Which examples demonstrate software execution models? (3 correct options)",
@@ -905,7 +910,7 @@
     {
       "id": 3,
       "question_text": "Acceptance testing is typically performed by internal teams.",
-      "is_true": true
+      "is_true": false
     },
     {
       "id": 4,
@@ -955,7 +960,7 @@
     {
       "id": 13,
       "question_text": "A prototype should always be discarded after development to account for security and reliability issues.",
-      "is_true": true
+      "is_true": false
     },
     {
       "id": 14,
