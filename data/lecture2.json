@@ -1089,7 +1089,7 @@
         ]
       },
       {
-        "id": 41,
+        "id": 49,
         "question_text": "Which statement about UML class diagram multiplicities is correct? (1 correct option)",
         "options": [
           {
@@ -1111,7 +1111,7 @@
         ]
       },
       {
-        "id": 42,
+        "id": 50,
         "question_text": "Which actor might be present in a TMS (Traffic Management System) use case to handle accident reporting? (2 correct options)",
         "options": [
           {
@@ -1133,7 +1133,7 @@
         ]
       },
       {
-        "id": 43,
+        "id": 51,
         "question_text": "Which of the following might be considered an 'edge case' in TMS operation? (1 correct option)",
         "options": [
           {
@@ -1155,7 +1155,7 @@
         ]
       },
       {
-        "id": 44,
+        "id": 52,
         "question_text": "In the University Library System UML, which detail best demonstrates multiplicity in a class diagram for book borrowing? (2 correct options)",
         "options": [
           {
