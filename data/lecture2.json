@@ -1292,12 +1292,12 @@
         "is_true": true
       },
       {
-        "id": 16,
+        "id": 23,
         "question_text": "Handling multiple simultaneous accidents within the same area is an example of an edge case requirement for the TMS.",
         "is_true": true
       },
       {
-        "id": 17,
+        "id": 24,
         "question_text": "In the library system UML example, each Book can be associated with exactly one Student at a time (i.e., one borrower), reflecting a multiplicity of 0..1 from Student to Book.",
         "is_true": true
       }
